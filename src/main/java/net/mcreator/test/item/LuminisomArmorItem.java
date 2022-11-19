@@ -15,6 +15,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.test.init.TestModItems;
+import net.mcreator.test.init.TestModBlocks;
 
 public abstract class LuminisomArmorItem extends ArmorItem {
 	public LuminisomArmorItem(EquipmentSlot slot, Item.Properties properties) {
@@ -41,7 +42,7 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(TestModItems.LUMINISOM_INGOT.get()));
+				return Ingredient.of(new ItemStack(TestModItems.LUMINISOM_INGOT.get()), new ItemStack(TestModBlocks.LUMINISOM_BLOCK.get()));
 			}
 
 			@Override
@@ -51,12 +52,12 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0.25f;
+				return 1.05f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.01f;
+				return 0.51f;
 			}
 		}, slot, properties);
 	}

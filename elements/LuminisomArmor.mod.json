@@ -48,14 +48,17 @@
     "damageValueLeggings": 6,
     "damageValueBoots": 3,
     "enchantability": 20,
-    "toughness": 0.25,
-    "knockbackResistance": 0.01,
+    "toughness": 1.05,
+    "knockbackResistance": 0.51,
     "equipSound": {
       "value": ""
     },
     "repairItems": [
       {
         "value": "CUSTOM:LuminisomIngot"
+      },
+      {
+        "value": "CUSTOM:LuminisomBlock"
       }
     ]
   }
