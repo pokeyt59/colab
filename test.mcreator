@@ -174,7 +174,16 @@
       "locked_code": false,
       "registry_name": "if_hit_thorn_it",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/armor"
     },
@@ -248,7 +257,7 @@
       "name": "Thorn_reet_helmet_double_jump",
       "type": "procedure",
       "sortid": 27,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "thorn_reet_helmet_double_jump",
       "metadata": {
@@ -265,7 +274,7 @@
       "name": "Jumpbindforthornreethelmet",
       "type": "keybind",
       "sortid": 26,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "jumpbindforthornreethelmet",
       "path": "~/armor"
@@ -282,7 +291,7 @@
       "name": "LuminisomArmor",
       "type": "armor",
       "sortid": 25,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_armor",
       "metadata": {
@@ -335,15 +344,20 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.test.luminisom_armor_chestplate": "Luminisom Chestplate",
       "block.test.batterytest": "Batterytest",
       "block.test.luminisom_block": "Block of Luminisom",
+      "item.test.luminisom_ingot": "Luminisom",
+      "item.test.luminisom_armor_helmet": "Luminisom Helmet",
+      "block.test.luminisom_ore": "Luminisom Ore",
+      "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
+      "item.test.luminisom_armor_leggings": "Luminisom Leggings",
+      "key.test.jumpbindforthornreethelmet": "Double jump for Thornreet Helmet",
       "item.test.thornreethhelm_leggings": "Thornreethhelm Leggings",
       "item.test.thornreethhelm_helmet": "Thornreethhelm Helmet",
-      "item.test.luminisom_ingot": "Luminisom",
-      "block.test.luminisom_ore": "Luminisom Ore",
+      "item.test.luminisom_armor_boots": "Luminisom Boots",
       "item.test.cookedimprovisedcake": "cooked Improvised cake",
       "item.test.thornreethhelm_boots": "Thornreethhelm Boots",
-      "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
       "item.test.improvisedcake": "raw Improvised cake"
     }
   },
