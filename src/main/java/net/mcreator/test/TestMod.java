@@ -13,6 +13,8 @@
  */
 package net.mcreator.test;
 
+import software.bernie.geckolib3.GeckoLib;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -51,6 +53,7 @@ public class TestMod {
 
 		TestModBlockEntities.REGISTRY.register(bus);
 
+		GeckoLib.initialize();
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,
