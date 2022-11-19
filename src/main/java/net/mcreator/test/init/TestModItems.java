@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.test.item.ThornreethhelmItem;
 import net.mcreator.test.item.LuminisomIngotItem;
+import net.mcreator.test.item.LuminisomArmorItem;
 import net.mcreator.test.item.ImprovisedcakeItem;
 import net.mcreator.test.item.CookedimprovisedcakeItem;
 import net.mcreator.test.TestMod;
@@ -29,6 +30,13 @@ public class TestModItems {
 	public static final RegistryObject<Item> LUMINISOM_INGOT = REGISTRY.register("luminisom_ingot", () -> new LuminisomIngotItem());
 	public static final RegistryObject<Item> LUMINISOM_ORE = block(TestModBlocks.LUMINISOM_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> LUMINISOM_BLOCK = block(TestModBlocks.LUMINISOM_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> LUMINISOM_ARMOR_HELMET = REGISTRY.register("luminisom_armor_helmet",
+			() -> new LuminisomArmorItem.Helmet());
+	public static final RegistryObject<Item> LUMINISOM_ARMOR_CHESTPLATE = REGISTRY.register("luminisom_armor_chestplate",
+			() -> new LuminisomArmorItem.Chestplate());
+	public static final RegistryObject<Item> LUMINISOM_ARMOR_LEGGINGS = REGISTRY.register("luminisom_armor_leggings",
+			() -> new LuminisomArmorItem.Leggings());
+	public static final RegistryObject<Item> LUMINISOM_ARMOR_BOOTS = REGISTRY.register("luminisom_armor_boots", () -> new LuminisomArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

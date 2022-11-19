@@ -1,14 +1,8 @@
 package net.mcreator.test.procedures;
 
-import net.minecraftforge.server.ServerLifecycleHooks;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.server.MinecraftServer;
-import net.minecraft.network.chat.TextComponent;
-import net.minecraft.network.chat.ChatType;
-import net.minecraft.Util;
-
-import net.mcreator.test.network.TestModVariables;
+import javax.annotation.Nullable;
 
 public class Thorn_reet_helmet_double_jumpProcedure {
 	public static void execute(LevelAccessor world) {

@@ -174,18 +174,30 @@
       "locked_code": false,
       "registry_name": "if_hit_thorn_it",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/armor"
+    },
+    {
+      "name": "Gekolib",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gekolib",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/prod test"
+    },
+    {
+      "name": "LuminisomIngot",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_ingot",
+      "path": "~/ingot"
     },
     {
       "name": "LuminisomOre",
@@ -206,6 +218,15 @@
       "path": "~/block"
     },
     {
+      "name": "LuminisomOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_ore_block_recipe",
+      "path": "~/block/crafting"
+    },
+    {
       "name": "LuminisomBlockOreRecipe",
       "type": "recipe",
       "sortid": 23,
@@ -224,45 +245,6 @@
       "path": "~/smelting"
     },
     {
-      "name": "LuminisomIngot",
-      "type": "item",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "luminisom_ingot",
-      "path": "~/ingot"
-    },
-    {
-      "name": "LuminisomOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "luminisom_ore_block_recipe",
-      "path": "~/block/crafting"
-    },
-    {
-      "name": "Gekolib",
-      "type": "procedure",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gekolib",
-      "metadata": {
-        "dependencies": []
-      },
-      "path": "~/prod test"
-    },
-    {
-      "name": "Jumpbindforthornreethelmet",
-      "type": "keybind",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "jumpbindforthornreethelmet",
-      "path": "~/armor"
-    },
-    {
       "name": "Thorn_reet_helmet_double_jump",
       "type": "procedure",
       "sortid": 27,
@@ -278,6 +260,66 @@
         ]
       },
       "path": "~/armor"
+    },
+    {
+      "name": "Jumpbindforthornreethelmet",
+      "type": "keybind",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpbindforthornreethelmet",
+      "path": "~/armor"
+    },
+    {
+      "name": "LuminisomArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_armor_boots_recipe",
+      "path": "~/armor/crafting/luminisom"
+    },
+    {
+      "name": "LuminisomArmor",
+      "type": "armor",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "LuminisomArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_armor_leggings_recipe",
+      "path": "~/armor/crafting/luminisom"
+    },
+    {
+      "name": "LuminisomArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_armor_body_recipe",
+      "path": "~/armor/crafting/luminisom"
+    },
+    {
+      "name": "LuminisomArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_armor_helmet_recipe",
+      "path": "~/armor/crafting/luminisom"
     }
   ],
   "variable_elements": [
@@ -298,15 +340,14 @@
   "language_map": {
     "en_us": {
       "block.test.batterytest": "Batterytest",
-      "key.test.jumpbindforthornreethelmet": "Double jump for Thornreet Helmet",
       "block.test.luminisom_block": "Block of Luminisom",
-      "item.test.thornreethhelm_leggings": "Thornreethhelm Leggings",
-      "item.test.thornreethhelm_helmet": "Thornreethhelm Helmet",
       "item.test.luminisom_ingot": "Luminisom",
       "block.test.luminisom_ore": "Luminisom Ore",
+      "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
+      "item.test.thornreethhelm_leggings": "Thornreethhelm Leggings",
+      "item.test.thornreethhelm_helmet": "Thornreethhelm Helmet",
       "item.test.cookedimprovisedcake": "cooked Improvised cake",
       "item.test.thornreethhelm_boots": "Thornreethhelm Boots",
-      "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
       "item.test.improvisedcake": "raw Improvised cake"
     }
   },

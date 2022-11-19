@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LuminisomIngot"
+      },
+      {
+        "value": "CUSTOM:LuminisomIngot"
+      },
+      {
+        "value": "CUSTOM:LuminisomIngot"
+      },
+      {
+        "value": "CUSTOM:LuminisomIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LuminisomIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LuminisomArmor.helmet"
+    },
+    "name": "luminisom_armor_helmet_recipe",
+    "namespace": "mod"
+  }
+}
