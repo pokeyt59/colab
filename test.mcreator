@@ -174,7 +174,16 @@
       "locked_code": false,
       "registry_name": "if_hit_thorn_it",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/armor"
     },
@@ -243,6 +252,32 @@
         "dependencies": []
       },
       "path": "~/prod test"
+    },
+    {
+      "name": "Jumpbindforthornreethelmet",
+      "type": "keybind",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpbindforthornreethelmet",
+      "path": "~/armor"
+    },
+    {
+      "name": "Thorn_reet_helmet_double_jump",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorn_reet_helmet_double_jump",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/armor"
     }
   ],
   "variable_elements": [
@@ -251,12 +286,19 @@
       "type": "number",
       "scope": "map",
       "value": "0"
+    },
+    {
+      "name": "double_jump",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "block.test.batterytest": "Batterytest",
+      "key.test.jumpbindforthornreethelmet": "Double jump for Thornreet Helmet",
       "block.test.luminisom_block": "Block of Luminisom",
       "item.test.thornreethhelm_leggings": "Thornreethhelm Leggings",
       "item.test.thornreethhelm_helmet": "Thornreethhelm Helmet",
