@@ -29,6 +29,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.test.init.TestModItems;
+import net.mcreator.test.init.TestModFeatures;
 import net.mcreator.test.init.TestModBlocks;
 import net.mcreator.test.init.TestModBlockEntities;
 
@@ -52,6 +53,7 @@ public class TestMod {
 		TestModItems.REGISTRY.register(bus);
 
 		TestModBlockEntities.REGISTRY.register(bus);
+		TestModFeatures.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}

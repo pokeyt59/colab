@@ -14,12 +14,16 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.test.block.LuminisomOreBlock;
+import net.mcreator.test.block.LuminisomBlockBlock;
 import net.mcreator.test.block.BatterytestBlock;
 import net.mcreator.test.TestMod;
 
 public class TestModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, TestMod.MODID);
 	public static final RegistryObject<Block> BATTERYTEST = REGISTRY.register("batterytest", () -> new BatterytestBlock());
+	public static final RegistryObject<Block> LUMINISOM_ORE = REGISTRY.register("luminisom_ore", () -> new LuminisomOreBlock());
+	public static final RegistryObject<Block> LUMINISOM_BLOCK = REGISTRY.register("luminisom_block", () -> new LuminisomBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

@@ -179,6 +179,60 @@
       "path": "~/armor"
     },
     {
+      "name": "LuminisomOre",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_ore",
+      "path": "~/ore"
+    },
+    {
+      "name": "LuminisomBlock",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_block",
+      "path": "~/block"
+    },
+    {
+      "name": "LuminisomBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_block_ore_recipe",
+      "path": "~/block/crafting"
+    },
+    {
+      "name": "LuminisomOreSmelting",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_ore_smelting",
+      "path": "~/smelting"
+    },
+    {
+      "name": "LuminisomIngot",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_ingot",
+      "path": "~/ingot"
+    },
+    {
+      "name": "LuminisomOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_ore_block_recipe",
+      "path": "~/block/crafting"
+    },
+    {
       "name": "Gekolib",
       "type": "procedure",
       "sortid": 18,
@@ -187,7 +241,8 @@
       "registry_name": "gekolib",
       "metadata": {
         "dependencies": []
-      }
+      },
+      "path": "~/prod test"
     }
   ],
   "variable_elements": [
@@ -202,8 +257,11 @@
   "language_map": {
     "en_us": {
       "block.test.batterytest": "Batterytest",
+      "block.test.luminisom_block": "Block of Luminisom",
       "item.test.thornreethhelm_leggings": "Thornreethhelm Leggings",
       "item.test.thornreethhelm_helmet": "Thornreethhelm Helmet",
+      "item.test.luminisom_ingot": "Luminisom",
+      "block.test.luminisom_ore": "Luminisom Ore",
       "item.test.cookedimprovisedcake": "cooked Improvised cake",
       "item.test.thornreethhelm_boots": "Thornreethhelm Boots",
       "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
@@ -214,16 +272,20 @@
     "name": "~",
     "children": [
       {
-        "name": "forbiten",
+        "name": "block",
         "children": [
           {
-            "name": "reverse",
+            "name": "crafting",
             "children": []
           }
         ]
       },
       {
-        "name": "prod test",
+        "name": "ingot",
+        "children": []
+      },
+      {
+        "name": "smelting",
         "children": []
       },
       {
@@ -234,11 +296,28 @@
             "children": []
           },
           {
-            "name": "improvised cake",
+            "name": "procedures",
             "children": []
           },
           {
-            "name": "procedures",
+            "name": "improvised cake",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "ore",
+        "children": []
+      },
+      {
+        "name": "prod test",
+        "children": []
+      },
+      {
+        "name": "forbiten",
+        "children": [
+          {
+            "name": "reverse",
             "children": []
           }
         ]
@@ -247,11 +326,11 @@
         "name": "armor",
         "children": [
           {
-            "name": "crafting",
+            "name": "prod",
             "children": []
           },
           {
-            "name": "prod",
+            "name": "crafting",
             "children": []
           }
         ]

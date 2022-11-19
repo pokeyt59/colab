@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "test:luminisom_block"
+    }
+  ],
+  "result": {
+    "item": "test:deleted_mod_element",
+    "count": 9
+  }
+}
