@@ -1,12 +1,16 @@
 {
+  "item.test.luminisom_armor_chestplate": "Luminisom Chestplate",
   "block.test.batterytest": "Batterytest",
   "block.test.luminisom_block": "Block of Luminisom",
+  "item.test.luminisom_ingot": "Luminisom",
+  "item.test.luminisom_armor_helmet": "Luminisom Helmet",
+  "block.test.luminisom_ore": "Luminisom Ore",
+  "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
+  "item.test.luminisom_armor_leggings": "Luminisom Leggings",
   "item.test.thornreethhelm_leggings": "Thornreethhelm Leggings",
   "item.test.thornreethhelm_helmet": "Thornreethhelm Helmet",
-  "item.test.luminisom_ingot": "Luminisom",
-  "block.test.luminisom_ore": "Luminisom Ore",
+  "item.test.luminisom_armor_boots": "Luminisom Boots",
   "item.test.cookedimprovisedcake": "cooked Improvised cake",
   "item.test.thornreethhelm_boots": "Thornreethhelm Boots",
-  "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
   "item.test.improvisedcake": "raw Improvised cake"
 }
