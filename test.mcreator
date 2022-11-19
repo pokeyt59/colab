@@ -174,7 +174,16 @@
       "locked_code": false,
       "registry_name": "if_hit_thorn_it",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/armor"
     },
@@ -245,6 +254,40 @@
       "path": "~/smelting"
     },
     {
+      "name": "Thorn_reet_helmet_double_jump",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorn_reet_helmet_double_jump",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "Jumpbindforthornreethelmet",
+      "type": "keybind",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpbindforthornreethelmet",
+      "path": "~/armor"
+    },
+    {
+      "name": "LuminisomArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_armor_boots_recipe"
+    },
+    {
       "name": "LuminisomArmor",
       "type": "armor",
       "sortid": 25,
@@ -260,13 +303,12 @@
       "path": "~/armor"
     },
     {
-      "name": "LuminisomArmorHelmetRecipe",
+      "name": "LuminisomArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "luminisom_armor_helmet_recipe",
-      "path": "~/armor/crafting/luminisom"
+      "registry_name": "luminisom_armor_leggings_recipe"
     },
     {
       "name": "LuminisomArmorBodyRecipe",
@@ -274,26 +316,15 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "luminisom_armor_body_recipe",
-      "path": "~/armor/crafting/luminisom"
+      "registry_name": "luminisom_armor_body_recipe"
     },
     {
-      "name": "LuminisomArmorLeggingsRecipe",
+      "name": "LuminisomArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "luminisom_armor_leggings_recipe",
-      "path": "~/armor/crafting/luminisom"
-    },
-    {
-      "name": "LuminisomArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "luminisom_armor_boots_recipe",
-      "path": "~/armor/crafting/luminisom"
+      "registry_name": "luminisom_armor_helmet_recipe"
     }
   ],
   "variable_elements": [
@@ -302,6 +333,12 @@
       "type": "number",
       "scope": "map",
       "value": "0"
+    },
+    {
+      "name": "double_jump",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
     }
   ],
   "sound_elements": [],
@@ -315,6 +352,7 @@
       "block.test.luminisom_ore": "Luminisom Ore",
       "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
       "item.test.luminisom_armor_leggings": "Luminisom Leggings",
+      "key.test.jumpbindforthornreethelmet": "Double jump for Thornreet Helmet",
       "item.test.thornreethhelm_leggings": "Thornreethhelm Leggings",
       "item.test.thornreethhelm_helmet": "Thornreethhelm Helmet",
       "item.test.luminisom_armor_boots": "Luminisom Boots",
@@ -327,16 +365,20 @@
     "name": "~",
     "children": [
       {
-        "name": "forbiten",
+        "name": "block",
         "children": [
           {
-            "name": "reverse",
+            "name": "crafting",
             "children": []
           }
         ]
       },
       {
-        "name": "prod test",
+        "name": "ingot",
+        "children": []
+      },
+      {
+        "name": "smelting",
         "children": []
       },
       {
@@ -347,11 +389,28 @@
             "children": []
           },
           {
-            "name": "improvised cake",
+            "name": "procedures",
             "children": []
           },
           {
-            "name": "procedures",
+            "name": "improvised cake",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "ore",
+        "children": []
+      },
+      {
+        "name": "prod test",
+        "children": []
+      },
+      {
+        "name": "forbiten",
+        "children": [
+          {
+            "name": "reverse",
             "children": []
           }
         ]
@@ -360,40 +419,14 @@
         "name": "armor",
         "children": [
           {
-            "name": "crafting",
-            "children": [
-              {
-                "name": "luminisom",
-                "children": []
-              }
-            ]
-          },
-          {
             "name": "prod",
             "children": []
-          }
-        ]
-      },
-      {
-        "name": "ingot",
-        "children": []
-      },
-      {
-        "name": "ore",
-        "children": []
-      },
-      {
-        "name": "block",
-        "children": [
+          },
           {
             "name": "crafting",
             "children": []
           }
         ]
-      },
-      {
-        "name": "smelting",
-        "children": []
       }
     ]
   },
