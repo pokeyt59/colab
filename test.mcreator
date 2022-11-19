@@ -450,9 +450,9 @@
   "workspaceSettings": {
     "modid": "test",
     "modName": "test",
-    "version": "0.0.1",
+    "version": "0.4.2",
     "description": "a neat little collab mod",
-    "author": "Pokey_yt , Alex super 199(pending)",
+    "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://mcreator.net",
     "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,

@@ -4,11 +4,11 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="test"
-version="0.0.1"
+version="0.4.2"
 displayName="test"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="Pokey_yt , Alex super 199(pending)"
+authors="Pokey_yt , Alex super 199"
 description='''
 a neat little collab mod
 '''
