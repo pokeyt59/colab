@@ -1,0 +1,32 @@
+{
+  "group": "improvised_cake",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sugar"
+    },
+    "1": {
+      "item": "minecraft:sugar"
+    },
+    "2": {
+      "item": "minecraft:sugar"
+    },
+    "3": {
+      "item": "minecraft:bread"
+    },
+    "4": {
+      "item": "minecraft:mutton"
+    },
+    "5": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "test:improvisedcake",
+    "count": 3
+  }
+}

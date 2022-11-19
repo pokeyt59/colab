@@ -1,0 +1,272 @@
+{
+  "mod_elements": [
+    {
+      "name": "Chaincraftingleggings",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaincraftingleggings",
+      "path": "~/forbiten"
+    },
+    {
+      "name": "Chainmailboots",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmailboots",
+      "path": "~/forbiten"
+    },
+    {
+      "name": "Chainmailbreastplate",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmailbreastplate",
+      "path": "~/forbiten"
+    },
+    {
+      "name": "Chainmailhelmet",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainmailhelmet",
+      "path": "~/forbiten"
+    },
+    {
+      "name": "Reversechainmailleggeings",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reversechainmailleggeings",
+      "path": "~/forbiten/reverse"
+    },
+    {
+      "name": "Reversechainmailboots",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reversechainmailboots",
+      "path": "~/forbiten/reverse"
+    },
+    {
+      "name": "Reversechainmailbreastplate",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reversechainmailbreastplate",
+      "path": "~/forbiten/reverse"
+    },
+    {
+      "name": "Reversechainmailhelmet",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reversechainmailhelmet",
+      "path": "~/forbiten/reverse"
+    },
+    {
+      "name": "Batterytest",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batterytest",
+      "path": "~/prod test"
+    },
+    {
+      "name": "Improvisedcake",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "improvisedcake",
+      "path": "~/food/improvised cake"
+    },
+    {
+      "name": "Improvisedcakecraftingraw",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "improvisedcakecraftingraw",
+      "path": "~/food/crafting"
+    },
+    {
+      "name": "Cookedimprovisedcake",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookedimprovisedcake",
+      "path": "~/food/improvised cake"
+    },
+    {
+      "name": "Improvised_cake_consume_dizzy_chance",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "improvised_cake_consume_dizzy_chance",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/food/procedures"
+    },
+    {
+      "name": "Thornreethhelm",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thornreethhelm",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "Thornreeth",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thornreeth",
+      "path": "~/armor/crafting"
+    },
+    {
+      "name": "CookedImprovisedcakeconsumedizzychanceProcedure",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_improvisedcakeconsumedizzychance_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/food/procedures"
+    },
+    {
+      "name": "If_hit_thorn_it",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "if_hit_thorn_it",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/armor"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "test",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.test.batterytest": "Batterytest",
+      "item.test.thornreethhelm_leggings": "Thornreethhelm Leggings",
+      "item.test.thornreethhelm_helmet": "Thornreethhelm Helmet",
+      "item.test.cookedimprovisedcake": "cooked Improvised cake",
+      "item.test.thornreethhelm_boots": "Thornreethhelm Boots",
+      "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
+      "item.test.improvisedcake": "Improvised cake"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "forbiten",
+        "children": [
+          {
+            "name": "reverse",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "prod test",
+        "children": []
+      },
+      {
+        "name": "food",
+        "children": [
+          {
+            "name": "crafting",
+            "children": []
+          },
+          {
+            "name": "improvised cake",
+            "children": []
+          },
+          {
+            "name": "procedures",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "armor",
+        "children": [
+          {
+            "name": "crafting",
+            "children": []
+          },
+          {
+            "name": "prod",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "test",
+    "modName": "test",
+    "version": "0.0.1",
+    "description": "a neat little collab mod",
+    "author": "Pokey_yt , Alex super 199(pending)",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "gecholib"
+    ],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.test",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200347418
+}

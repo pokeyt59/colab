@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "test:blocks/texture_edited_v2"
+  }
+}

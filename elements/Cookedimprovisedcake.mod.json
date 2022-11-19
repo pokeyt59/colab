@@ -1,0 +1,47 @@
+{
+  "_fv": 34,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "cooked_improvised_cake",
+    "customModelName": "Normal",
+    "name": "cooked Improvised cake",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "stackSize": 64,
+    "enchantability": 1,
+    "useDuration": 32,
+    "toolType": 1.5,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 3.5,
+    "specialInfo": [
+      "you caught on that the meat was raw yay!"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "CookedImprovisedcakeconsumedizzychanceProcedure"
+    },
+    "isFood": true,
+    "nutritionalValue": 13,
+    "saturation": 6.9,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": true,
+    "isAlwaysEdible": false,
+    "animation": "eat"
+  }
+}
