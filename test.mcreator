@@ -248,7 +248,7 @@
       "name": "Thorn_reet_helmet_double_jump",
       "type": "procedure",
       "sortid": 27,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "thorn_reet_helmet_double_jump",
       "metadata": {
@@ -265,7 +265,7 @@
       "name": "Jumpbindforthornreethelmet",
       "type": "keybind",
       "sortid": 26,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "jumpbindforthornreethelmet",
       "path": "~/armor"
@@ -276,14 +276,13 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "luminisom_armor_boots_recipe",
-      "path": "~/armor/crafting/luminisom"
+      "registry_name": "luminisom_armor_boots_recipe"
     },
     {
       "name": "LuminisomArmor",
       "type": "armor",
       "sortid": 25,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "luminisom_armor",
       "metadata": {
@@ -300,8 +299,7 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "luminisom_armor_leggings_recipe",
-      "path": "~/armor/crafting/luminisom"
+      "registry_name": "luminisom_armor_leggings_recipe"
     },
     {
       "name": "LuminisomArmorBodyRecipe",
@@ -309,8 +307,7 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "luminisom_armor_body_recipe",
-      "path": "~/armor/crafting/luminisom"
+      "registry_name": "luminisom_armor_body_recipe"
     },
     {
       "name": "LuminisomArmorHelmetRecipe",
@@ -318,8 +315,7 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "luminisom_armor_helmet_recipe",
-      "path": "~/armor/crafting/luminisom"
+      "registry_name": "luminisom_armor_helmet_recipe"
     }
   ],
   "variable_elements": [
@@ -341,13 +337,13 @@
     "en_us": {
       "block.test.batterytest": "Batterytest",
       "block.test.luminisom_block": "Block of Luminisom",
-      "item.test.luminisom_ingot": "Luminisom",
-      "block.test.luminisom_ore": "Luminisom Ore",
-      "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
       "item.test.thornreethhelm_leggings": "Thornreethhelm Leggings",
       "item.test.thornreethhelm_helmet": "Thornreethhelm Helmet",
+      "item.test.luminisom_ingot": "Luminisom",
+      "block.test.luminisom_ore": "Luminisom Ore",
       "item.test.cookedimprovisedcake": "cooked Improvised cake",
       "item.test.thornreethhelm_boots": "Thornreethhelm Boots",
+      "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
       "item.test.improvisedcake": "raw Improvised cake"
     }
   },
