@@ -324,6 +324,18 @@
       "locked_code": false,
       "registry_name": "thornreethtocharcoal",
       "path": "~/armor/smelting"
+    },
+    {
+      "name": "Isplayerhitandthornreeth",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "isplayerhitandthornreeth",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/procedures"
     }
   ],
   "variable_elements": [
@@ -458,13 +470,17 @@
       {
         "name": "cmds",
         "children": []
+      },
+      {
+        "name": "procedures",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "test",
     "modName": "test",
-    "version": "0.8.3",
+    "version": "0.9.3",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://mcreator.net",
