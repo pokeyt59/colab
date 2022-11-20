@@ -278,7 +278,52 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pokeytrading",
-      "path": "~/mobs"
+      "path": "~/trades"
+    },
+    {
+      "name": "Luminisomtoingot",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisomtoingot",
+      "path": "~/armor/smelting"
+    },
+    {
+      "name": "Luminisomtoingotbreastplate",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisomtoingotbreastplate",
+      "path": "~/armor/smelting"
+    },
+    {
+      "name": "Luminisomtoingotleggings",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisomtoingotleggings",
+      "path": "~/armor/smelting"
+    },
+    {
+      "name": "Luminisomtoingotboots",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisomtoingotboots",
+      "path": "~/armor/smelting"
+    },
+    {
+      "name": "Thornreethtocharcoal",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thornreethtocharcoal",
+      "path": "~/armor/smelting"
     }
   ],
   "variable_elements": [
@@ -395,6 +440,10 @@
           {
             "name": "crafting",
             "children": []
+          },
+          {
+            "name": "smelting",
+            "children": []
           }
         ]
       },
@@ -415,7 +464,7 @@
   "workspaceSettings": {
     "modid": "test",
     "modName": "test",
-    "version": "0.7.3",
+    "version": "0.8.3",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://mcreator.net",
