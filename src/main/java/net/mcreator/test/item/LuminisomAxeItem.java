@@ -22,7 +22,7 @@ public class LuminisomAxeItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 3f;
+				return 21f;
 			}
 
 			public int getLevel() {

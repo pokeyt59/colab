@@ -415,7 +415,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_pickaxe_recipe",
-      "path": "~/tools"
+      "path": "~/tools/crafting"
     },
     {
       "name": "LuminisomAxeRecipe",
@@ -424,7 +424,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_axe_recipe",
-      "path": "~/tools"
+      "path": "~/tools/crafting"
     },
     {
       "name": "LuminisomSwordRecipe",
@@ -433,7 +433,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_sword_recipe",
-      "path": "~/tools"
+      "path": "~/tools/crafting"
     },
     {
       "name": "LuminisomShovelRecipe",
@@ -442,7 +442,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_shovel_recipe",
-      "path": "~/tools"
+      "path": "~/tools/crafting"
     },
     {
       "name": "LuminisomHoeRecipe",
@@ -451,7 +451,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_hoe_recipe",
-      "path": "~/tools"
+      "path": "~/tools/crafting"
     }
   ],
   "variable_elements": [
@@ -634,13 +634,14 @@
   "workspaceSettings": {
     "modid": "test",
     "modName": "test",
-    "version": "1.12.8",
+    "version": "1.12.10",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://mcreator.net",
     "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": false,
     "serverSideOnly": false,
+    "modPicture": "luminisom_nugget",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
