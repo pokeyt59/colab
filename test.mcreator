@@ -474,13 +474,22 @@
       {
         "name": "procedures",
         "children": []
+      },
+      {
+        "name": "main gui",
+        "children": [
+          {
+            "name": "key binds",
+            "children": []
+          }
+        ]
       }
     ]
   },
   "workspaceSettings": {
     "modid": "test",
     "modName": "test",
-    "version": "0.9.3",
+    "version": "0.10.4",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://mcreator.net",
