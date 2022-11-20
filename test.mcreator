@@ -352,7 +352,7 @@
           }
         ]
       },
-      "path": "~/food/Luminisonm"
+      "path": "~/food/procedures"
     },
     {
       "name": "Luminisonmnuggetraw",
@@ -362,6 +362,96 @@
       "locked_code": false,
       "registry_name": "luminisonmnuggetraw",
       "path": "~/food/Luminisonm"
+    },
+    {
+      "name": "LuminisomPickaxe",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_pickaxe",
+      "path": "~/tools"
+    },
+    {
+      "name": "LuminisomAxe",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_axe",
+      "path": "~/tools"
+    },
+    {
+      "name": "LuminisomSword",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_sword",
+      "path": "~/tools"
+    },
+    {
+      "name": "LuminisomShovel",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_shovel",
+      "path": "~/tools"
+    },
+    {
+      "name": "LuminisomHoe",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_hoe",
+      "path": "~/tools"
+    },
+    {
+      "name": "LuminisomPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_pickaxe_recipe",
+      "path": "~/tools"
+    },
+    {
+      "name": "LuminisomAxeRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_axe_recipe",
+      "path": "~/tools"
+    },
+    {
+      "name": "LuminisomSwordRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_sword_recipe",
+      "path": "~/tools"
+    },
+    {
+      "name": "LuminisomShovelRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_shovel_recipe",
+      "path": "~/tools"
+    },
+    {
+      "name": "LuminisomHoeRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisom_hoe_recipe",
+      "path": "~/tools"
     }
   ],
   "variable_elements": [
@@ -382,38 +472,48 @@
   "language_map": {
     "ru_ru": {
       "item.test.luminisom_armor_chestplate": "Люминисовый нагрудник",
+      "item.test.luminisom_pickaxe": "Luminisom Pickaxe",
       "block.test.batterytest": "Тест батареи",
       "block.test.luminisom_block": "Люминисовый блок",
       "item.test.luminisom_ingot": "Люминис",
       "item.test.luminisom_armor_helmet": "Люминисовый шлем",
+      "item.test.luminisom_axe": "Luminisom Axe",
       "block.test.luminisom_ore": "Люминисовая руда",
       "item.test.thornreethhelm_chestplate": "Шиповый шлем",
       "item.test.luminisom_armor_leggings": "Люминисовые поножи",
       "item.test.luminisonmnuggetraw": "Luminisonmnuggetraw",
       "key.test.jumpbindforthornreethelmet": "Двойной прыжок для Шипового шлема",
+      "item.test.luminisom_shovel": "Luminisom Shovel",
       "item.test.thornreethhelm_leggings": "Шиповые поножи",
       "item.test.thornreethhelm_helmet": "Шиповый шлем",
+      "item.test.luminisom_hoe": "Luminisom Hoe",
       "item.test.luminisom_armor_boots": "Люминисовые ботинки",
       "item.test.cookedimprovisedcake": "Приготовленный импровизированный торт",
       "item.test.thornreethhelm_boots": "Шиповые ботинки",
-      "item.test.improvisedcake": "Сырой импровизированный торт"
+      "item.test.improvisedcake": "Сырой импровизированный торт",
+      "item.test.luminisom_sword": "Luminisom Sword"
     },
     "en_us": {
       "item.test.luminisom_armor_chestplate": "Luminisom Chestplate",
+      "item.test.luminisom_pickaxe": "Luminisom Pickaxe",
       "block.test.batterytest": "Batterytest",
       "block.test.luminisom_block": "Block of Luminisom",
       "item.test.luminisom_ingot": "Luminisom",
       "item.test.luminisom_armor_helmet": "Luminisom Helmet",
+      "item.test.luminisom_axe": "Luminisom Axe",
       "block.test.luminisom_ore": "Luminisom Ore",
       "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
       "item.test.luminisom_armor_leggings": "Luminisom Leggings",
       "item.test.luminisonmnuggetraw": "Luminisonmnuggetraw",
+      "item.test.luminisom_shovel": "Luminisom Shovel",
       "item.test.thornreethhelm_leggings": "Thornreethhelm Leggings",
       "item.test.thornreethhelm_helmet": "Thornreethhelm Helmet",
+      "item.test.luminisom_hoe": "Luminisom Hoe",
       "item.test.luminisom_armor_boots": "Luminisom Boots",
       "item.test.cookedimprovisedcake": "cooked Improvised cake",
       "item.test.thornreethhelm_boots": "Thornreethhelm Boots",
-      "item.test.improvisedcake": "raw Improvised cake"
+      "item.test.improvisedcake": "raw Improvised cake",
+      "item.test.luminisom_sword": "Luminisom Sword"
     }
   },
   "foldersRoot": {
@@ -519,13 +619,22 @@
       {
         "name": "potions",
         "children": []
+      },
+      {
+        "name": "tools",
+        "children": [
+          {
+            "name": "crafting",
+            "children": []
+          }
+        ]
       }
     ]
   },
   "workspaceSettings": {
     "modid": "test",
     "modName": "test",
-    "version": "0.11.5",
+    "version": "1.12.6",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://mcreator.net",

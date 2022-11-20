@@ -1,18 +1,23 @@
 {
   "item.test.luminisom_armor_chestplate": "Люминисовый нагрудник",
+  "item.test.luminisom_pickaxe": "Luminisom Pickaxe",
   "block.test.batterytest": "Тест батареи",
   "block.test.luminisom_block": "Люминисовый блок",
   "item.test.luminisom_ingot": "Люминис",
   "item.test.luminisom_armor_helmet": "Люминисовый шлем",
+  "item.test.luminisom_axe": "Luminisom Axe",
   "block.test.luminisom_ore": "Люминисовая руда",
   "item.test.thornreethhelm_chestplate": "Шиповый шлем",
   "item.test.luminisom_armor_leggings": "Люминисовые поножи",
   "item.test.luminisonmnuggetraw": "Luminisonmnuggetraw",
   "key.test.jumpbindforthornreethelmet": "Двойной прыжок для Шипового шлема",
+  "item.test.luminisom_shovel": "Luminisom Shovel",
   "item.test.thornreethhelm_leggings": "Шиповые поножи",
   "item.test.thornreethhelm_helmet": "Шиповый шлем",
+  "item.test.luminisom_hoe": "Luminisom Hoe",
   "item.test.luminisom_armor_boots": "Люминисовые ботинки",
   "item.test.cookedimprovisedcake": "Приготовленный импровизированный торт",
   "item.test.thornreethhelm_boots": "Шиповые ботинки",
-  "item.test.improvisedcake": "Сырой импровизированный торт"
+  "item.test.improvisedcake": "Сырой импровизированный торт",
+  "item.test.luminisom_sword": "Luminisom Sword"
 }

@@ -15,7 +15,12 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.test.item.ThornreethhelmItem;
 import net.mcreator.test.item.LuminisonmnuggetrawItem;
+import net.mcreator.test.item.LuminisomSwordItem;
+import net.mcreator.test.item.LuminisomShovelItem;
+import net.mcreator.test.item.LuminisomPickaxeItem;
 import net.mcreator.test.item.LuminisomIngotItem;
+import net.mcreator.test.item.LuminisomHoeItem;
+import net.mcreator.test.item.LuminisomAxeItem;
 import net.mcreator.test.item.LuminisomArmorItem;
 import net.mcreator.test.item.ImprovisedcakeItem;
 import net.mcreator.test.item.CookedimprovisedcakeItem;
@@ -39,6 +44,11 @@ public class TestModItems {
 			() -> new LuminisomArmorItem.Leggings());
 	public static final RegistryObject<Item> LUMINISOM_ARMOR_BOOTS = REGISTRY.register("luminisom_armor_boots", () -> new LuminisomArmorItem.Boots());
 	public static final RegistryObject<Item> LUMINISONMNUGGETRAW = REGISTRY.register("luminisonmnuggetraw", () -> new LuminisonmnuggetrawItem());
+	public static final RegistryObject<Item> LUMINISOM_PICKAXE = REGISTRY.register("luminisom_pickaxe", () -> new LuminisomPickaxeItem());
+	public static final RegistryObject<Item> LUMINISOM_AXE = REGISTRY.register("luminisom_axe", () -> new LuminisomAxeItem());
+	public static final RegistryObject<Item> LUMINISOM_SWORD = REGISTRY.register("luminisom_sword", () -> new LuminisomSwordItem());
+	public static final RegistryObject<Item> LUMINISOM_SHOVEL = REGISTRY.register("luminisom_shovel", () -> new LuminisomShovelItem());
+	public static final RegistryObject<Item> LUMINISOM_HOE = REGISTRY.register("luminisom_hoe", () -> new LuminisomHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
