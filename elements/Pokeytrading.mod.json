@@ -1,0 +1,202 @@
+{
+  "_fv": 34,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "ARMORER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Blocks.REDSTONE_WIRE"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:LuminisomArmor.helmet"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 20,
+            "xp": 1,
+            "priceMultiplier": 0.01
+          },
+          {
+            "price1": {
+              "value": "Blocks.REEDS"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:LuminisomArmor.body"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 10,
+            "priceMultiplier": 0.19
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:Improvisedcake"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:LuminisomArmor.legs"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 100,
+            "priceMultiplier": 1.0
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:LuminisomIngot"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:LuminisomArmor.boots"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 2,
+            "priceMultiplier": 0.04
+          },
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 22,
+            "price2": {
+              "value": "Items.BEEF"
+            },
+            "countPrice2": 3,
+            "offer": {
+              "value": "Blocks.BEACON"
+            },
+            "countOffer": 2,
+            "level": 3,
+            "maxTrades": 20,
+            "xp": 5,
+            "priceMultiplier": 1.0
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "WANDERING_TRADER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Blocks.SLIME_BLOCK"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.UNPOWERED_COMPARATOR"
+            },
+            "countOffer": 9,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.SLIME_BALL"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.UNPOWERED_COMPARATOR"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 90,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.SLIME_BALL"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Items.HONEY_BOTTLE"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.UNPOWERED_COMPARATOR"
+            },
+            "countOffer": 1,
+            "level": 2,
+            "maxTrades": 6000,
+            "xp": 1,
+            "priceMultiplier": 1.0
+          },
+          {
+            "price1": {
+              "value": "Blocks.CAKE"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.BEE_NEST"
+            },
+            "countOffer": 10,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.SWEET_BERRIES"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.DOUBLE_PLANT#0"
+            },
+            "countOffer": 20,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

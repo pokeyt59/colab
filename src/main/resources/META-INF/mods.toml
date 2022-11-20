@@ -4,7 +4,7 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="test"
-version="0.4.2"
+version="0.7.3"
 displayName="test"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
@@ -20,12 +20,12 @@ a neat little collab mod
     ordering="NONE"
     side="BOTH"
 
-
-
 [[dependencies.test]]
-    modId="geckolib"
-    mandatory=false
-    versionRange="[0,)"
+    modId="forge"
+    mandatory=true
+    versionRange="[40.1.0]"
     ordering="NONE"
     side="BOTH"
+
+
 
