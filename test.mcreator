@@ -336,6 +336,32 @@
         "dependencies": []
       },
       "path": "~/procedures"
+    },
+    {
+      "name": "Luminisonm_nugg_is_ate",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisonm_nugg_is_ate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      },
+      "path": "~/food/Luminisonm"
+    },
+    {
+      "name": "Luminisonmnuggetraw",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisonmnuggetraw",
+      "path": "~/food/Luminisonm"
     }
   ],
   "variable_elements": [
@@ -363,6 +389,7 @@
       "block.test.luminisom_ore": "Люминисовая руда",
       "item.test.thornreethhelm_chestplate": "Шиповый шлем",
       "item.test.luminisom_armor_leggings": "Люминисовые поножи",
+      "item.test.luminisonmnuggetraw": "Luminisonmnuggetraw",
       "key.test.jumpbindforthornreethelmet": "Двойной прыжок для Шипового шлема",
       "item.test.thornreethhelm_leggings": "Шиповые поножи",
       "item.test.thornreethhelm_helmet": "Шиповый шлем",
@@ -380,6 +407,7 @@
       "block.test.luminisom_ore": "Luminisom Ore",
       "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
       "item.test.luminisom_armor_leggings": "Luminisom Leggings",
+      "item.test.luminisonmnuggetraw": "Luminisonmnuggetraw",
       "item.test.thornreethhelm_leggings": "Thornreethhelm Leggings",
       "item.test.thornreethhelm_helmet": "Thornreethhelm Helmet",
       "item.test.luminisom_armor_boots": "Luminisom Boots",
@@ -421,6 +449,10 @@
           },
           {
             "name": "improvised cake",
+            "children": []
+          },
+          {
+            "name": "Luminisonm",
             "children": []
           }
         ]
@@ -483,13 +515,17 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "potions",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "test",
     "modName": "test",
-    "version": "0.10.4",
+    "version": "0.11.5",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://mcreator.net",

@@ -14,6 +14,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.test.item.ThornreethhelmItem;
+import net.mcreator.test.item.LuminisonmnuggetrawItem;
 import net.mcreator.test.item.LuminisomIngotItem;
 import net.mcreator.test.item.LuminisomArmorItem;
 import net.mcreator.test.item.ImprovisedcakeItem;
@@ -37,6 +38,7 @@ public class TestModItems {
 	public static final RegistryObject<Item> LUMINISOM_ARMOR_LEGGINGS = REGISTRY.register("luminisom_armor_leggings",
 			() -> new LuminisomArmorItem.Leggings());
 	public static final RegistryObject<Item> LUMINISOM_ARMOR_BOOTS = REGISTRY.register("luminisom_armor_boots", () -> new LuminisomArmorItem.Boots());
+	public static final RegistryObject<Item> LUMINISONMNUGGETRAW = REGISTRY.register("luminisonmnuggetraw", () -> new LuminisonmnuggetrawItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
