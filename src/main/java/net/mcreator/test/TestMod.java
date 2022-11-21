@@ -26,6 +26,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.test.init.TestModParticleTypes;
 import net.mcreator.test.init.TestModItems;
 import net.mcreator.test.init.TestModFeatures;
 import net.mcreator.test.init.TestModBlocks;
@@ -53,6 +54,7 @@ public class TestMod {
 		TestModBlockEntities.REGISTRY.register(bus);
 		TestModFeatures.REGISTRY.register(bus);
 
+		TestModParticleTypes.REGISTRY.register(bus);
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

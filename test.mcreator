@@ -452,6 +452,15 @@
       "locked_code": false,
       "registry_name": "luminisom_hoe_recipe",
       "path": "~/tools/crafting"
+    },
+    {
+      "name": "Testnotperm",
+      "type": "particle",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testnotperm",
+      "path": "~/particals"
     }
   ],
   "variable_elements": [
@@ -628,13 +637,17 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "particals",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "test",
     "modName": "test",
-    "version": "1.12.10",
+    "version": "1.12.11",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://mcreator.net",
