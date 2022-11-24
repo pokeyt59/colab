@@ -1,0 +1,12 @@
+{
+  "clasic_legacy_sounds": {
+    "category": "player",
+    "subtitle": "subtitles.clasic_legacy_sounds",
+    "sounds": [
+      {
+        "name": "test:potato_armor_equip_sound",
+        "stream": false
+      }
+    ]
+  }
+}

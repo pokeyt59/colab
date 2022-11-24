@@ -1,0 +1,62 @@
+{
+  "_fv": 34,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "potato_head",
+    "enableBody": true,
+    "textureBody": "potato_body",
+    "enableLeggings": true,
+    "textureLeggings": "potato_leggings",
+    "enableBoots": true,
+    "textureBoots": "potato_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "cooked_potato_",
+    "helmetName": "Cooked_potato_armor_legacy Helmet",
+    "bodyName": "Cooked_potato_armor_legacy Chestplate",
+    "leggingsName": "Cooked_potato_armor_legacy Leggings",
+    "bootsName": "Cooked_potato_armor_legacy Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 25,
+    "damageValueHelmet": 4,
+    "damageValueBody": 6,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 5,
+    "enchantability": 14,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "CUSTOM:clasic_legacy_sounds"
+    },
+    "repairItems": [
+      {
+        "value": "Items.BAKED_POTATO"
+      }
+    ]
+  }
+}

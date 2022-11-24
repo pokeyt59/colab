@@ -461,6 +461,57 @@
       "locked_code": false,
       "registry_name": "testnotperm",
       "path": "~/particals"
+    },
+    {
+      "name": "Cooked_potato_armor_legacyArmor",
+      "type": "armor",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_potato_armor_legacy_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "Cooked_potato_armor_legacyArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_potato_armor_legacy_armor_helmet_recipe",
+      "path": "~/armor/crafting"
+    },
+    {
+      "name": "Cooked_potato_armor_legacyArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_potato_armor_legacy_armor_body_recipe",
+      "path": "~/armor/crafting"
+    },
+    {
+      "name": "Cooked_potato_armor_legacyArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_potato_armor_legacy_armor_leggings_recipe",
+      "path": "~/armor/crafting"
+    },
+    {
+      "name": "Cooked_potato_armor_legacyArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_potato_armor_legacy_armor_boots_recipe",
+      "path": "~/armor/crafting"
     }
   ],
   "variable_elements": [
@@ -477,52 +528,71 @@
       "value": "0.0"
     }
   ],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "clasic_legacy_sounds",
+      "files": [
+        "potato_armor_equip_sound"
+      ],
+      "category": "player",
+      "subtitle": "potatos rubbing against skin"
+    }
+  ],
   "language_map": {
     "ru_ru": {
-      "item.test.luminisom_armor_chestplate": "Люминисовый нагрудник",
       "item.test.luminisom_pickaxe": "Luminisom Pickaxe",
       "block.test.batterytest": "Тест батареи",
       "block.test.luminisom_block": "Люминисовый блок",
-      "item.test.luminisom_ingot": "Люминис",
       "item.test.luminisom_armor_helmet": "Люминисовый шлем",
+      "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked_potato_armor_legacy Leggings",
+      "item.test.luminisonmnuggetraw": "Luminisonmnuggetraw",
+      "key.test.jumpbindforthornreethelmet": "Двойной прыжок для Шипового шлема",
+      "item.test.luminisom_shovel": "Luminisom Shovel",
+      "item.test.cooked_potato_armor_legacy_armor_boots": "Cooked_potato_armor_legacy Boots",
+      "item.test.thornreethhelm_helmet": "Шиповый шлем",
+      "item.test.luminisom_armor_boots": "Люминисовые ботинки",
+      "item.test.cookedimprovisedcake": "Приготовленный импровизированный торт",
+      "item.test.thornreethhelm_boots": "Шиповые ботинки",
+      "item.test.luminisom_sword": "Luminisom Sword",
+      "item.test.luminisom_armor_chestplate": "Люминисовый нагрудник",
+      "subtitles.clasic_legacy_sounds": "potatos rubbing against skin",
+      "item.test.cooked_potato_armor_legacy_armor_chestplate": "Cooked_potato_armor_legacy Chestplate",
+      "item.test.luminisom_ingot": "Люминис",
       "item.test.luminisom_axe": "Luminisom Axe",
       "block.test.luminisom_ore": "Люминисовая руда",
       "item.test.thornreethhelm_chestplate": "Шиповый шлем",
       "item.test.luminisom_armor_leggings": "Люминисовые поножи",
-      "item.test.luminisonmnuggetraw": "Luminisonmnuggetraw",
-      "key.test.jumpbindforthornreethelmet": "Двойной прыжок для Шипового шлема",
-      "item.test.luminisom_shovel": "Luminisom Shovel",
+      "item.test.cooked_potato_armor_legacy_armor_helmet": "Cooked_potato_armor_legacy Helmet",
       "item.test.thornreethhelm_leggings": "Шиповые поножи",
-      "item.test.thornreethhelm_helmet": "Шиповый шлем",
       "item.test.luminisom_hoe": "Luminisom Hoe",
-      "item.test.luminisom_armor_boots": "Люминисовые ботинки",
-      "item.test.cookedimprovisedcake": "Приготовленный импровизированный торт",
-      "item.test.thornreethhelm_boots": "Шиповые ботинки",
-      "item.test.improvisedcake": "Сырой импровизированный торт",
-      "item.test.luminisom_sword": "Luminisom Sword"
+      "item.test.improvisedcake": "Сырой импровизированный торт"
     },
     "en_us": {
-      "item.test.luminisom_armor_chestplate": "Luminisom Chestplate",
       "item.test.luminisom_pickaxe": "Luminisom Pickaxe",
       "block.test.batterytest": "Batterytest",
       "block.test.luminisom_block": "Block of Luminisom",
-      "item.test.luminisom_ingot": "Luminisom",
       "item.test.luminisom_armor_helmet": "Luminisom Helmet",
+      "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked_potato_armor_legacy Leggings",
+      "item.test.luminisonmnuggetraw": "Luminisonmnuggetraw",
+      "item.test.luminisom_shovel": "Luminisom Shovel",
+      "item.test.cooked_potato_armor_legacy_armor_boots": "Cooked_potato_armor_legacy Boots",
+      "item.test.thornreethhelm_helmet": "Thornreethhelm Helmet",
+      "item.test.luminisom_armor_boots": "Luminisom Boots",
+      "item.test.cookedimprovisedcake": "cooked Improvised cake",
+      "item.test.thornreethhelm_boots": "Thornreethhelm Boots",
+      "item.test.luminisom_sword": "Luminisom Sword",
+      "item.test.luminisom_armor_chestplate": "Luminisom Chestplate",
+      "subtitles.clasic_legacy_sounds": "potatos rubbing against skin",
+      "item.test.cooked_potato_armor_legacy_armor_chestplate": "Cooked_potato_armor_legacy Chestplate",
+      "item.test.luminisom_ingot": "Luminisom",
       "item.test.luminisom_axe": "Luminisom Axe",
       "block.test.luminisom_ore": "Luminisom Ore",
       "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
       "item.test.luminisom_armor_leggings": "Luminisom Leggings",
-      "item.test.luminisonmnuggetraw": "Luminisonmnuggetraw",
-      "item.test.luminisom_shovel": "Luminisom Shovel",
+      "item.test.cooked_potato_armor_legacy_armor_helmet": "Cooked_potato_armor_legacy Helmet",
       "item.test.thornreethhelm_leggings": "Thornreethhelm Leggings",
-      "item.test.thornreethhelm_helmet": "Thornreethhelm Helmet",
       "item.test.luminisom_hoe": "Luminisom Hoe",
-      "item.test.luminisom_armor_boots": "Luminisom Boots",
-      "item.test.cookedimprovisedcake": "cooked Improvised cake",
-      "item.test.thornreethhelm_boots": "Thornreethhelm Boots",
-      "item.test.improvisedcake": "raw Improvised cake",
-      "item.test.luminisom_sword": "Luminisom Sword"
+      "item.test.improvisedcake": "raw Improvised cake"
     }
   },
   "foldersRoot": {
@@ -647,7 +717,7 @@
   "workspaceSettings": {
     "modid": "test",
     "modName": "test",
-    "version": "1.12.11",
+    "version": "1.12.12",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://mcreator.net",
