@@ -12,14 +12,14 @@
     },
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 32,
+    "useDuration": 20,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
@@ -35,7 +35,7 @@
     "nutritionalValue": 10,
     "saturation": 1.1,
     "eatResultItem": {
-      "value": ""
+      "value": "Blocks.TORCH"
     },
     "isMeat": false,
     "isAlwaysEdible": false,

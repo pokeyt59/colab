@@ -31,5 +31,7 @@ public class TestModFuels {
 			event.setBurnTime(4940);
 		else if (itemstack.getItem() == TestModItems.LEAFY_ARMOR_ARMOR_BOOTS.get())
 			event.setBurnTime(2000);
+		else if (itemstack.getItem() == TestModItems.LUMINISONMNUGGETRAW.get())
+			event.setBurnTime(10000);
 	}
 }

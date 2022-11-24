@@ -338,23 +338,6 @@
       "path": "~/procedures"
     },
     {
-      "name": "Luminisonm_nugg_is_ate",
-      "type": "procedure",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "luminisonm_nugg_is_ate",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "tooltip",
-            "type": "tooltip"
-          }
-        ]
-      },
-      "path": "~/food/procedures"
-    },
-    {
       "name": "Luminisonmnuggetraw",
       "type": "item",
       "sortid": 5,
@@ -911,6 +894,24 @@
       "locked_code": false,
       "registry_name": "leafyarmorextendboots",
       "path": "~/armor/extendtions/leafy"
+    },
+    {
+      "name": "Luminisomenuggetburn",
+      "type": "itemextension",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luminisomenuggetburn",
+      "path": "~/food/Luminisonm/extendtions"
+    },
+    {
+      "name": "Cookedimprovisedcakecraft",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cookedimprovisedcakecraft",
+      "path": "~/food/crafting"
     }
   ],
   "variable_elements": [
@@ -999,8 +1000,8 @@
     "en_us": {
       "item.test.luminisom_pickaxe": "Luminisom Pickaxe",
       "block.test.batterytest": "Batterytest",
-      "block.test.luminisom_block": "Block of Luminisom",
       "item.test.drip_armor_armor_helmet": "Drip Helmet",
+      "block.test.luminisom_block": "Block of Luminisom",
       "item.test.raw_potato_armor_armor_chestplate": "Raw potato Chestplate",
       "item.test.luminisom_armor_helmet": "Luminisom Helmet",
       "item.test.leafy_armor_armor_helmet": "Leafy Helmet",
@@ -1010,9 +1011,9 @@
       "item.test.cobble_stone_armor_armor_leggings": "Cobble_stone_armor Leggings",
       "item.test.luminisonmnuggetraw": "Luminisonmnuggetraw",
       "item.test.leafy_armor_armor_leggings": "Leafy Leggings",
-      "item.test.wood_log_armor_armor_leggings": "Wood log Leggings",
-      "item.test.raw_potato_armor_armor_leggings": "Raw potato Leggings",
       "item.test.raw_potato_armor_armor_boots": "Raw potato Boots",
+      "item.test.raw_potato_armor_armor_leggings": "Raw potato Leggings",
+      "item.test.wood_log_armor_armor_leggings": "Wood log Leggings",
       "item.test.luminisom_shovel": "Luminisom Shovel",
       "item.test.cooked_potato_armor_legacy_armor_boots": "Cooked potato Boots",
       "item.test.thornreethhelm_helmet": "Thornreethhelm Helmet",
@@ -1022,20 +1023,20 @@
       "subtitles.clasic_legacy_sounds_music": "awesome music",
       "item.test.cookedimprovisedcake": "cooked Improvised cake",
       "item.test.thornreethhelm_boots": "Thornreethhelm Boots",
-      "item.test.luminisom_sword": "Luminisom Sword",
       "item.test.leafy_armor_armor_chestplate": "Leafy Chestplate",
+      "item.test.luminisom_sword": "Luminisom Sword",
       "item.test.luminisom_armor_chestplate": "Luminisom Chestplate",
       "item.test.wood_log_armor_armor_helmet": "Wood log Helmet",
       "subtitles.clasic_legacy_sounds": "potatos rubbing against skin",
       "item.test.cooked_potato_armor_legacy_armor_chestplate": "Cooked potato Chestplate",
-      "item.test.luminisom_ingot": "Luminisom",
       "item.test.luminisom_axe": "Luminisom Axe",
-      "item.test.drip_armor_armor_leggings": "Drip Leggings",
+      "item.test.luminisom_ingot": "Luminisom",
       "item.test.cobble_stone_armor_armor_boots": "Cobble_stone_armor Boots",
+      "item.test.drip_armor_armor_leggings": "Drip Leggings",
       "block.test.luminisom_ore": "Luminisom Ore",
       "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
-      "item.test.luminisom_armor_leggings": "Luminisom Leggings",
       "item.test.drip_armor_armor_chestplate": "Drip Chestplate",
+      "item.test.luminisom_armor_leggings": "Luminisom Leggings",
       "item.test.cooked_potato_armor_legacy_armor_helmet": "Cooked potato Helmet",
       "item.test.thornreethhelm_leggings": "Thornreethhelm Leggings",
       "item.test.luminisom_hoe": "Luminisom Hoe",
@@ -1083,7 +1084,12 @@
           },
           {
             "name": "Luminisonm",
-            "children": []
+            "children": [
+              {
+                "name": "extendtions",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -1194,7 +1200,7 @@
   "workspaceSettings": {
     "modid": "test",
     "modName": "test",
-    "version": "1.14.13",
+    "version": "1.14.15",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://mcreator.net",
