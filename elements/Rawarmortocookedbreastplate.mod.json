@@ -1,0 +1,20 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "xpReward": 20.0,
+    "cookingTime": 40,
+    "recipeRetstackSize": 1,
+    "group": "raw_to_cooked",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:Raw_potato_armorArmor.body"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:Cooked_potato_armor_legacyArmor.body"
+    },
+    "name": "rawarmortocookedbreastplate",
+    "namespace": "mod"
+  }
+}

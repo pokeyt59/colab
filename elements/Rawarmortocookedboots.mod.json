@@ -1,0 +1,20 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "xpReward": 10.0,
+    "cookingTime": 30,
+    "recipeRetstackSize": 1,
+    "group": "raw_to_cooked",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "CUSTOM:Raw_potato_armorArmor.boots"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:Cooked_potato_armor_legacyArmor.boots"
+    },
+    "name": "rawarmortocookedboots",
+    "namespace": "mod"
+  }
+}

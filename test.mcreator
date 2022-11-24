@@ -287,7 +287,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisomtoingot",
-      "path": "~/armor/smelting"
+      "path": "~/armor/cooking/smelting"
     },
     {
       "name": "Luminisomtoingotbreastplate",
@@ -296,7 +296,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisomtoingotbreastplate",
-      "path": "~/armor/smelting"
+      "path": "~/armor/cooking/smelting"
     },
     {
       "name": "Luminisomtoingotleggings",
@@ -305,7 +305,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisomtoingotleggings",
-      "path": "~/armor/smelting"
+      "path": "~/armor/cooking/smelting"
     },
     {
       "name": "Luminisomtoingotboots",
@@ -314,7 +314,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisomtoingotboots",
-      "path": "~/armor/smelting"
+      "path": "~/armor/cooking/smelting"
     },
     {
       "name": "Thornreethtocharcoal",
@@ -323,7 +323,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "thornreethtocharcoal",
-      "path": "~/armor/smelting"
+      "path": "~/armor/cooking/smelting"
     },
     {
       "name": "Isplayerhitandthornreeth",
@@ -716,6 +716,129 @@
       "locked_code": false,
       "registry_name": "raw_potato_armor_armor_boots_recipe",
       "path": "~/armor/crafting"
+    },
+    {
+      "name": "Cobble_stone_armorArmor",
+      "type": "armor",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_stone_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "Cobble_stone_armorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_stone_armor_armor_helmet_recipe",
+      "path": "~/armor/crafting"
+    },
+    {
+      "name": "Cobble_stone_armorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_stone_armor_armor_body_recipe",
+      "path": "~/armor/crafting"
+    },
+    {
+      "name": "Cobble_stone_armorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_stone_armor_armor_leggings_recipe",
+      "path": "~/armor/crafting"
+    },
+    {
+      "name": "Cobble_stone_armorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_stone_armor_armor_boots_recipe",
+      "path": "~/armor/crafting"
+    },
+    {
+      "name": "Rawarmortocookedhelm",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawarmortocookedhelm",
+      "path": "~/armor/cooking/smoking"
+    },
+    {
+      "name": "Rawarmortocookedbreastplate",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawarmortocookedbreastplate",
+      "path": "~/armor/cooking/smoking"
+    },
+    {
+      "name": "Rawarmortocookedleggins",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawarmortocookedleggins",
+      "path": "~/armor/cooking/smoking"
+    },
+    {
+      "name": "Rawarmortocookedboots",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawarmortocookedboots",
+      "path": "~/armor/cooking/smoking"
+    },
+    {
+      "name": "Rawarmortocookedhelmsmelt",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawarmortocookedhelmsmelt",
+      "path": "~/armor/cooking/smelting"
+    },
+    {
+      "name": "Rawarmortocookedbreastplatesmelt",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawarmortocookedbreastplatesmelt",
+      "path": "~/armor/cooking/smelting"
+    },
+    {
+      "name": "Rawarmortocookedleggingssmelt",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawarmortocookedleggingssmelt",
+      "path": "~/armor/cooking/smelting"
+    },
+    {
+      "name": "Rawarmortocookedbootssmelt",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rawarmortocookedbootssmelt",
+      "path": "~/armor/cooking/smelting"
     }
   ],
   "variable_elements": [
@@ -754,47 +877,51 @@
     "ru_ru": {
       "item.test.luminisom_pickaxe": "Luminisom Pickaxe",
       "block.test.batterytest": "Тест батареи",
-      "block.test.luminisom_block": "Люминисовый блок",
       "item.test.drip_armor_armor_helmet": "Drip_armor Helmet",
-      "item.test.raw_potato_armor_armor_chestplate": "Raw_potato_armor Chestplate",
-      "item.test.luminisom_armor_helmet": "Люминисовый шлем",
-      "item.test.leafy_armor_armor_helmet": "Leafy_armor Helmet",
       "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked_potato_armor_legacy Leggings",
       "item.test.drip_armor_armor_boots": "Drip_armor Boots",
-      "item.test.luminisonmnuggetraw": "Luminisonmnuggetraw",
-      "item.test.leafy_armor_armor_leggings": "Leafy_armor Leggings",
-      "key.test.jumpbindforthornreethelmet": "Двойной прыжок для Шипового шлема",
+      "item.test.cobble_stone_armor_armor_leggings": "Cobble_stone_armor Leggings",
       "item.test.wood_log_armor_armor_leggings": "Wood_log_armor Leggings",
       "item.test.raw_potato_armor_armor_leggings": "Raw_potato_armor Leggings",
       "item.test.raw_potato_armor_armor_boots": "Raw_potato_armor Boots",
-      "item.test.luminisom_shovel": "Luminisom Shovel",
-      "item.test.cooked_potato_armor_legacy_armor_boots": "Cooked_potato_armor_legacy Boots",
-      "item.test.thornreethhelm_helmet": "Шиповый шлем",
       "item.test.luminisom_armor_boots": "Люминисовые ботинки",
       "item.test.leafy_armor_armor_boots": "Leafy_armor Boots",
-      "subtitles.clasic_legacy_sounds_player": "potatos rubbing against skin",
-      "subtitles.clasic_legacy_sounds_music": "awesome music",
       "item.test.cookedimprovisedcake": "Приготовленный импровизированный торт",
       "item.test.thornreethhelm_boots": "Шиповые ботинки",
-      "item.test.luminisom_sword": "Luminisom Sword",
       "item.test.leafy_armor_armor_chestplate": "Leafy_armor Chestplate",
       "item.test.luminisom_armor_chestplate": "Люминисовый нагрудник",
-      "item.test.wood_log_armor_armor_helmet": "Wood_log_armor Helmet",
-      "subtitles.clasic_legacy_sounds": "potatos rubbing against skin",
       "item.test.cooked_potato_armor_legacy_armor_chestplate": "Cooked_potato_armor_legacy Chestplate",
-      "item.test.luminisom_ingot": "Люминис",
       "item.test.luminisom_axe": "Luminisom Axe",
-      "item.test.drip_armor_armor_leggings": "Drip_armor Leggings",
-      "block.test.luminisom_ore": "Люминисовая руда",
+      "item.test.cobble_stone_armor_armor_boots": "Cobble_stone_armor Boots",
       "item.test.thornreethhelm_chestplate": "Шиповый шлем",
-      "item.test.luminisom_armor_leggings": "Люминисовые поножи",
       "item.test.drip_armor_armor_chestplate": "Drip_armor Chestplate",
       "item.test.cooked_potato_armor_legacy_armor_helmet": "Cooked_potato_armor_legacy Helmet",
       "item.test.thornreethhelm_leggings": "Шиповые поножи",
+      "item.test.cobble_stone_armor_armor_helmet": "Cobble_stone_armor Helmet",
+      "item.test.improvisedcake": "Сырой импровизированный торт",
+      "block.test.luminisom_block": "Люминисовый блок",
+      "item.test.raw_potato_armor_armor_chestplate": "Raw_potato_armor Chestplate",
+      "item.test.luminisom_armor_helmet": "Люминисовый шлем",
+      "item.test.leafy_armor_armor_helmet": "Leafy_armor Helmet",
+      "item.test.cobble_stone_armor_armor_chestplate": "Cobble_stone_armor Chestplate",
+      "item.test.luminisonmnuggetraw": "Luminisonmnuggetraw",
+      "item.test.leafy_armor_armor_leggings": "Leafy_armor Leggings",
+      "key.test.jumpbindforthornreethelmet": "Двойной прыжок для Шипового шлема",
+      "item.test.luminisom_shovel": "Luminisom Shovel",
+      "item.test.cooked_potato_armor_legacy_armor_boots": "Cooked_potato_armor_legacy Boots",
+      "item.test.thornreethhelm_helmet": "Шиповый шлем",
+      "subtitles.clasic_legacy_sounds_player": "potatos rubbing against skin",
+      "subtitles.clasic_legacy_sounds_music": "awesome music",
+      "item.test.luminisom_sword": "Luminisom Sword",
+      "item.test.wood_log_armor_armor_helmet": "Wood_log_armor Helmet",
+      "subtitles.clasic_legacy_sounds": "potatos rubbing against skin",
+      "item.test.luminisom_ingot": "Люминис",
+      "item.test.drip_armor_armor_leggings": "Drip_armor Leggings",
+      "block.test.luminisom_ore": "Люминисовая руда",
+      "item.test.luminisom_armor_leggings": "Люминисовые поножи",
       "item.test.luminisom_hoe": "Luminisom Hoe",
       "item.test.wood_log_armor_armor_boots": "Wood_log_armor Boots",
       "item.test.wood_log_armor_armor_chestplate": "Wood_log_armor Chestplate",
-      "item.test.improvisedcake": "Сырой импровизированный торт",
       "item.test.raw_potato_armor_armor_helmet": "Raw_potato_armor Helmet"
     },
     "en_us": {
@@ -806,7 +933,9 @@
       "item.test.luminisom_armor_helmet": "Luminisom Helmet",
       "item.test.leafy_armor_armor_helmet": "Leafy Helmet",
       "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
+      "item.test.cobble_stone_armor_armor_chestplate": "Cobble_stone_armor Chestplate",
       "item.test.drip_armor_armor_boots": "Drip Boots",
+      "item.test.cobble_stone_armor_armor_leggings": "Cobble_stone_armor Leggings",
       "item.test.luminisonmnuggetraw": "Luminisonmnuggetraw",
       "item.test.leafy_armor_armor_leggings": "Leafy Leggings",
       "item.test.wood_log_armor_armor_leggings": "Wood log Leggings",
@@ -830,6 +959,7 @@
       "item.test.luminisom_ingot": "Luminisom",
       "item.test.luminisom_axe": "Luminisom Axe",
       "item.test.drip_armor_armor_leggings": "Drip Leggings",
+      "item.test.cobble_stone_armor_armor_boots": "Cobble_stone_armor Boots",
       "block.test.luminisom_ore": "Luminisom Ore",
       "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
       "item.test.luminisom_armor_leggings": "Luminisom Leggings",
@@ -839,6 +969,7 @@
       "item.test.luminisom_hoe": "Luminisom Hoe",
       "item.test.wood_log_armor_armor_boots": "Wood log Boots",
       "item.test.wood_log_armor_armor_chestplate": "Wood log Chestplate",
+      "item.test.cobble_stone_armor_armor_helmet": "Cobble_stone_armor Helmet",
       "item.test.improvisedcake": "raw Improvised cake",
       "item.test.raw_potato_armor_armor_helmet": "Raw potato Helmet"
     }
@@ -913,8 +1044,17 @@
             "children": []
           },
           {
-            "name": "smelting",
-            "children": []
+            "name": "cooking",
+            "children": [
+              {
+                "name": "smelting",
+                "children": []
+              },
+              {
+                "name": "smoking",
+                "children": []
+              }
+            ]
           },
           {
             "name": "plant",
@@ -969,7 +1109,7 @@
   "workspaceSettings": {
     "modid": "test",
     "modName": "test",
-    "version": "1.13.12",
+    "version": "1.13.13",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://mcreator.net",

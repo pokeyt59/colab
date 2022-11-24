@@ -29,6 +29,7 @@ import net.mcreator.test.item.ImprovisedcakeItem;
 import net.mcreator.test.item.Drip_armorArmorItem;
 import net.mcreator.test.item.CookedimprovisedcakeItem;
 import net.mcreator.test.item.Cooked_potato_armor_legacyArmorItem;
+import net.mcreator.test.item.Cobble_stone_armorArmorItem;
 import net.mcreator.test.TestMod;
 
 public class TestModItems {
@@ -94,6 +95,14 @@ public class TestModItems {
 	public static final RegistryObject<Item> LUMINISOM_PICKAXE = REGISTRY.register("luminisom_pickaxe", () -> new LuminisomPickaxeItem());
 	public static final RegistryObject<Item> LUMINISOM_HOE = REGISTRY.register("luminisom_hoe", () -> new LuminisomHoeItem());
 	public static final RegistryObject<Item> LUMINISOM_SHOVEL = REGISTRY.register("luminisom_shovel", () -> new LuminisomShovelItem());
+	public static final RegistryObject<Item> COBBLE_STONE_ARMOR_ARMOR_HELMET = REGISTRY.register("cobble_stone_armor_armor_helmet",
+			() -> new Cobble_stone_armorArmorItem.Helmet());
+	public static final RegistryObject<Item> COBBLE_STONE_ARMOR_ARMOR_CHESTPLATE = REGISTRY.register("cobble_stone_armor_armor_chestplate",
+			() -> new Cobble_stone_armorArmorItem.Chestplate());
+	public static final RegistryObject<Item> COBBLE_STONE_ARMOR_ARMOR_LEGGINGS = REGISTRY.register("cobble_stone_armor_armor_leggings",
+			() -> new Cobble_stone_armorArmorItem.Leggings());
+	public static final RegistryObject<Item> COBBLE_STONE_ARMOR_ARMOR_BOOTS = REGISTRY.register("cobble_stone_armor_armor_boots",
+			() -> new Cobble_stone_armorArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

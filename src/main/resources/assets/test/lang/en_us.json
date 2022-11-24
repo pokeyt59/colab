@@ -7,7 +7,9 @@
   "item.test.luminisom_armor_helmet": "Luminisom Helmet",
   "item.test.leafy_armor_armor_helmet": "Leafy Helmet",
   "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
+  "item.test.cobble_stone_armor_armor_chestplate": "Cobble_stone_armor Chestplate",
   "item.test.drip_armor_armor_boots": "Drip Boots",
+  "item.test.cobble_stone_armor_armor_leggings": "Cobble_stone_armor Leggings",
   "item.test.luminisonmnuggetraw": "Luminisonmnuggetraw",
   "item.test.leafy_armor_armor_leggings": "Leafy Leggings",
   "item.test.wood_log_armor_armor_leggings": "Wood log Leggings",
@@ -31,6 +33,7 @@
   "item.test.luminisom_ingot": "Luminisom",
   "item.test.luminisom_axe": "Luminisom Axe",
   "item.test.drip_armor_armor_leggings": "Drip Leggings",
+  "item.test.cobble_stone_armor_armor_boots": "Cobble_stone_armor Boots",
   "block.test.luminisom_ore": "Luminisom Ore",
   "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
   "item.test.luminisom_armor_leggings": "Luminisom Leggings",
@@ -40,6 +43,7 @@
   "item.test.luminisom_hoe": "Luminisom Hoe",
   "item.test.wood_log_armor_armor_boots": "Wood log Boots",
   "item.test.wood_log_armor_armor_chestplate": "Wood log Chestplate",
+  "item.test.cobble_stone_armor_armor_helmet": "Cobble_stone_armor Helmet",
   "item.test.improvisedcake": "raw Improvised cake",
   "item.test.raw_potato_armor_armor_helmet": "Raw potato Helmet"
 }

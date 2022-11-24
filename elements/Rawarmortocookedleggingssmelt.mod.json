@@ -1,0 +1,20 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 15.0,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "raw_to_cooked",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Raw_potato_armorArmor.legs"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Cooked_potato_armor_legacyArmor.legs"
+    },
+    "name": "rawarmortocookedleggingssmelt",
+    "namespace": "mod"
+  }
+}
