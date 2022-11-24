@@ -14,14 +14,22 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "cooked_potato_",
-    "helmetName": "Cooked_potato_armor_legacy Helmet",
-    "bodyName": "Cooked_potato_armor_legacy Chestplate",
-    "leggingsName": "Cooked_potato_armor_legacy Leggings",
-    "bootsName": "Cooked_potato_armor_legacy Boots",
-    "helmetSpecialInfo": [],
-    "bodySpecialInfo": [],
-    "leggingsSpecialInfo": [],
-    "bootsSpecialInfo": [],
+    "helmetName": "Cooked potato Helmet",
+    "bodyName": "Cooked potato Chestplate",
+    "leggingsName": "Cooked potato Leggings",
+    "bootsName": "Cooked potato Boots",
+    "helmetSpecialInfo": [
+      "smells tasty but don't eat"
+    ],
+    "bodySpecialInfo": [
+      "smells tasty but don't eat"
+    ],
+    "leggingsSpecialInfo": [
+      "smells tasty but don't eat like really"
+    ],
+    "bootsSpecialInfo": [
+      "smells tasty but don't eat like really"
+    ],
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
@@ -42,14 +50,14 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
-    "maxDamage": 25,
-    "damageValueHelmet": 4,
-    "damageValueBody": 6,
-    "damageValueLeggings": 4,
-    "damageValueBoots": 5,
-    "enchantability": 14,
-    "toughness": 0.0,
-    "knockbackResistance": 0.0,
+    "maxDamage": 30,
+    "damageValueHelmet": 2,
+    "damageValueBody": 2,
+    "damageValueLeggings": 2,
+    "damageValueBoots": 2,
+    "enchantability": 1,
+    "toughness": 0.6,
+    "knockbackResistance": 0.1,
     "equipSound": {
       "value": "CUSTOM:clasic_legacy_sounds"
     },

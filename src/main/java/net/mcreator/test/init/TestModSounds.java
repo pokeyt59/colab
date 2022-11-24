@@ -18,7 +18,10 @@ import java.util.HashMap;
 public class TestModSounds {
 	public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
 	static {
-		REGISTRY.put(new ResourceLocation("test", "clasic_legacy_sounds"), new SoundEvent(new ResourceLocation("test", "clasic_legacy_sounds")));
+		REGISTRY.put(new ResourceLocation("test", "clasic_legacy_sounds_player"),
+				new SoundEvent(new ResourceLocation("test", "clasic_legacy_sounds_player")));
+		REGISTRY.put(new ResourceLocation("test", "clasic_legacy_sounds_music"),
+				new SoundEvent(new ResourceLocation("test", "clasic_legacy_sounds_music")));
 	}
 
 	@SubscribeEvent

@@ -1,11 +1,21 @@
 {
-  "clasic_legacy_sounds": {
+  "clasic_legacy_sounds_player": {
     "category": "player",
-    "subtitle": "subtitles.clasic_legacy_sounds",
+    "subtitle": "subtitles.clasic_legacy_sounds_player",
     "sounds": [
       {
         "name": "test:potato_armor_equip_sound",
         "stream": false
+      }
+    ]
+  },
+  "clasic_legacy_sounds_music": {
+    "category": "music",
+    "subtitle": "subtitles.clasic_legacy_sounds_music",
+    "sounds": [
+      {
+        "name": "test:mod_music_place_hype_kick",
+        "stream": true
       }
     ]
   }

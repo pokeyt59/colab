@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "test:luminisom_ore",
-    "test:luminisom_block"
+    "test:luminisom_block",
+    "test:luminisom_ore"
   ]
 }
