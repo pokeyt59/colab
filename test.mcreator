@@ -839,6 +839,78 @@
       "locked_code": false,
       "registry_name": "rawarmortocookedbootssmelt",
       "path": "~/armor/cooking/smelting"
+    },
+    {
+      "name": "WoodarmorextendHelm",
+      "type": "itemextension",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodarmorextend_helm",
+      "path": "~/armor/extendtions/wood"
+    },
+    {
+      "name": "Woodarmorextendbreastplate",
+      "type": "itemextension",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodarmorextendbreastplate",
+      "path": "~/armor/extendtions/wood"
+    },
+    {
+      "name": "Woodarmorextendleggings",
+      "type": "itemextension",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodarmorextendleggings",
+      "path": "~/armor/extendtions/wood"
+    },
+    {
+      "name": "Woodarmorextendboots",
+      "type": "itemextension",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodarmorextendboots",
+      "path": "~/armor/extendtions/wood"
+    },
+    {
+      "name": "Leafyarmorextendhelm",
+      "type": "itemextension",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leafyarmorextendhelm",
+      "path": "~/armor/extendtions/leafy"
+    },
+    {
+      "name": "Leafyarmorextendbreastplate",
+      "type": "itemextension",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leafyarmorextendbreastplate",
+      "path": "~/armor/extendtions/leafy"
+    },
+    {
+      "name": "Leafyarmorextendleggins",
+      "type": "itemextension",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leafyarmorextendleggins",
+      "path": "~/armor/extendtions/leafy"
+    },
+    {
+      "name": "Leafyarmorextendboots",
+      "type": "itemextension",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leafyarmorextendboots",
+      "path": "~/armor/extendtions/leafy"
     }
   ],
   "variable_elements": [
@@ -1059,6 +1131,19 @@
           {
             "name": "plant",
             "children": []
+          },
+          {
+            "name": "extendtions",
+            "children": [
+              {
+                "name": "wood",
+                "children": []
+              },
+              {
+                "name": "leafy",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -1109,7 +1194,7 @@
   "workspaceSettings": {
     "modid": "test",
     "modName": "test",
-    "version": "1.13.13",
+    "version": "1.14.13",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://mcreator.net",
@@ -1126,5 +1211,5 @@
     "modElementsPackage": "net.mcreator.test",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200347418
+  "mcreatorVersion": 202200348217
 }

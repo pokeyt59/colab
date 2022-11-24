@@ -1,0 +1,15 @@
+{
+  "_fv": 34,
+  "_type": "itemextension",
+  "definition": {
+    "item": {
+      "value": "CUSTOM:Leafy_armorArmor.helmet"
+    },
+    "enableFuel": true,
+    "fuelPower": {
+      "fixedValue": 1650.0
+    },
+    "hasDispenseBehavior": false,
+    "compostLayerChance": 0.0
+  }
+}
