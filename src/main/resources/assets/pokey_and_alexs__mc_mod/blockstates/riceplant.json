@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "pokey_and_alexs__mc_mod:block/riceplant"
+    },
+    "half=lower": {
+      "model": "pokey_and_alexs__mc_mod:block/riceplant_bottom"
+    }
+  }
+}

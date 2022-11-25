@@ -4,6 +4,7 @@
  */
 package pokey.alexs.mod.init;
 
+import pokey.alexs.mod.world.features.plants.RiceplantFeature;
 import pokey.alexs.mod.world.features.ores.LuminisomOreFeature;
 import pokey.alexs.mod.PokeyAndAlexsMcModMod;
 
@@ -31,6 +32,8 @@ public class PokeyAndAlexsMcModModFeatures {
 	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
 	public static final RegistryObject<Feature<?>> LUMINISOM_ORE = register("luminisom_ore", LuminisomOreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, LuminisomOreFeature.GENERATE_BIOMES, LuminisomOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> RICEPLANT = register("riceplant", RiceplantFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, RiceplantFeature.GENERATE_BIOMES, RiceplantFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

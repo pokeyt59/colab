@@ -4,6 +4,7 @@
  */
 package pokey.alexs.mod.init;
 
+import pokey.alexs.mod.block.RiceplantBlock;
 import pokey.alexs.mod.block.LuminisomOreBlock;
 import pokey.alexs.mod.block.LuminisomBlockBlock;
 import pokey.alexs.mod.block.BatterytestBlock;
@@ -15,6 +16,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
@@ -24,12 +26,19 @@ public class PokeyAndAlexsMcModModBlocks {
 	public static final RegistryObject<Block> BATTERYTEST = REGISTRY.register("batterytest", () -> new BatterytestBlock());
 	public static final RegistryObject<Block> LUMINISOM_BLOCK = REGISTRY.register("luminisom_block", () -> new LuminisomBlockBlock());
 	public static final RegistryObject<Block> LUMINISOM_ORE = REGISTRY.register("luminisom_ore", () -> new LuminisomOreBlock());
+	public static final RegistryObject<Block> RICEPLANT = REGISTRY.register("riceplant", () -> new RiceplantBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			BatterytestBlock.registerRenderLayer();
+			RiceplantBlock.registerRenderLayer();
+		}
+
+		@SubscribeEvent
+		public static void blockColorLoad(ColorHandlerEvent.Block event) {
+			RiceplantBlock.blockColorLoad(event);
 		}
 	}
 }

@@ -13,6 +13,7 @@
  */
 package pokey.alexs.mod;
 
+import pokey.alexs.mod.init.PokeyAndAlexsMcModModPotions;
 import pokey.alexs.mod.init.PokeyAndAlexsMcModModParticleTypes;
 import pokey.alexs.mod.init.PokeyAndAlexsMcModModItems;
 import pokey.alexs.mod.init.PokeyAndAlexsMcModModFeatures;
@@ -53,6 +54,8 @@ public class PokeyAndAlexsMcModMod {
 
 		PokeyAndAlexsMcModModBlockEntities.REGISTRY.register(bus);
 		PokeyAndAlexsMcModModFeatures.REGISTRY.register(bus);
+
+		PokeyAndAlexsMcModModPotions.REGISTRY.register(bus);
 
 		PokeyAndAlexsMcModModParticleTypes.REGISTRY.register(bus);
 	}

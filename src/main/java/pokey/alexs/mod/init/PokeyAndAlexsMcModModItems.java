@@ -6,6 +6,7 @@ package pokey.alexs.mod.init;
 
 import pokey.alexs.mod.item.Wood_log_armorArmorItem;
 import pokey.alexs.mod.item.ThornreethhelmItem;
+import pokey.alexs.mod.item.RiceItem;
 import pokey.alexs.mod.item.Raw_potato_armorArmorItem;
 import pokey.alexs.mod.item.LuminisonmnuggetrawItem;
 import pokey.alexs.mod.item.LuminisomSwordItem;
@@ -29,6 +30,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
@@ -104,8 +106,14 @@ public class PokeyAndAlexsMcModModItems {
 			() -> new Cobble_stone_armorArmorItem.Leggings());
 	public static final RegistryObject<Item> COBBLE_STONE_ARMOR_ARMOR_BOOTS = REGISTRY.register("cobble_stone_armor_armor_boots",
 			() -> new Cobble_stone_armorArmorItem.Boots());
+	public static final RegistryObject<Item> RICE = REGISTRY.register("rice", () -> new RiceItem());
+	public static final RegistryObject<Item> RICEPLANT = doubleBlock(PokeyAndAlexsMcModModBlocks.RICEPLANT, CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	}
+
+	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties().tab(tab)));
 	}
 }

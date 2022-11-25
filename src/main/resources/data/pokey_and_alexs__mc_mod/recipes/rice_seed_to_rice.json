@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pokey_and_alexs__mc_mod:riceplant"
+    }
+  ],
+  "result": {
+    "item": "pokey_and_alexs__mc_mod:rice",
+    "count": 4
+  }
+}
