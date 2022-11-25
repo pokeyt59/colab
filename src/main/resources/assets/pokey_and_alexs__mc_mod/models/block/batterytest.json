@@ -1,0 +1,17 @@
+{
+  "parent": "forge:item/default",
+  "loader": "forge:composite",
+  "parts": {
+    "part1": {
+      "loader": "forge:obj",
+      "model": "pokey_and_alexs__mc_mod:models/item/battery.obj",
+      "ambientToFullbright": true,
+      "textures": {
+        "#m_0": "pokey_and_alexs__mc_mod:blocks/texture_edited_v2"
+      }
+    }
+  },
+  "textures": {
+    "particle": "pokey_and_alexs__mc_mod:blocks/texture_edited_v2"
+  }
+}

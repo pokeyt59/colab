@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "pokey_and_alexs__mc_mod:luminisom_ingot"
+    },
+    "1": {
+      "item": "pokey_and_alexs__mc_mod:luminisom_ingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "pokey_and_alexs__mc_mod:luminisom_hoe",
+    "count": 1
+  }
+}

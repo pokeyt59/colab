@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:potato"
+    },
+    "2": {
+      "item": "minecraft:potato"
+    },
+    "3": {
+      "item": "minecraft:potato"
+    },
+    "5": {
+      "item": "minecraft:potato"
+    }
+  },
+  "result": {
+    "item": "pokey_and_alexs__mc_mod:raw_potato_armor_armor_boots",
+    "count": 1
+  }
+}

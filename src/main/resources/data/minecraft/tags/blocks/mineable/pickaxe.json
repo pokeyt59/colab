@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "test:luminisom_block",
-    "test:luminisom_ore"
+    "pokey_and_alexs__mc_mod:luminisom_block",
+    "pokey_and_alexs__mc_mod:luminisom_ore"
   ]
 }

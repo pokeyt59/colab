@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "pokey_and_alexs__mc_mod:blocks/texture_edited_v2"
+  }
+}

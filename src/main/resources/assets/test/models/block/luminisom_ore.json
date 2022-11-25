@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "test:blocks/luminisom_ore",
-    "particle": "test:blocks/luminisom_ore"
-  }
-}

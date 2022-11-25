@@ -1,0 +1,22 @@
+{
+  "clasic_legacy_sounds_player": {
+    "category": "player",
+    "subtitle": "subtitles.clasic_legacy_sounds_player",
+    "sounds": [
+      {
+        "name": "pokey_and_alexs__mc_mod:potato_armor_equip_sound",
+        "stream": false
+      }
+    ]
+  },
+  "clasic_legacy_sounds_music": {
+    "category": "music",
+    "subtitle": "subtitles.clasic_legacy_sounds_music",
+    "sounds": [
+      {
+        "name": "pokey_and_alexs__mc_mod:mod_music_place_hype_kick",
+        "stream": true
+      }
+    ]
+  }
+}

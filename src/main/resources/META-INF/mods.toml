@@ -3,9 +3,9 @@ loaderVersion="[40,)"
 license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
-modId="test"
-version="1.14.17"
-displayName="test"
+modId="pokey_and_alexs__mc_mod"
+version="2.14.17"
+displayName="pokey and alex's mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
@@ -14,14 +14,14 @@ description='''
 a neat little collab mod
 '''
 
-[[dependencies.test]]
+[[dependencies.pokey_and_alexs__mc_mod]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2]"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.test]]
+[[dependencies.pokey_and_alexs__mc_mod]]
     modId="forge"
     mandatory=true
     versionRange="[40.1.0]"
