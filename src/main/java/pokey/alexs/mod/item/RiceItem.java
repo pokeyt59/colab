@@ -16,7 +16,7 @@ import java.util.List;
 
 public class RiceItem extends Item {
 	public RiceItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).rarity(Rarity.COMMON)
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).rarity(Rarity.UNCOMMON)
 				.food((new FoodProperties.Builder()).nutrition(1).saturationMod(1f)
 
 						.build()));

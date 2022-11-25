@@ -6,7 +6,7 @@
     "texture": "rice",
     "customModelName": "Normal",
     "name": "uncooked Rice",
-    "rarity": "COMMON",
+    "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "MISC"
     },
