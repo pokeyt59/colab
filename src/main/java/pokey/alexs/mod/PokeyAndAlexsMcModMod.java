@@ -13,6 +13,8 @@
  */
 package pokey.alexs.mod;
 
+import software.bernie.geckolib3.GeckoLib;
+
 import pokey.alexs.mod.init.PokeyAndAlexsMcModModPotions;
 import pokey.alexs.mod.init.PokeyAndAlexsMcModModParticleTypes;
 import pokey.alexs.mod.init.PokeyAndAlexsMcModModItems;
@@ -58,6 +60,7 @@ public class PokeyAndAlexsMcModMod {
 		PokeyAndAlexsMcModModPotions.REGISTRY.register(bus);
 
 		PokeyAndAlexsMcModModParticleTypes.REGISTRY.register(bus);
+		GeckoLib.initialize();
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,
