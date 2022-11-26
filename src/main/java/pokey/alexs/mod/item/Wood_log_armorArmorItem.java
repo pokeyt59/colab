@@ -20,12 +20,12 @@ public abstract class Wood_log_armorArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 15;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 40;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{2, 2, 2, 2}[slot.getIndex()];
+				return new int[]{4, 4, 4, 9}[slot.getIndex()];
 			}
 
 			@Override
@@ -50,12 +50,12 @@ public abstract class Wood_log_armorArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0.75f;
+				return 1f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.4f;
+				return 1f;
 			}
 		}, slot, properties);
 	}

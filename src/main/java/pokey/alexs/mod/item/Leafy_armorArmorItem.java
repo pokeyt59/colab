@@ -25,12 +25,12 @@ public abstract class Leafy_armorArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{2, 2, 2, 4}[slot.getIndex()];
+				return new int[]{2, 2, 2, 3}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 2;
+				return 5;
 			}
 
 			@Override
@@ -50,12 +50,12 @@ public abstract class Leafy_armorArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0.75f;
+				return 0.25f;
 			}
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.5f;
+				return 0.75f;
 			}
 		}, slot, properties);
 	}

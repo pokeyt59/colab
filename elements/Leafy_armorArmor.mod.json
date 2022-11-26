@@ -43,13 +43,13 @@
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
     "maxDamage": 20,
-    "damageValueHelmet": 4,
+    "damageValueHelmet": 3,
     "damageValueBody": 2,
     "damageValueLeggings": 2,
     "damageValueBoots": 2,
-    "enchantability": 2,
-    "toughness": 0.75,
-    "knockbackResistance": 0.5,
+    "enchantability": 5,
+    "toughness": 0.25,
+    "knockbackResistance": 0.75,
     "equipSound": {
       "value": ""
     },
