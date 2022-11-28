@@ -6,6 +6,7 @@ package pokey.alexs.mod.init;
 
 import pokey.alexs.mod.world.features.plants.RiceplantFeature;
 import pokey.alexs.mod.world.features.ores.LuminisomOreFeature;
+import pokey.alexs.mod.world.features.lakes.TestfluidFeature;
 import pokey.alexs.mod.PokeyAndAlexsMcModMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -34,6 +35,8 @@ public class PokeyAndAlexsMcModModFeatures {
 			GenerationStep.Decoration.UNDERGROUND_ORES, LuminisomOreFeature.GENERATE_BIOMES, LuminisomOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> RICEPLANT = register("riceplant", RiceplantFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, RiceplantFeature.GENERATE_BIOMES, RiceplantFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> TESTFLUID = register("testfluid", TestfluidFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.LAKES, TestfluidFeature.GENERATE_BIOMES, TestfluidFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

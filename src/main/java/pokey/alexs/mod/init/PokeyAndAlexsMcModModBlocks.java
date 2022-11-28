@@ -4,6 +4,7 @@
  */
 package pokey.alexs.mod.init;
 
+import pokey.alexs.mod.block.TestfluidBlock;
 import pokey.alexs.mod.block.RiceplantBlock;
 import pokey.alexs.mod.block.LuminisomOreBlock;
 import pokey.alexs.mod.block.LuminisomBlockBlock;
@@ -27,6 +28,7 @@ public class PokeyAndAlexsMcModModBlocks {
 	public static final RegistryObject<Block> LUMINISOM_BLOCK = REGISTRY.register("luminisom_block", () -> new LuminisomBlockBlock());
 	public static final RegistryObject<Block> LUMINISOM_ORE = REGISTRY.register("luminisom_ore", () -> new LuminisomOreBlock());
 	public static final RegistryObject<Block> RICEPLANT = REGISTRY.register("riceplant", () -> new RiceplantBlock());
+	public static final RegistryObject<Block> TESTFLUID = REGISTRY.register("testfluid", () -> new TestfluidBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -39,6 +41,11 @@ public class PokeyAndAlexsMcModModBlocks {
 		@SubscribeEvent
 		public static void blockColorLoad(ColorHandlerEvent.Block event) {
 			RiceplantBlock.blockColorLoad(event);
+		}
+
+		@SubscribeEvent
+		public static void itemColorLoad(ColorHandlerEvent.Item event) {
+			RiceplantBlock.itemColorLoad(event);
 		}
 	}
 }

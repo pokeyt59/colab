@@ -5,6 +5,7 @@
 package pokey.alexs.mod.init;
 
 import pokey.alexs.mod.client.particle.TestnotpermParticle;
+import pokey.alexs.mod.client.particle.LightliquidparticalParticle;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -20,5 +21,7 @@ public class PokeyAndAlexsMcModModParticles {
 	public static void registerParticles(ParticleFactoryRegisterEvent event) {
 		Minecraft.getInstance().particleEngine.register((SimpleParticleType) PokeyAndAlexsMcModModParticleTypes.TESTNOTPERM.get(),
 				TestnotpermParticle::provider);
+		Minecraft.getInstance().particleEngine.register((SimpleParticleType) PokeyAndAlexsMcModModParticleTypes.LIGHTLIQUIDPARTICAL.get(),
+				LightliquidparticalParticle::provider);
 	}
 }

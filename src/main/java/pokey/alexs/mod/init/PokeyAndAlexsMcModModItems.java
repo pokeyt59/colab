@@ -5,7 +5,9 @@
 package pokey.alexs.mod.init;
 
 import pokey.alexs.mod.item.Wood_log_armorArmorItem;
-import pokey.alexs.mod.item.ThornreethhelmItem;
+import pokey.alexs.mod.item.TestfluidItem;
+import pokey.alexs.mod.item.TestItem;
+import pokey.alexs.mod.item.RicebowlfoodItem;
 import pokey.alexs.mod.item.RiceItem;
 import pokey.alexs.mod.item.Raw_potato_armorArmorItem;
 import pokey.alexs.mod.item.LuminisonmnuggetrawItem;
@@ -30,7 +32,6 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
@@ -41,8 +42,6 @@ public class PokeyAndAlexsMcModModItems {
 	public static final RegistryObject<Item> IMPROVISEDCAKE = REGISTRY.register("improvisedcake", () -> new ImprovisedcakeItem());
 	public static final RegistryObject<Item> LUMINISOM_INGOT = REGISTRY.register("luminisom_ingot", () -> new LuminisomIngotItem());
 	public static final RegistryObject<Item> LUMINISONMNUGGETRAW = REGISTRY.register("luminisonmnuggetraw", () -> new LuminisonmnuggetrawItem());
-	public static final RegistryObject<Item> THORNREETHHELM_HELMET = REGISTRY.register("thornreethhelm_helmet",
-			() -> new ThornreethhelmItem.Helmet());
 	public static final RegistryObject<Item> LUMINISOM_ARMOR_HELMET = REGISTRY.register("luminisom_armor_helmet",
 			() -> new LuminisomArmorItem.Helmet());
 	public static final RegistryObject<Item> LUMINISOM_ARMOR_CHESTPLATE = REGISTRY.register("luminisom_armor_chestplate",
@@ -107,13 +106,12 @@ public class PokeyAndAlexsMcModModItems {
 	public static final RegistryObject<Item> COBBLE_STONE_ARMOR_ARMOR_BOOTS = REGISTRY.register("cobble_stone_armor_armor_boots",
 			() -> new Cobble_stone_armorArmorItem.Boots());
 	public static final RegistryObject<Item> RICE = REGISTRY.register("rice", () -> new RiceItem());
-	public static final RegistryObject<Item> RICEPLANT = doubleBlock(PokeyAndAlexsMcModModBlocks.RICEPLANT, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> RICEPLANT = block(PokeyAndAlexsMcModModBlocks.RICEPLANT, CreativeModeTab.TAB_TOOLS);
+	public static final RegistryObject<Item> RICEBOWLFOOD = REGISTRY.register("ricebowlfood", () -> new RicebowlfoodItem());
+	public static final RegistryObject<Item> TEST = REGISTRY.register("test", () -> new TestItem());
+	public static final RegistryObject<Item> TESTFLUID_BUCKET = REGISTRY.register("testfluid_bucket", () -> new TestfluidItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
-	}
-
-	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block, CreativeModeTab tab) {
-		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties().tab(tab)));
 	}
 }

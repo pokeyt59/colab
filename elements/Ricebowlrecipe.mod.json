@@ -5,8 +5,8 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
-    "group": "thorn_reed",
+    "recipeRetstackSize": 4,
+    "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
@@ -19,28 +19,28 @@
         "value": ""
       },
       {
-        "value": "Blocks.POINTED_DRIPSTONE"
+        "value": ""
       },
       {
-        "value": "Blocks.LOG"
-      },
-      {
-        "value": "Blocks.POINTED_DRIPSTONE"
+        "value": "CUSTOM:Rice"
       },
       {
         "value": ""
       },
       {
         "value": ""
+      },
+      {
+        "value": "Items.BOWL"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Thornreethhelm.helmet"
+      "value": "CUSTOM:Ricebowlfood"
     },
-    "name": "thorn_reeth",
+    "name": "rice_bowl_recipe",
     "namespace": "mod"
   }
 }

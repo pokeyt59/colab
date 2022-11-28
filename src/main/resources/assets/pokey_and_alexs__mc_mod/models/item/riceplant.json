@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "pokey_and_alexs__mc_mod:blocks/idk_top"
+    "layer0": "pokey_and_alexs__mc_mod:blocks/idk_bottom"
   }
 }

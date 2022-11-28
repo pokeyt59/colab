@@ -18,6 +18,7 @@ import software.bernie.geckolib3.GeckoLib;
 import pokey.alexs.mod.init.PokeyAndAlexsMcModModPotions;
 import pokey.alexs.mod.init.PokeyAndAlexsMcModModParticleTypes;
 import pokey.alexs.mod.init.PokeyAndAlexsMcModModItems;
+import pokey.alexs.mod.init.PokeyAndAlexsMcModModFluids;
 import pokey.alexs.mod.init.PokeyAndAlexsMcModModFeatures;
 import pokey.alexs.mod.init.PokeyAndAlexsMcModModBlocks;
 import pokey.alexs.mod.init.PokeyAndAlexsMcModModBlockEntities;
@@ -56,6 +57,7 @@ public class PokeyAndAlexsMcModMod {
 
 		PokeyAndAlexsMcModModBlockEntities.REGISTRY.register(bus);
 		PokeyAndAlexsMcModModFeatures.REGISTRY.register(bus);
+		PokeyAndAlexsMcModModFluids.REGISTRY.register(bus);
 
 		PokeyAndAlexsMcModModPotions.REGISTRY.register(bus);
 

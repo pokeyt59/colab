@@ -1,7 +1,7 @@
 {
   "parent": "block/tinted_cross",
   "textures": {
-    "cross": "pokey_and_alexs__mc_mod:blocks/idk_top",
-    "particle": "pokey_and_alexs__mc_mod:blocks/idk_top"
+    "cross": "pokey_and_alexs__mc_mod:blocks/idk_bottom",
+    "particle": "pokey_and_alexs__mc_mod:blocks/idk_bottom"
   }
 }

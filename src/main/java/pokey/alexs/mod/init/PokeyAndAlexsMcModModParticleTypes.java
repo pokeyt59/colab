@@ -17,4 +17,6 @@ public class PokeyAndAlexsMcModModParticleTypes {
 	public static final DeferredRegister<ParticleType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.PARTICLE_TYPES,
 			PokeyAndAlexsMcModMod.MODID);
 	public static final RegistryObject<ParticleType<?>> TESTNOTPERM = REGISTRY.register("testnotperm", () -> new SimpleParticleType(true));
+	public static final RegistryObject<ParticleType<?>> LIGHTLIQUIDPARTICAL = REGISTRY.register("lightliquidpartical",
+			() -> new SimpleParticleType(false));
 }

@@ -1,0 +1,48 @@
+{
+  "_fv": 34,
+  "_type": "fluid",
+  "definition": {
+    "name": "Testfluid",
+    "bucketName": "Testfluid Bucket",
+    "textureStill": "water_still_read",
+    "textureFlowing": "water_flow_read",
+    "tintType": "No tint",
+    "canMultiply": true,
+    "flowRate": 5,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "CUSTOM:Lightliquidpartical"
+    },
+    "flowStrength": 1.0,
+    "luminosity": 92,
+    "density": 500,
+    "viscosity": 300,
+    "temperature": 0,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "water_bucket",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "emptySound": {
+      "value": "item.bucket.empty"
+    },
+    "rarity": "UNCOMMON",
+    "specialInfo": [],
+    "resistance": 200.0,
+    "luminance": 15,
+    "lightOpacity": 0,
+    "emissiveRendering": true,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": []
+  }
+}

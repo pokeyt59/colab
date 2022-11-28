@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Test",
+    "texture": "music_disc_mod_theme",
+    "description": "music made by pokey",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "specialInfo": [],
+    "hasGlow": true,
+    "music": {
+      "value": "CUSTOM:clasic_legacy_sounds_music"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 15
+  }
+}

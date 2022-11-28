@@ -3,14 +3,14 @@
   "_type": "plant",
   "definition": {
     "renderType": 120,
-    "texture": "idk_top",
+    "texture": "idk_bottom",
     "textureBottom": "idk_bottom",
     "customModelName": "Cross model",
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "Foliage",
-    "isItemTinted": false,
-    "plantType": "double",
+    "isItemTinted": true,
+    "plantType": "growapable",
     "staticPlantGenerationType": "Flower",
     "suspiciousStewEffect": "SPEED",
     "suspiciousStewDuration": 100,
@@ -33,11 +33,11 @@
     "name": "rice plant",
     "specialInfo": [],
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "TOOLS"
     },
     "hardness": 0.0,
     "resistance": 0.0,
-    "luminance": 2,
+    "luminance": 6,
     "unbreakable": false,
     "isSolid": false,
     "isCustomSoundType": false,
@@ -59,7 +59,7 @@
     "fallSound": {
       "value": ""
     },
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "customDrop": {
       "value": ""
     },
