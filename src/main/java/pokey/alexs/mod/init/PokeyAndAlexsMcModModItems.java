@@ -37,7 +37,6 @@ import net.minecraft.world.item.BlockItem;
 
 public class PokeyAndAlexsMcModModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, PokeyAndAlexsMcModMod.MODID);
-	public static final RegistryObject<Item> BATTERYTEST = block(PokeyAndAlexsMcModModBlocks.BATTERYTEST, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> COOKEDIMPROVISEDCAKE = REGISTRY.register("cookedimprovisedcake", () -> new CookedimprovisedcakeItem());
 	public static final RegistryObject<Item> IMPROVISEDCAKE = REGISTRY.register("improvisedcake", () -> new ImprovisedcakeItem());
 	public static final RegistryObject<Item> LUMINISOM_INGOT = REGISTRY.register("luminisom_ingot", () -> new LuminisomIngotItem());

@@ -10,12 +10,12 @@
     ]
   },
   "clasic_legacy_sounds_music": {
-    "category": "music",
+    "category": "block",
     "subtitle": "subtitles.clasic_legacy_sounds_music",
     "sounds": [
       {
         "name": "pokey_and_alexs__mc_mod:mod_music_place_hype_kick",
-        "stream": true
+        "stream": false
       }
     ]
   }

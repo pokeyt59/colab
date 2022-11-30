@@ -92,7 +92,6 @@ public class PokeyAndAlexsMcModModVariables {
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "pokey_and_alexs__mc_mod_mapvars";
 		public double test = 0;
-		public double double_jump = 0.0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -102,13 +101,11 @@ public class PokeyAndAlexsMcModModVariables {
 
 		public void read(CompoundTag nbt) {
 			test = nbt.getDouble("test");
-			double_jump = nbt.getDouble("double_jump");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
 			nbt.putDouble("test", test);
-			nbt.putDouble("double_jump", double_jump);
 			return nbt;
 		}
 

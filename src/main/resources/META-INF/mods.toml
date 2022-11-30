@@ -4,7 +4,7 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="pokey_and_alexs__mc_mod"
-version="2.16.19"
+version="2.16.21"
 displayName="pokey and alex's mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
@@ -23,10 +23,4 @@ a neat little collab mod
 
 
 
-[[dependencies.pokey_and_alexs__mc_mod]]
-    modId="geckolib"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 

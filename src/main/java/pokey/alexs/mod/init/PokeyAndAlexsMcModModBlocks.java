@@ -8,7 +8,6 @@ import pokey.alexs.mod.block.TestfluidBlock;
 import pokey.alexs.mod.block.RiceplantBlock;
 import pokey.alexs.mod.block.LuminisomOreBlock;
 import pokey.alexs.mod.block.LuminisomBlockBlock;
-import pokey.alexs.mod.block.BatterytestBlock;
 import pokey.alexs.mod.PokeyAndAlexsMcModMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -24,7 +23,6 @@ import net.minecraft.world.level.block.Block;
 
 public class PokeyAndAlexsMcModModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, PokeyAndAlexsMcModMod.MODID);
-	public static final RegistryObject<Block> BATTERYTEST = REGISTRY.register("batterytest", () -> new BatterytestBlock());
 	public static final RegistryObject<Block> LUMINISOM_BLOCK = REGISTRY.register("luminisom_block", () -> new LuminisomBlockBlock());
 	public static final RegistryObject<Block> LUMINISOM_ORE = REGISTRY.register("luminisom_ore", () -> new LuminisomOreBlock());
 	public static final RegistryObject<Block> RICEPLANT = REGISTRY.register("riceplant", () -> new RiceplantBlock());
@@ -34,7 +32,6 @@ public class PokeyAndAlexsMcModModBlocks {
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
-			BatterytestBlock.registerRenderLayer();
 			RiceplantBlock.registerRenderLayer();
 		}
 

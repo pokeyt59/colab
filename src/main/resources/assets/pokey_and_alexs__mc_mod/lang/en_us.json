@@ -16,7 +16,6 @@
   "item.test.leafy_armor_armor_chestplate": "Leafy Chestplate",
   "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_chestplate": "Raw potato Chestplate",
   "item.test.luminisom_axe": "Luminisom Axe",
-  "block.pokey_and_alexs__mc_mod.batterytest": "Batterytest",
   "item.pokey_and_alexs__mc_mod.test.desc": "music made by pokey",
   "block.pokey_and_alexs__mc_mod.luminisom_block": "Block of Luminisom",
   "item.test.cobble_stone_armor_armor_boots": "Cobble_stone_armor Boots",
@@ -97,5 +96,6 @@
   "item.test.luminisom_hoe": "Luminisom Hoe",
   "item.test.wood_log_armor_armor_boots": "Wood log Boots",
   "item.pokey_and_alexs__mc_mod.improvisedcake": "raw Improvised cake",
+  "itemGroup.tabp_amod": "pokey and alex\u0027s mod",
   "item.test.wood_log_armor_armor_chestplate": "Wood log Chestplate"
 }
