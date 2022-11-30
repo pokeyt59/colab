@@ -23,9 +23,9 @@ public abstract class TestfluidFluid extends ForgeFlowingFluid {
 	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(PokeyAndAlexsMcModModFluids.TESTFLUID,
 			PokeyAndAlexsMcModModFluids.FLOWING_TESTFLUID,
 			FluidAttributes
-					.builder(new ResourceLocation("pokey_and_alexs__mc_mod:blocks/water_still_read"),
-							new ResourceLocation("pokey_and_alexs__mc_mod:blocks/water_flow_read"))
-					.luminosity(92).density(500).viscosity(300).temperature(0)
+					.builder(new ResourceLocation("pokey_and_alexs__mc_mod:blocks/water_flow_read"),
+							new ResourceLocation("pokey_and_alexs__mc_mod:blocks/water_still_read"))
+					.luminosity(100).density(200).viscosity(300).temperature(0)
 
 					.rarity(Rarity.UNCOMMON).sound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bucket.empty"))))
 			.explosionResistance(200f).canMultiply()

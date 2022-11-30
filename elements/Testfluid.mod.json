@@ -4,8 +4,8 @@
   "definition": {
     "name": "Testfluid",
     "bucketName": "Testfluid Bucket",
-    "textureStill": "water_still_read",
-    "textureFlowing": "water_flow_read",
+    "textureStill": "water_flow_read",
+    "textureFlowing": "water_still_read",
     "tintType": "No tint",
     "canMultiply": true,
     "flowRate": 5,
@@ -16,8 +16,8 @@
       "value": "CUSTOM:Lightliquidpartical"
     },
     "flowStrength": 1.0,
-    "luminosity": 92,
-    "density": 500,
+    "luminosity": 100,
+    "density": 200,
     "viscosity": 300,
     "temperature": 0,
     "type": "WATER",
