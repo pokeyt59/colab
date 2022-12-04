@@ -1,7 +1,7 @@
 
 package pokey.alexs.mod.block;
 
-import pokey.alexs.mod.init.PokeyAndAlexsMcModModItems;
+import pokey.alexs.mod.init.PokeyAndAlexsModModItems;
 
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
@@ -40,6 +40,6 @@ public class LuminisomOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(PokeyAndAlexsMcModModItems.LUMINISOM_INGOT.get()));
+		return Collections.singletonList(new ItemStack(PokeyAndAlexsModModItems.LUMINISOM_INGOT.get()));
 	}
 }

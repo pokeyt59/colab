@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "pokey_and_alexs_mod:items/improvised_cake"
+  }
+}

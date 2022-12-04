@@ -1,7 +1,7 @@
 
 package pokey.alexs.mod.block;
 
-import pokey.alexs.mod.init.PokeyAndAlexsMcModModBlocks;
+import pokey.alexs.mod.init.PokeyAndAlexsModModBlocks;
 
 import org.checkerframework.checker.units.qual.s;
 
@@ -74,20 +74,20 @@ public class RiceplantBlock extends SugarCaneBlock {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(PokeyAndAlexsMcModModBlocks.RICEPLANT.get(), renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(PokeyAndAlexsModModBlocks.RICEPLANT.get(), renderType -> renderType == RenderType.cutout());
 	}
 
 	@OnlyIn(Dist.CLIENT)
 	public static void blockColorLoad(ColorHandlerEvent.Block event) {
 		event.getBlockColors().register((bs, world, pos, index) -> {
 			return world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : FoliageColor.getDefaultColor();
-		}, PokeyAndAlexsMcModModBlocks.RICEPLANT.get());
+		}, PokeyAndAlexsModModBlocks.RICEPLANT.get());
 	}
 
 	@OnlyIn(Dist.CLIENT)
 	public static void itemColorLoad(ColorHandlerEvent.Item event) {
 		event.getItemColors().register((stack, index) -> {
 			return FoliageColor.getDefaultColor();
-		}, PokeyAndAlexsMcModModBlocks.RICEPLANT.get());
+		}, PokeyAndAlexsModModBlocks.RICEPLANT.get());
 	}
 }

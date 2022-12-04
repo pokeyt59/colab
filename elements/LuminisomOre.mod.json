@@ -124,17 +124,31 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface"
+      "Surface",
+      "Nether",
+      "End"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.FLOWING_LAVA"
+      },
+      {
+        "value": "Blocks.LAVA"
+      },
+      {
+        "value": "Blocks.AMETHYST_BLOCK"
+      },
+      {
+        "value": "Blocks.BUDDING_AMETHYST"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 5,
-    "frequencyOnChunk": 3,
+    "frequencyPerChunks": 4,
+    "frequencyOnChunk": 4,
     "minGenerateHeight": 1,
     "maxGenerateHeight": 33
   }

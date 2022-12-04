@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:potato"
+    },
+    "1": {
+      "item": "minecraft:potato"
+    },
+    "2": {
+      "item": "minecraft:potato"
+    },
+    "3": {
+      "item": "minecraft:potato"
+    },
+    "5": {
+      "item": "minecraft:potato"
+    }
+  },
+  "result": {
+    "item": "pokey_and_alexs_mod:raw_potato_armor_armor_helmet",
+    "count": 1
+  }
+}

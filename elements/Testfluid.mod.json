@@ -4,8 +4,8 @@
   "definition": {
     "name": "Testfluid",
     "bucketName": "Testfluid Bucket",
-    "textureStill": "water_flow_read",
-    "textureFlowing": "water_still_read",
+    "textureStill": "water_still_read",
+    "textureFlowing": "water_flow_read",
     "tintType": "No tint",
     "canMultiply": true,
     "flowRate": 5,
@@ -30,7 +30,9 @@
       "value": "item.bucket.empty"
     },
     "rarity": "UNCOMMON",
-    "specialInfo": [],
+    "specialInfo": [
+      "yummy but spicy"
+    ],
     "resistance": 200.0,
     "luminance": 15,
     "lightOpacity": 0,

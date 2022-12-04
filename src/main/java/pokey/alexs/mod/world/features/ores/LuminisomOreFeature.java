@@ -1,7 +1,7 @@
 
 package pokey.alexs.mod.world.features.ores;
 
-import pokey.alexs.mod.init.PokeyAndAlexsMcModModBlocks;
+import pokey.alexs.mod.init.PokeyAndAlexsModModBlocks;
 
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -43,10 +43,10 @@ public class LuminisomOreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new LuminisomOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("pokey_and_alexs__mc_mod:luminisom_ore", FEATURE,
-				new OreConfiguration(LuminisomOreFeatureRuleTest.INSTANCE, PokeyAndAlexsMcModModBlocks.LUMINISOM_ORE.get().defaultBlockState(), 3));
-		PLACED_FEATURE = PlacementUtils.register("pokey_and_alexs__mc_mod:luminisom_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(5), InSquarePlacement.spread(),
+		CONFIGURED_FEATURE = FeatureUtils.register("pokey_and_alexs_mod:luminisom_ore", FEATURE,
+				new OreConfiguration(LuminisomOreFeatureRuleTest.INSTANCE, PokeyAndAlexsModModBlocks.LUMINISOM_ORE.get().defaultBlockState(), 4));
+		PLACED_FEATURE = PlacementUtils.register("pokey_and_alexs_mod:luminisom_ore", CONFIGURED_FEATURE,
+				List.of(CountPlacement.of(4), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(33)), BiomeFilter.biome()));
 		return FEATURE;
 	}
@@ -56,7 +56,7 @@ public class LuminisomOreFeature extends OreFeature {
 	}
 
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD, Level.NETHER, Level.END);
 
 	public LuminisomOreFeature() {
 		super(OreConfiguration.CODEC);
@@ -77,14 +77,14 @@ public class LuminisomOreFeature extends OreFeature {
 
 		@SubscribeEvent
 		public static void init(FMLCommonSetupEvent event) {
-			Registry.register(Registry.RULE_TEST, new ResourceLocation("pokey_and_alexs__mc_mod:luminisom_ore_match"), CUSTOM_MATCH);
+			Registry.register(Registry.RULE_TEST, new ResourceLocation("pokey_and_alexs_mod:luminisom_ore_match"), CUSTOM_MATCH);
 		}
 
 		private List<Block> base_blocks = null;
 
 		public boolean test(BlockState blockAt, Random random) {
 			if (base_blocks == null) {
-				base_blocks = List.of(Blocks.STONE);
+				base_blocks = List.of(Blocks.STONE, Blocks.LAVA, Blocks.LAVA, Blocks.AMETHYST_BLOCK, Blocks.BUDDING_AMETHYST);
 			}
 			return base_blocks.contains(blockAt.getBlock());
 		}

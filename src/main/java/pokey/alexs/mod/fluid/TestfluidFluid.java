@@ -1,10 +1,10 @@
 
 package pokey.alexs.mod.fluid;
 
-import pokey.alexs.mod.init.PokeyAndAlexsMcModModParticleTypes;
-import pokey.alexs.mod.init.PokeyAndAlexsMcModModItems;
-import pokey.alexs.mod.init.PokeyAndAlexsMcModModFluids;
-import pokey.alexs.mod.init.PokeyAndAlexsMcModModBlocks;
+import pokey.alexs.mod.init.PokeyAndAlexsModModParticleTypes;
+import pokey.alexs.mod.init.PokeyAndAlexsModModItems;
+import pokey.alexs.mod.init.PokeyAndAlexsModModFluids;
+import pokey.alexs.mod.init.PokeyAndAlexsModModBlocks;
 
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fluids.ForgeFlowingFluid;
@@ -20,17 +20,17 @@ import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.particles.ParticleOptions;
 
 public abstract class TestfluidFluid extends ForgeFlowingFluid {
-	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(PokeyAndAlexsMcModModFluids.TESTFLUID,
-			PokeyAndAlexsMcModModFluids.FLOWING_TESTFLUID,
+	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(PokeyAndAlexsModModFluids.TESTFLUID,
+			PokeyAndAlexsModModFluids.FLOWING_TESTFLUID,
 			FluidAttributes
-					.builder(new ResourceLocation("pokey_and_alexs__mc_mod:blocks/water_flow_read"),
-							new ResourceLocation("pokey_and_alexs__mc_mod:blocks/water_still_read"))
+					.builder(new ResourceLocation("pokey_and_alexs_mod:blocks/water_still_read"),
+							new ResourceLocation("pokey_and_alexs_mod:blocks/water_flow_read"))
 					.luminosity(100).density(200).viscosity(300).temperature(0)
 
 					.rarity(Rarity.UNCOMMON).sound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bucket.empty"))))
 			.explosionResistance(200f).canMultiply()
 
-			.bucket(PokeyAndAlexsMcModModItems.TESTFLUID_BUCKET).block(() -> (LiquidBlock) PokeyAndAlexsMcModModBlocks.TESTFLUID.get());
+			.bucket(PokeyAndAlexsModModItems.TESTFLUID_BUCKET).block(() -> (LiquidBlock) PokeyAndAlexsModModBlocks.TESTFLUID.get());
 
 	private TestfluidFluid() {
 		super(PROPERTIES);
@@ -38,7 +38,7 @@ public abstract class TestfluidFluid extends ForgeFlowingFluid {
 
 	@Override
 	public ParticleOptions getDripParticle() {
-		return (SimpleParticleType) (PokeyAndAlexsMcModModParticleTypes.LIGHTLIQUIDPARTICAL.get());
+		return (SimpleParticleType) (PokeyAndAlexsModModParticleTypes.LIGHTLIQUIDPARTICAL.get());
 	}
 
 	public static class Source extends TestfluidFluid {

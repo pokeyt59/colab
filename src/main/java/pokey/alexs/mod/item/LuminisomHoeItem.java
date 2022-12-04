@@ -1,7 +1,7 @@
 
 package pokey.alexs.mod.item;
 
-import pokey.alexs.mod.init.PokeyAndAlexsMcModModItems;
+import pokey.alexs.mod.init.PokeyAndAlexsModModItems;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
@@ -34,7 +34,7 @@ public class LuminisomHoeItem extends HoeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(PokeyAndAlexsMcModModItems.LUMINISOM_INGOT.get()));
+				return Ingredient.of(new ItemStack(PokeyAndAlexsModModItems.LUMINISOM_INGOT.get()));
 			}
 		}, 0, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}

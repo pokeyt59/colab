@@ -67,7 +67,7 @@ public abstract class Drip_armorArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs__mc_mod:textures/models/armor/drip_armor_layer_1.png";
+			return "pokey_and_alexs_mod:textures/models/armor/drip_armor_layer_1.png";
 		}
 	}
 
@@ -78,7 +78,7 @@ public abstract class Drip_armorArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs__mc_mod:textures/models/armor/drip_armor_layer_1.png";
+			return "pokey_and_alexs_mod:textures/models/armor/drip_armor_layer_1.png";
 		}
 	}
 
@@ -89,7 +89,7 @@ public abstract class Drip_armorArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs__mc_mod:textures/models/armor/drip_armor_layer_2.png";
+			return "pokey_and_alexs_mod:textures/models/armor/drip_armor_layer_2.png";
 		}
 	}
 
@@ -100,7 +100,7 @@ public abstract class Drip_armorArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs__mc_mod:textures/models/armor/drip_armor_layer_1.png";
+			return "pokey_and_alexs_mod:textures/models/armor/drip_armor_layer_1.png";
 		}
 	}
 }

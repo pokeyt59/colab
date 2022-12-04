@@ -3,10 +3,10 @@ loaderVersion="[40,)"
 license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
-modId="pokey_and_alexs__mc_mod"
-version="2.16.22"
+modId="pokey_and_alexs_mod"
+version="2.17.23"
 displayName="pokey and alex's mod"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="Created using MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
 authors="Pokey_yt , Alex super 199"
@@ -14,7 +14,7 @@ description='''
 a neat little collab mod
 '''
 
-[[dependencies.pokey_and_alexs__mc_mod]]
+[[dependencies.pokey_and_alexs_mod]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2]"

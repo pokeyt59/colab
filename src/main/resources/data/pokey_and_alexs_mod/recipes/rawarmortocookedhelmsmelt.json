@@ -1,0 +1,10 @@
+{
+  "group": "raw_to_cooked",
+  "type": "minecraft:smelting",
+  "experience": 5,
+  "cookingtime": 80,
+  "ingredient": {
+    "item": "pokey_and_alexs_mod:raw_potato_armor_armor_helmet"
+  },
+  "result": "pokey_and_alexs_mod:cooked_potato_armor_legacy_armor_helmet"
+}

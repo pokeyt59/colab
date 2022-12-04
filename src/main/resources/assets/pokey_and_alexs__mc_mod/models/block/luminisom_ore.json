@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "pokey_and_alexs__mc_mod:blocks/luminisom_ore",
-    "particle": "pokey_and_alexs__mc_mod:blocks/luminisom_ore"
-  }
-}

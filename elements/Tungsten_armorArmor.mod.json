@@ -1,0 +1,62 @@
+{
+  "_fv": 34,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "tungsten_armor_head",
+    "enableBody": true,
+    "textureBody": "tungsten_armor_body",
+    "enableLeggings": true,
+    "textureLeggings": "tungsten_armor_leggings",
+    "enableBoots": true,
+    "textureBoots": "tungsten_armor_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "tungsten_armor__",
+    "helmetName": "Tungsten Helmet",
+    "bodyName": "Tungsten Chestplate",
+    "leggingsName": "Tungsten Leggings",
+    "bootsName": "Tungsten Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 98,
+    "damageValueHelmet": 20,
+    "damageValueBody": 43,
+    "damageValueLeggings": 44,
+    "damageValueBoots": 18,
+    "enchantability": 90,
+    "toughness": 4.0,
+    "knockbackResistance": 1.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Tungsteningot"
+      }
+    ]
+  }
+}

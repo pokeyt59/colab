@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1.4,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "pokey_and_alexs_mod:luminisom_ore"
+  },
+  "result": "pokey_and_alexs_mod:luminisom_ingot"
+}

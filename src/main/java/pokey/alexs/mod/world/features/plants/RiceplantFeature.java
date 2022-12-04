@@ -1,7 +1,7 @@
 
 package pokey.alexs.mod.world.features.plants;
 
-import pokey.alexs.mod.init.PokeyAndAlexsMcModModBlocks;
+import pokey.alexs.mod.init.PokeyAndAlexsModModBlocks;
 
 import net.minecraft.world.level.levelgen.placement.RarityFilter;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
@@ -36,13 +36,14 @@ public class RiceplantFeature extends RandomPatchFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new RiceplantFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("pokey_and_alexs__mc_mod:riceplant", FEATURE,
-				FeatureUtils.simpleRandomPatchConfiguration(64, PlacementUtils.filtered(Feature.BLOCK_COLUMN,
-						BlockColumnConfiguration.simple(BiasedToBottomInt.of(2, 4),
-								BlockStateProvider.simple(PokeyAndAlexsMcModModBlocks.RICEPLANT.get().defaultBlockState())),
-						BlockPredicate.allOf(BlockPredicate.ONLY_IN_AIR_PREDICATE,
-								BlockPredicate.wouldSurvive(PokeyAndAlexsMcModModBlocks.RICEPLANT.get().defaultBlockState(), BlockPos.ZERO)))));
-		PLACED_FEATURE = PlacementUtils.register("pokey_and_alexs__mc_mod:riceplant", CONFIGURED_FEATURE, List.of(CountPlacement.of(5),
+		CONFIGURED_FEATURE = FeatureUtils.register("pokey_and_alexs_mod:riceplant", FEATURE,
+				FeatureUtils.simpleRandomPatchConfiguration(64,
+						PlacementUtils.filtered(Feature.BLOCK_COLUMN,
+								BlockColumnConfiguration.simple(BiasedToBottomInt.of(2, 4),
+										BlockStateProvider.simple(PokeyAndAlexsModModBlocks.RICEPLANT.get().defaultBlockState())),
+								BlockPredicate.allOf(BlockPredicate.ONLY_IN_AIR_PREDICATE,
+										BlockPredicate.wouldSurvive(PokeyAndAlexsModModBlocks.RICEPLANT.get().defaultBlockState(), BlockPos.ZERO)))));
+		PLACED_FEATURE = PlacementUtils.register("pokey_and_alexs_mod:riceplant", CONFIGURED_FEATURE, List.of(CountPlacement.of(5),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_WORLD_SURFACE, BiomeFilter.biome()));
 		return FEATURE;
 	}

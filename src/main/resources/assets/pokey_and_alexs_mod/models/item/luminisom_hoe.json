@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "pokey_and_alexs_mod:items/luminisom_hoe"
+  }
+}

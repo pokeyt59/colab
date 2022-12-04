@@ -41,7 +41,7 @@ public abstract class Cooked_potato_armor_legacyArmorItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("pokey_and_alexs__mc_mod:clasic_legacy_sounds"));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("pokey_and_alexs_mod:clasic_legacy_sounds"));
 			}
 
 			@Override
@@ -79,7 +79,7 @@ public abstract class Cooked_potato_armor_legacyArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs__mc_mod:textures/models/armor/cooked_potato__layer_1.png";
+			return "pokey_and_alexs_mod:textures/models/armor/cooked_potato__layer_1.png";
 		}
 	}
 
@@ -96,7 +96,7 @@ public abstract class Cooked_potato_armor_legacyArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs__mc_mod:textures/models/armor/cooked_potato__layer_1.png";
+			return "pokey_and_alexs_mod:textures/models/armor/cooked_potato__layer_1.png";
 		}
 	}
 
@@ -113,7 +113,7 @@ public abstract class Cooked_potato_armor_legacyArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs__mc_mod:textures/models/armor/cooked_potato__layer_2.png";
+			return "pokey_and_alexs_mod:textures/models/armor/cooked_potato__layer_2.png";
 		}
 	}
 
@@ -130,7 +130,7 @@ public abstract class Cooked_potato_armor_legacyArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs__mc_mod:textures/models/armor/cooked_potato__layer_1.png";
+			return "pokey_and_alexs_mod:textures/models/armor/cooked_potato__layer_1.png";
 		}
 	}
 }

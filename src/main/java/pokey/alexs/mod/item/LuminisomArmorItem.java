@@ -1,8 +1,8 @@
 
 package pokey.alexs.mod.item;
 
-import pokey.alexs.mod.init.PokeyAndAlexsMcModModItems;
-import pokey.alexs.mod.init.PokeyAndAlexsMcModModBlocks;
+import pokey.alexs.mod.init.PokeyAndAlexsModModItems;
+import pokey.alexs.mod.init.PokeyAndAlexsModModBlocks;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
@@ -42,8 +42,8 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(PokeyAndAlexsMcModModItems.LUMINISOM_INGOT.get()),
-						new ItemStack(PokeyAndAlexsMcModModBlocks.LUMINISOM_BLOCK.get()));
+				return Ingredient.of(new ItemStack(PokeyAndAlexsModModItems.LUMINISOM_INGOT.get()),
+						new ItemStack(PokeyAndAlexsModModBlocks.LUMINISOM_BLOCK.get()));
 			}
 
 			@Override
@@ -70,7 +70,7 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs__mc_mod:textures/models/armor/luminisom_layer_1.png";
+			return "pokey_and_alexs_mod:textures/models/armor/luminisom_layer_1.png";
 		}
 	}
 
@@ -81,7 +81,7 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs__mc_mod:textures/models/armor/luminisom_layer_1.png";
+			return "pokey_and_alexs_mod:textures/models/armor/luminisom_layer_1.png";
 		}
 	}
 
@@ -92,7 +92,7 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs__mc_mod:textures/models/armor/luminisom_layer_2.png";
+			return "pokey_and_alexs_mod:textures/models/armor/luminisom_layer_2.png";
 		}
 	}
 
@@ -103,7 +103,7 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "pokey_and_alexs__mc_mod:textures/models/armor/luminisom_layer_1.png";
+			return "pokey_and_alexs_mod:textures/models/armor/luminisom_layer_1.png";
 		}
 	}
 }
