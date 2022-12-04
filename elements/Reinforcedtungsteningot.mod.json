@@ -1,0 +1,44 @@
+{
+  "_fv": 34,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "renforced_tungsten_ingot",
+    "customModelName": "Normal",
+    "name": "Reinforcedtungsteningot",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:Pamod"
+    },
+    "stackSize": 64,
+    "enchantability": 110,
+    "useDuration": 0,
+    "toolType": 3.9999999999999996,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": true,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 2.6,
+    "specialInfo": [
+      "2 times stronger then your regrets of the past"
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "none"
+  }
+}

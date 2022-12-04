@@ -11,6 +11,13 @@ import pokey.alexs.mod.item.TestfluidItem;
 import pokey.alexs.mod.item.TestItem;
 import pokey.alexs.mod.item.RicebowlfoodItem;
 import pokey.alexs.mod.item.RiceItem;
+import pokey.alexs.mod.item.ReinforcedtungsteningotItem;
+import pokey.alexs.mod.item.ReinforcedtungstenarmorItem;
+import pokey.alexs.mod.item.Reinforced_tungstenSwordItem;
+import pokey.alexs.mod.item.Reinforced_tungstenShovelItem;
+import pokey.alexs.mod.item.Reinforced_tungstenPickaxeItem;
+import pokey.alexs.mod.item.Reinforced_tungstenHoeItem;
+import pokey.alexs.mod.item.Reinforced_tungstenAxeItem;
 import pokey.alexs.mod.item.Raw_potato_armorArmorItem;
 import pokey.alexs.mod.item.LuminisonmnuggetrawItem;
 import pokey.alexs.mod.item.LuminisomSwordItem;
@@ -43,7 +50,12 @@ public class PokeyAndAlexsModModItems {
 	public static final RegistryObject<Item> COOKEDIMPROVISEDCAKE = REGISTRY.register("cookedimprovisedcake", () -> new CookedimprovisedcakeItem());
 	public static final RegistryObject<Item> IMPROVISEDCAKE = REGISTRY.register("improvisedcake", () -> new ImprovisedcakeItem());
 	public static final RegistryObject<Item> LUMINISOM_INGOT = REGISTRY.register("luminisom_ingot", () -> new LuminisomIngotItem());
+	public static final RegistryObject<Item> TUNGSTENINGOT = REGISTRY.register("tungsteningot", () -> new TungsteningotItem());
 	public static final RegistryObject<Item> LUMINISONMNUGGETRAW = REGISTRY.register("luminisonmnuggetraw", () -> new LuminisonmnuggetrawItem());
+	public static final RegistryObject<Item> RICE = REGISTRY.register("rice", () -> new RiceItem());
+	public static final RegistryObject<Item> RICEPLANT = block(PokeyAndAlexsModModBlocks.RICEPLANT, PokeyAndAlexsModModTabs.TAB_PAMOD);
+	public static final RegistryObject<Item> RICEBOWLFOOD = REGISTRY.register("ricebowlfood", () -> new RicebowlfoodItem());
+	public static final RegistryObject<Item> TEST = REGISTRY.register("test", () -> new TestItem());
 	public static final RegistryObject<Item> LUMINISOM_ARMOR_HELMET = REGISTRY.register("luminisom_armor_helmet",
 			() -> new LuminisomArmorItem.Helmet());
 	public static final RegistryObject<Item> LUMINISOM_ARMOR_CHESTPLATE = REGISTRY.register("luminisom_armor_chestplate",
@@ -92,12 +104,6 @@ public class PokeyAndAlexsModModItems {
 	public static final RegistryObject<Item> RAW_POTATO_ARMOR_ARMOR_BOOTS = REGISTRY.register("raw_potato_armor_armor_boots",
 			() -> new Raw_potato_armorArmorItem.Boots());
 	public static final RegistryObject<Item> LUMINISOM_SWORD = REGISTRY.register("luminisom_sword", () -> new LuminisomSwordItem());
-	public static final RegistryObject<Item> LUMINISOM_BLOCK = block(PokeyAndAlexsModModBlocks.LUMINISOM_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final RegistryObject<Item> LUMINISOM_ORE = block(PokeyAndAlexsModModBlocks.LUMINISOM_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final RegistryObject<Item> LUMINISOM_AXE = REGISTRY.register("luminisom_axe", () -> new LuminisomAxeItem());
-	public static final RegistryObject<Item> LUMINISOM_PICKAXE = REGISTRY.register("luminisom_pickaxe", () -> new LuminisomPickaxeItem());
-	public static final RegistryObject<Item> LUMINISOM_HOE = REGISTRY.register("luminisom_hoe", () -> new LuminisomHoeItem());
-	public static final RegistryObject<Item> LUMINISOM_SHOVEL = REGISTRY.register("luminisom_shovel", () -> new LuminisomShovelItem());
 	public static final RegistryObject<Item> COBBLE_STONE_ARMOR_ARMOR_HELMET = REGISTRY.register("cobble_stone_armor_armor_helmet",
 			() -> new Cobble_stone_armorArmorItem.Helmet());
 	public static final RegistryObject<Item> COBBLE_STONE_ARMOR_ARMOR_CHESTPLATE = REGISTRY.register("cobble_stone_armor_armor_chestplate",
@@ -106,12 +112,6 @@ public class PokeyAndAlexsModModItems {
 			() -> new Cobble_stone_armorArmorItem.Leggings());
 	public static final RegistryObject<Item> COBBLE_STONE_ARMOR_ARMOR_BOOTS = REGISTRY.register("cobble_stone_armor_armor_boots",
 			() -> new Cobble_stone_armorArmorItem.Boots());
-	public static final RegistryObject<Item> RICE = REGISTRY.register("rice", () -> new RiceItem());
-	public static final RegistryObject<Item> RICEPLANT = block(PokeyAndAlexsModModBlocks.RICEPLANT, CreativeModeTab.TAB_TOOLS);
-	public static final RegistryObject<Item> RICEBOWLFOOD = REGISTRY.register("ricebowlfood", () -> new RicebowlfoodItem());
-	public static final RegistryObject<Item> TEST = REGISTRY.register("test", () -> new TestItem());
-	public static final RegistryObject<Item> TESTFLUID_BUCKET = REGISTRY.register("testfluid_bucket", () -> new TestfluidItem());
-	public static final RegistryObject<Item> TUNGSTENINGOT = REGISTRY.register("tungsteningot", () -> new TungsteningotItem());
 	public static final RegistryObject<Item> TUNGSTEN_ARMOR_ARMOR_HELMET = REGISTRY.register("tungsten_armor_armor_helmet",
 			() -> new Tungsten_armorArmorItem.Helmet());
 	public static final RegistryObject<Item> TUNGSTEN_ARMOR_ARMOR_CHESTPLATE = REGISTRY.register("tungsten_armor_armor_chestplate",
@@ -120,7 +120,37 @@ public class PokeyAndAlexsModModItems {
 			() -> new Tungsten_armorArmorItem.Leggings());
 	public static final RegistryObject<Item> TUNGSTEN_ARMOR_ARMOR_BOOTS = REGISTRY.register("tungsten_armor_armor_boots",
 			() -> new Tungsten_armorArmorItem.Boots());
+	public static final RegistryObject<Item> LUMINISOM_BLOCK = block(PokeyAndAlexsModModBlocks.LUMINISOM_BLOCK, PokeyAndAlexsModModTabs.TAB_PAMOD);
+	public static final RegistryObject<Item> LUMINISOM_ORE = block(PokeyAndAlexsModModBlocks.LUMINISOM_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> LUMINISOM_AXE = REGISTRY.register("luminisom_axe", () -> new LuminisomAxeItem());
+	public static final RegistryObject<Item> LUMINISOM_PICKAXE = REGISTRY.register("luminisom_pickaxe", () -> new LuminisomPickaxeItem());
+	public static final RegistryObject<Item> LUMINISOM_HOE = REGISTRY.register("luminisom_hoe", () -> new LuminisomHoeItem());
+	public static final RegistryObject<Item> LUMINISOM_SHOVEL = REGISTRY.register("luminisom_shovel", () -> new LuminisomShovelItem());
+	public static final RegistryObject<Item> TESTFLUID_BUCKET = REGISTRY.register("testfluid_bucket", () -> new TestfluidItem());
 	public static final RegistryObject<Item> BUCKETTESTFLUID = REGISTRY.register("buckettestfluid", () -> new BuckettestfluidItem());
+	public static final RegistryObject<Item> REINFORCEDTUNGSTENARMOR_HELMET = REGISTRY.register("reinforcedtungstenarmor_helmet",
+			() -> new ReinforcedtungstenarmorItem.Helmet());
+	public static final RegistryObject<Item> REINFORCEDTUNGSTENARMOR_CHESTPLATE = REGISTRY.register("reinforcedtungstenarmor_chestplate",
+			() -> new ReinforcedtungstenarmorItem.Chestplate());
+	public static final RegistryObject<Item> REINFORCEDTUNGSTENARMOR_LEGGINGS = REGISTRY.register("reinforcedtungstenarmor_leggings",
+			() -> new ReinforcedtungstenarmorItem.Leggings());
+	public static final RegistryObject<Item> REINFORCEDTUNGSTENARMOR_BOOTS = REGISTRY.register("reinforcedtungstenarmor_boots",
+			() -> new ReinforcedtungstenarmorItem.Boots());
+	public static final RegistryObject<Item> REINFORCEDTUNGSTENINGOT = REGISTRY.register("reinforcedtungsteningot",
+			() -> new ReinforcedtungsteningotItem());
+	public static final RegistryObject<Item> ORE_GETTER_BLOCK = block(PokeyAndAlexsModModBlocks.ORE_GETTER_BLOCK, PokeyAndAlexsModModTabs.TAB_PAMOD);
+	public static final RegistryObject<Item> REINFORCEDTUNGSTENORE = block(PokeyAndAlexsModModBlocks.REINFORCEDTUNGSTENORE,
+			PokeyAndAlexsModModTabs.TAB_PAMOD);
+	public static final RegistryObject<Item> REINFORCED_TUNGSTEN_PICKAXE = REGISTRY.register("reinforced_tungsten_pickaxe",
+			() -> new Reinforced_tungstenPickaxeItem());
+	public static final RegistryObject<Item> REINFORCED_TUNGSTEN_AXE = REGISTRY.register("reinforced_tungsten_axe",
+			() -> new Reinforced_tungstenAxeItem());
+	public static final RegistryObject<Item> REINFORCED_TUNGSTEN_SWORD = REGISTRY.register("reinforced_tungsten_sword",
+			() -> new Reinforced_tungstenSwordItem());
+	public static final RegistryObject<Item> REINFORCED_TUNGSTEN_SHOVEL = REGISTRY.register("reinforced_tungsten_shovel",
+			() -> new Reinforced_tungstenShovelItem());
+	public static final RegistryObject<Item> REINFORCED_TUNGSTEN_HOE = REGISTRY.register("reinforced_tungsten_hoe",
+			() -> new Reinforced_tungstenHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

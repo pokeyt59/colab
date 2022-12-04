@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pokey_and_alexs_mod:ore_getter_block"
+    }
+  ],
+  "result": {
+    "item": "pokey_and_alexs_mod:reinforcedtungsteningot",
+    "count": 9
+  }
+}

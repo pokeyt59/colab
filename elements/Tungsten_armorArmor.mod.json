@@ -42,7 +42,7 @@
     "bodyImmuneToFire": true,
     "leggingsImmuneToFire": true,
     "bootsImmuneToFire": true,
-    "maxDamage": 98,
+    "maxDamage": 100,
     "damageValueHelmet": 20,
     "damageValueBody": 43,
     "damageValueLeggings": 44,

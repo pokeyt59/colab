@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "tungsten_ingot",
     "customModelName": "Normal",
-    "name": "Tungsteningot",
+    "name": "Tungsten ingot",
     "rarity": "RARE",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Pamod"
     },
     "stackSize": 64,
     "enchantability": 20,

@@ -40,7 +40,7 @@
     "hasGravity": false,
     "isWaterloggable": true,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:Pamod"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

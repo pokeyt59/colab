@@ -1,6 +1,7 @@
 
 package pokey.alexs.mod.item;
 
+import pokey.alexs.mod.init.PokeyAndAlexsModModTabs;
 import pokey.alexs.mod.init.PokeyAndAlexsModModItems;
 import pokey.alexs.mod.init.PokeyAndAlexsModModBlocks;
 
@@ -9,7 +10,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -65,7 +65,7 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 	public static class Helmet extends LuminisomArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(PokeyAndAlexsModModTabs.TAB_PAMOD).fireResistant());
 		}
 
 		@Override
@@ -76,7 +76,7 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 	public static class Chestplate extends LuminisomArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(PokeyAndAlexsModModTabs.TAB_PAMOD).fireResistant());
 		}
 
 		@Override
@@ -87,7 +87,7 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 	public static class Leggings extends LuminisomArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(PokeyAndAlexsModModTabs.TAB_PAMOD).fireResistant());
 		}
 
 		@Override
@@ -98,7 +98,7 @@ public abstract class LuminisomArmorItem extends ArmorItem {
 
 	public static class Boots extends LuminisomArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+			super(EquipmentSlot.FEET, new Item.Properties().tab(PokeyAndAlexsModModTabs.TAB_PAMOD).fireResistant());
 		}
 
 		@Override

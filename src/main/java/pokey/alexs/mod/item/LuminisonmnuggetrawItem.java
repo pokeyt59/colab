@@ -1,6 +1,8 @@
 
 package pokey.alexs.mod.item;
 
+import pokey.alexs.mod.init.PokeyAndAlexsModModTabs;
+
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -10,7 +12,6 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
@@ -21,7 +22,7 @@ import java.util.List;
 
 public class LuminisonmnuggetrawItem extends Item {
 	public LuminisonmnuggetrawItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).fireResistant().rarity(Rarity.UNCOMMON)
+		super(new Item.Properties().tab(PokeyAndAlexsModModTabs.TAB_PAMOD).stacksTo(64).fireResistant().rarity(Rarity.UNCOMMON)
 				.food((new FoodProperties.Builder()).nutrition(10).saturationMod(1.1f)
 
 						.build()));

@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "drip_armor_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Pamod"
     },
     "armorTextureFile": "drip_armor",
     "helmetName": "Drip Helmet",

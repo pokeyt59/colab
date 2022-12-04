@@ -6,6 +6,8 @@ package pokey.alexs.mod.init;
 
 import pokey.alexs.mod.block.TestfluidBlock;
 import pokey.alexs.mod.block.RiceplantBlock;
+import pokey.alexs.mod.block.ReinforcedtungstenoreBlock;
+import pokey.alexs.mod.block.Ore_getterBlockBlock;
 import pokey.alexs.mod.block.LuminisomOreBlock;
 import pokey.alexs.mod.block.LuminisomBlockBlock;
 import pokey.alexs.mod.PokeyAndAlexsModMod;
@@ -23,10 +25,13 @@ import net.minecraft.world.level.block.Block;
 
 public class PokeyAndAlexsModModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, PokeyAndAlexsModMod.MODID);
+	public static final RegistryObject<Block> RICEPLANT = REGISTRY.register("riceplant", () -> new RiceplantBlock());
 	public static final RegistryObject<Block> LUMINISOM_BLOCK = REGISTRY.register("luminisom_block", () -> new LuminisomBlockBlock());
 	public static final RegistryObject<Block> LUMINISOM_ORE = REGISTRY.register("luminisom_ore", () -> new LuminisomOreBlock());
-	public static final RegistryObject<Block> RICEPLANT = REGISTRY.register("riceplant", () -> new RiceplantBlock());
 	public static final RegistryObject<Block> TESTFLUID = REGISTRY.register("testfluid", () -> new TestfluidBlock());
+	public static final RegistryObject<Block> ORE_GETTER_BLOCK = REGISTRY.register("ore_getter_block", () -> new Ore_getterBlockBlock());
+	public static final RegistryObject<Block> REINFORCEDTUNGSTENORE = REGISTRY.register("reinforcedtungstenore",
+			() -> new ReinforcedtungstenoreBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

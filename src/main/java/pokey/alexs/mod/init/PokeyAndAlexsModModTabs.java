@@ -11,10 +11,10 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
 public class PokeyAndAlexsModModTabs {
-	public static CreativeModeTab TAB_P_AMOD;
+	public static CreativeModeTab TAB_PAMOD;
 
 	public static void load() {
-		TAB_P_AMOD = new CreativeModeTab("tabp_amod") {
+		TAB_PAMOD = new CreativeModeTab("tabpamod") {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(PokeyAndAlexsModModItems.LUMINISONMNUGGETRAW.get());

@@ -3,7 +3,7 @@
     {
       "name": "Chaincraftingleggings",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chaincraftingleggings",
@@ -12,7 +12,7 @@
     {
       "name": "Chainmailboots",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chainmailboots",
@@ -21,7 +21,7 @@
     {
       "name": "Chainmailbreastplate",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chainmailbreastplate",
@@ -30,7 +30,7 @@
     {
       "name": "Chainmailhelmet",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chainmailhelmet",
@@ -39,7 +39,7 @@
     {
       "name": "Reversechainmailleggeings",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reversechainmailleggeings",
@@ -48,7 +48,7 @@
     {
       "name": "Reversechainmailboots",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reversechainmailboots",
@@ -57,7 +57,7 @@
     {
       "name": "Reversechainmailbreastplate",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reversechainmailbreastplate",
@@ -66,7 +66,7 @@
     {
       "name": "Reversechainmailhelmet",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reversechainmailhelmet",
@@ -75,7 +75,7 @@
     {
       "name": "Improvisedcake",
       "type": "item",
-      "sortid": 3,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "improvisedcake",
@@ -84,7 +84,7 @@
     {
       "name": "Improvisedcakecraftingraw",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "improvisedcakecraftingraw",
@@ -93,7 +93,7 @@
     {
       "name": "Cookedimprovisedcake",
       "type": "item",
-      "sortid": 2,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cookedimprovisedcake",
@@ -102,7 +102,7 @@
     {
       "name": "Improvised_cake_consume_dizzy_chance",
       "type": "procedure",
-      "sortid": 29,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "improvised_cake_consume_dizzy_chance",
@@ -119,7 +119,7 @@
     {
       "name": "CookedImprovisedcakeconsumedizzychanceProcedure",
       "type": "procedure",
-      "sortid": 31,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_improvisedcakeconsumedizzychance_procedure",
@@ -136,16 +136,16 @@
     {
       "name": "LuminisomIngot",
       "type": "item",
-      "sortid": 4,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_ingot",
-      "path": "~/ingot"
+      "path": "~/liquidated assets/ingot"
     },
     {
       "name": "LuminisomOre",
       "type": "block",
-      "sortid": 15,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_ore",
@@ -154,7 +154,7 @@
     {
       "name": "LuminisomBlock",
       "type": "block",
-      "sortid": 14,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_block",
@@ -163,7 +163,7 @@
     {
       "name": "LuminisomOreBlockRecipe",
       "type": "recipe",
-      "sortid": 32,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_ore_block_recipe",
@@ -172,7 +172,7 @@
     {
       "name": "LuminisomBlockOreRecipe",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_block_ore_recipe",
@@ -181,7 +181,7 @@
     {
       "name": "LuminisomOreSmelting",
       "type": "recipe",
-      "sortid": 34,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_ore_smelting",
@@ -190,7 +190,7 @@
     {
       "name": "LuminisomArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 35,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_armor_boots_recipe",
@@ -199,7 +199,7 @@
     {
       "name": "LuminisomArmor",
       "type": "armor",
-      "sortid": 7,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_armor",
@@ -214,7 +214,7 @@
     {
       "name": "LuminisomArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 36,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_armor_leggings_recipe",
@@ -223,7 +223,7 @@
     {
       "name": "LuminisomArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_armor_body_recipe",
@@ -232,7 +232,7 @@
     {
       "name": "LuminisomArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_armor_helmet_recipe",
@@ -241,7 +241,7 @@
     {
       "name": "Pokeytrading",
       "type": "villagertrade",
-      "sortid": 39,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pokeytrading",
@@ -250,7 +250,7 @@
     {
       "name": "Luminisomtoingot",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisomtoingot",
@@ -259,7 +259,7 @@
     {
       "name": "Luminisomtoingotbreastplate",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisomtoingotbreastplate",
@@ -268,7 +268,7 @@
     {
       "name": "Luminisomtoingotleggings",
       "type": "recipe",
-      "sortid": 42,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisomtoingotleggings",
@@ -277,7 +277,7 @@
     {
       "name": "Luminisomtoingotboots",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisomtoingotboots",
@@ -286,7 +286,7 @@
     {
       "name": "Thornreethtocharcoal",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thornreethtocharcoal",
@@ -304,7 +304,7 @@
     {
       "name": "LuminisomPickaxe",
       "type": "tool",
-      "sortid": 17,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_pickaxe",
@@ -313,7 +313,7 @@
     {
       "name": "LuminisomAxe",
       "type": "tool",
-      "sortid": 16,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_axe",
@@ -322,7 +322,7 @@
     {
       "name": "LuminisomSword",
       "type": "tool",
-      "sortid": 13,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_sword",
@@ -331,7 +331,7 @@
     {
       "name": "LuminisomShovel",
       "type": "tool",
-      "sortid": 19,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_shovel",
@@ -340,7 +340,7 @@
     {
       "name": "LuminisomHoe",
       "type": "tool",
-      "sortid": 18,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_hoe",
@@ -349,7 +349,7 @@
     {
       "name": "LuminisomPickaxeRecipe",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_pickaxe_recipe",
@@ -358,7 +358,7 @@
     {
       "name": "LuminisomAxeRecipe",
       "type": "recipe",
-      "sortid": 48,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_axe_recipe",
@@ -367,7 +367,7 @@
     {
       "name": "LuminisomSwordRecipe",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_sword_recipe",
@@ -376,7 +376,7 @@
     {
       "name": "LuminisomShovelRecipe",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_shovel_recipe",
@@ -385,7 +385,7 @@
     {
       "name": "LuminisomHoeRecipe",
       "type": "recipe",
-      "sortid": 51,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisom_hoe_recipe",
@@ -394,7 +394,7 @@
     {
       "name": "Testnotperm",
       "type": "particle",
-      "sortid": 52,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "testnotperm",
@@ -403,7 +403,7 @@
     {
       "name": "Cooked_potato_armor_legacyArmor",
       "type": "armor",
-      "sortid": 8,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_potato_armor_legacy_armor",
@@ -418,7 +418,7 @@
     {
       "name": "Cooked_potato_armor_legacyArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_potato_armor_legacy_armor_helmet_recipe",
@@ -427,7 +427,7 @@
     {
       "name": "Cooked_potato_armor_legacyArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_potato_armor_legacy_armor_body_recipe",
@@ -436,7 +436,7 @@
     {
       "name": "Cooked_potato_armor_legacyArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_potato_armor_legacy_armor_leggings_recipe",
@@ -445,7 +445,7 @@
     {
       "name": "Cooked_potato_armor_legacyArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 56,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_potato_armor_legacy_armor_boots_recipe",
@@ -454,7 +454,7 @@
     {
       "name": "Leafy_armorArmor",
       "type": "armor",
-      "sortid": 9,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leafy_armor_armor",
@@ -469,7 +469,7 @@
     {
       "name": "Leafy_armorArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leafy_armor_armor_helmet_recipe",
@@ -478,7 +478,7 @@
     {
       "name": "Leafy_armorArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leafy_armor_armor_body_recipe",
@@ -487,7 +487,7 @@
     {
       "name": "Leafy_armorArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leafy_armor_armor_leggings_recipe",
@@ -496,7 +496,7 @@
     {
       "name": "Leafy_armorArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 60,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leafy_armor_armor_boots_recipe",
@@ -505,7 +505,7 @@
     {
       "name": "Drip_armorArmor",
       "type": "armor",
-      "sortid": 10,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drip_armor_armor",
@@ -520,7 +520,7 @@
     {
       "name": "Drip_armorArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drip_armor_armor_helmet_recipe",
@@ -529,7 +529,7 @@
     {
       "name": "Drip_armorArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drip_armor_armor_body_recipe",
@@ -538,7 +538,7 @@
     {
       "name": "Drip_armorArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 63,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drip_armor_armor_leggings_recipe",
@@ -547,7 +547,7 @@
     {
       "name": "Drip_armorArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drip_armor_armor_boots_recipe",
@@ -556,7 +556,7 @@
     {
       "name": "Wood_log_armorArmor",
       "type": "armor",
-      "sortid": 11,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_log_armor_armor",
@@ -571,7 +571,7 @@
     {
       "name": "Wood_log_armorArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 65,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_log_armor_armor_helmet_recipe",
@@ -580,7 +580,7 @@
     {
       "name": "Wood_log_armorArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_log_armor_armor_body_recipe",
@@ -589,7 +589,7 @@
     {
       "name": "Wood_log_armorArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 67,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_log_armor_armor_leggings_recipe",
@@ -598,7 +598,7 @@
     {
       "name": "Wood_log_armorArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 68,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wood_log_armor_armor_boots_recipe",
@@ -607,7 +607,7 @@
     {
       "name": "Raw_potato_armorArmor",
       "type": "armor",
-      "sortid": 12,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_potato_armor_armor",
@@ -622,7 +622,7 @@
     {
       "name": "Raw_potato_armorArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 69,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_potato_armor_armor_helmet_recipe",
@@ -631,7 +631,7 @@
     {
       "name": "Raw_potato_armorArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 70,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_potato_armor_armor_body_recipe",
@@ -640,7 +640,7 @@
     {
       "name": "Raw_potato_armorArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_potato_armor_armor_leggings_recipe",
@@ -649,7 +649,7 @@
     {
       "name": "Raw_potato_armorArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_potato_armor_armor_boots_recipe",
@@ -658,7 +658,7 @@
     {
       "name": "Cobble_stone_armorArmor",
       "type": "armor",
-      "sortid": 73,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobble_stone_armor_armor",
@@ -673,7 +673,7 @@
     {
       "name": "Cobble_stone_armorArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 74,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobble_stone_armor_armor_helmet_recipe",
@@ -682,7 +682,7 @@
     {
       "name": "Cobble_stone_armorArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 75,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobble_stone_armor_armor_body_recipe",
@@ -691,7 +691,7 @@
     {
       "name": "Cobble_stone_armorArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 76,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobble_stone_armor_armor_leggings_recipe",
@@ -700,7 +700,7 @@
     {
       "name": "Cobble_stone_armorArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobble_stone_armor_armor_boots_recipe",
@@ -709,7 +709,7 @@
     {
       "name": "Rawarmortocookedhelm",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rawarmortocookedhelm",
@@ -718,7 +718,7 @@
     {
       "name": "Rawarmortocookedbreastplate",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rawarmortocookedbreastplate",
@@ -727,7 +727,7 @@
     {
       "name": "Rawarmortocookedleggins",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rawarmortocookedleggins",
@@ -736,7 +736,7 @@
     {
       "name": "Rawarmortocookedboots",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rawarmortocookedboots",
@@ -745,7 +745,7 @@
     {
       "name": "Rawarmortocookedhelmsmelt",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rawarmortocookedhelmsmelt",
@@ -754,7 +754,7 @@
     {
       "name": "Rawarmortocookedbreastplatesmelt",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rawarmortocookedbreastplatesmelt",
@@ -763,7 +763,7 @@
     {
       "name": "Rawarmortocookedleggingssmelt",
       "type": "recipe",
-      "sortid": 84,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rawarmortocookedleggingssmelt",
@@ -772,7 +772,7 @@
     {
       "name": "Rawarmortocookedbootssmelt",
       "type": "recipe",
-      "sortid": 85,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rawarmortocookedbootssmelt",
@@ -781,7 +781,7 @@
     {
       "name": "WoodarmorextendHelm",
       "type": "itemextension",
-      "sortid": 87,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "woodarmorextend_helm",
@@ -790,7 +790,7 @@
     {
       "name": "Woodarmorextendbreastplate",
       "type": "itemextension",
-      "sortid": 88,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "woodarmorextendbreastplate",
@@ -799,7 +799,7 @@
     {
       "name": "Woodarmorextendleggings",
       "type": "itemextension",
-      "sortid": 89,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "woodarmorextendleggings",
@@ -808,7 +808,7 @@
     {
       "name": "Woodarmorextendboots",
       "type": "itemextension",
-      "sortid": 90,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "woodarmorextendboots",
@@ -817,7 +817,7 @@
     {
       "name": "Leafyarmorextendhelm",
       "type": "itemextension",
-      "sortid": 91,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leafyarmorextendhelm",
@@ -826,7 +826,7 @@
     {
       "name": "Leafyarmorextendbreastplate",
       "type": "itemextension",
-      "sortid": 92,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leafyarmorextendbreastplate",
@@ -835,7 +835,7 @@
     {
       "name": "Leafyarmorextendleggins",
       "type": "itemextension",
-      "sortid": 93,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leafyarmorextendleggins",
@@ -844,7 +844,7 @@
     {
       "name": "Leafyarmorextendboots",
       "type": "itemextension",
-      "sortid": 94,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leafyarmorextendboots",
@@ -853,7 +853,7 @@
     {
       "name": "Luminisomenuggetburn",
       "type": "itemextension",
-      "sortid": 95,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "luminisomenuggetburn",
@@ -862,7 +862,7 @@
     {
       "name": "Cookedimprovisedcakecraft",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cookedimprovisedcakecraft",
@@ -871,7 +871,7 @@
     {
       "name": "Testpotionitem",
       "type": "potion",
-      "sortid": 97,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "testpotionitem",
@@ -880,7 +880,7 @@
     {
       "name": "Rice",
       "type": "item",
-      "sortid": 98,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rice",
@@ -889,7 +889,7 @@
     {
       "name": "Riceplant",
       "type": "plant",
-      "sortid": 99,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "riceplant",
@@ -898,7 +898,7 @@
     {
       "name": "Riceseedtorice",
       "type": "recipe",
-      "sortid": 99,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "riceseedtorice",
@@ -907,7 +907,7 @@
     {
       "name": "Ricetoriceseed",
       "type": "recipe",
-      "sortid": 100,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ricetoriceseed",
@@ -916,7 +916,7 @@
     {
       "name": "Ricebowlrecipe",
       "type": "recipe",
-      "sortid": 101,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ricebowlrecipe",
@@ -925,7 +925,7 @@
     {
       "name": "Ricebowlfood",
       "type": "item",
-      "sortid": 102,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ricebowlfood",
@@ -943,7 +943,7 @@
     {
       "name": "Test",
       "type": "musicdisc",
-      "sortid": 104,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test",
@@ -952,7 +952,7 @@
     {
       "name": "Testfluid",
       "type": "fluid",
-      "sortid": 105,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "testfluid",
@@ -964,24 +964,16 @@
     {
       "name": "Lightliquidpartical",
       "type": "particle",
-      "sortid": 106,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightliquidpartical",
       "path": "~/particals"
     },
     {
-      "name": "PAmod",
-      "type": "tab",
-      "sortid": 107,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "p_amod"
-    },
-    {
       "name": "Paintingtest",
       "type": "painting",
-      "sortid": 108,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "paintingtest",
@@ -990,15 +982,16 @@
     {
       "name": "Tungsteningot",
       "type": "item",
-      "sortid": 109,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tungsteningot"
+      "registry_name": "tungsteningot",
+      "path": "~/liquidated assets/ingot"
     },
     {
       "name": "Tungsten_armorArmor",
       "type": "armor",
-      "sortid": 110,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_armor_armor",
@@ -1013,7 +1006,7 @@
     {
       "name": "Tungsten_armorArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 111,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_armor_armor_helmet_recipe",
@@ -1022,7 +1015,7 @@
     {
       "name": "Tungsten_armorArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 112,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_armor_armor_body_recipe",
@@ -1031,7 +1024,7 @@
     {
       "name": "Tungsten_armorArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 113,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_armor_armor_leggings_recipe",
@@ -1040,7 +1033,7 @@
     {
       "name": "Tungsten_armorArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 114,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tungsten_armor_armor_boots_recipe",
@@ -1049,7 +1042,7 @@
     {
       "name": "Buckettestfluid",
       "type": "item",
-      "sortid": 115,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "buckettestfluid",
@@ -1058,7 +1051,7 @@
     {
       "name": "Empty",
       "type": "procedure",
-      "sortid": 115,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empty",
@@ -1075,6 +1068,173 @@
         ]
       },
       "path": "~/fluid/procedures"
+    },
+    {
+      "name": "Pamod",
+      "type": "tab",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pamod"
+    },
+    {
+      "name": "Reinforcedtungstenarmor",
+      "type": "armor",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforcedtungstenarmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "Reinforcedtungsteningot",
+      "type": "item",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforcedtungsteningot",
+      "path": "~/liquidated assets/ingot"
+    },
+    {
+      "name": "Ore_getterBlock",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_getter_block",
+      "path": "~/block"
+    },
+    {
+      "name": "Ore_getterBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_getter_block_ore_recipe",
+      "path": "~/block/crafting"
+    },
+    {
+      "name": "Ore_getterOreSmelting",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_getter_ore_smelting",
+      "path": "~/smelting"
+    },
+    {
+      "name": "Reinforcedtungsteningottobock",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforcedtungsteningottobock",
+      "path": "~/block/crafting"
+    },
+    {
+      "name": "Reinforcedtungstenore",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforcedtungstenore",
+      "path": "~/ore"
+    },
+    {
+      "name": "Reinforced_tungstenPickaxe",
+      "type": "tool",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_tungsten_pickaxe",
+      "path": "~/tools/tungsten/reinfourced"
+    },
+    {
+      "name": "Reinforced_tungstenAxe",
+      "type": "tool",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_tungsten_axe",
+      "path": "~/tools/tungsten/reinfourced"
+    },
+    {
+      "name": "Reinforced_tungstenSword",
+      "type": "tool",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_tungsten_sword",
+      "path": "~/tools/tungsten/reinfourced"
+    },
+    {
+      "name": "Reinforced_tungstenShovel",
+      "type": "tool",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_tungsten_shovel",
+      "path": "~/tools/tungsten/reinfourced"
+    },
+    {
+      "name": "Reinforced_tungstenHoe",
+      "type": "tool",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_tungsten_hoe",
+      "path": "~/tools/tungsten/reinfourced"
+    },
+    {
+      "name": "Reinforced_tungstenPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_tungsten_pickaxe_recipe",
+      "path": "~/tools/crafting/tungsten/reinfourced"
+    },
+    {
+      "name": "Reinforced_tungstenAxeRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_tungsten_axe_recipe",
+      "path": "~/tools/crafting/tungsten/reinfourced"
+    },
+    {
+      "name": "Reinforced_tungstenSwordRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_tungsten_sword_recipe",
+      "path": "~/tools/crafting/tungsten/reinfourced"
+    },
+    {
+      "name": "Reinforced_tungstenShovelRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_tungsten_shovel_recipe",
+      "path": "~/tools/crafting/tungsten/reinfourced"
+    },
+    {
+      "name": "Reinforced_tungstenHoeRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_tungsten_hoe_recipe",
+      "path": "~/tools/crafting/tungsten/reinfourced"
     }
   ],
   "variable_elements": [
@@ -1107,17 +1267,18 @@
     "ru_ru": {
       "item.test.luminisom_pickaxe": "Luminisom Pickaxe",
       "item.pokey_and_alexs_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
+      "itemGroup.tabpamod": "pokey and alex\u0027s mod",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
-      "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked_potato_armor_legacy Leggings",
       "block.pokey_and_alexs__mc_mod.testfluid": "Testfluid",
+      "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked_potato_armor_legacy Leggings",
       "item.test.drip_armor_armor_boots": "Drip_armor Boots",
-      "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_boots": "Raw potato Boots",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_chestplate": "Drip Chestplate",
+      "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_boots": "Raw potato Boots",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_chestplate": "Cooked potato Chestplate",
       "item.pokey_and_alexs_mod.tungsten_armor_armor_leggings": "Tungsten_armor Leggings",
-      "item.pokey_and_alexs_mod.luminisonmnuggetraw": "Luminisonm nugget raw",
-      "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_boots": "Wood log Boots",
       "item.test.wood_log_armor_armor_leggings": "Wood_log_armor Leggings",
+      "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_boots": "Wood log Boots",
+      "item.pokey_and_alexs_mod.luminisonmnuggetraw": "Luminisonm nugget raw",
       "item.pokey_and_alexs__mc_mod.luminisom_pickaxe": "Luminisom Pickaxe",
       "item.test.leafy_armor_armor_boots": "Leafy_armor Boots",
       "item.test.luminisom_armor_boots": "Люминисовые ботинки",
@@ -1126,6 +1287,8 @@
       "item.test.leafy_armor_armor_chestplate": "Leafy_armor Chestplate",
       "item.pokey_and_alexs_mod.rice": "uncooked Rice",
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_chestplate": "Raw potato Chestplate",
+      "item.pokey_and_alexs_mod.reinforced_tungsten_pickaxe": "Reinforced_tungsten Pickaxe",
+      "item.pokey_and_alexs_mod.reinforced_tungsten_sword": "Reinforced_tungsten Sword",
       "item.pokey_and_alexs_mod.wood_log_armor_armor_helmet": "Wood log Helmet",
       "item.test.luminisom_axe": "Luminisom Axe",
       "item.pokey_and_alexs__mc_mod.test.desc": "music made by pokey",
@@ -1160,6 +1323,7 @@
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_leggings": "Drip Leggings",
       "subtitles.clasic_legacy_sounds_player": "potatos rubbing against skin",
       "item.pokey_and_alexs_mod.testfluid_bucket": "Testfluid Bucket",
+      "item.pokey_and_alexs_mod.reinforcedtungstenarmor_leggings": "Tungsten Leggings",
       "block.pokey_and_alexs__mc_mod.riceplant": "rice plant",
       "item.pokey_and_alexs__mc_mod.test": "Test",
       "item.pokey_and_alexs_mod.luminisom_armor_boots": "Luminisom Boots",
@@ -1180,6 +1344,8 @@
       "item.pokey_and_alexs_mod.improvisedcake": "raw Improvised cake",
       "item.pokey_and_alexs_mod.drip_armor_armor_helmet": "Drip Helmet",
       "item.pokey_and_alexs_mod.raw_potato_armor_armor_leggings": "Raw potato Leggings",
+      "item.pokey_and_alexs_mod.reinforcedtungstenarmor_boots": "Tungsten Boots",
+      "item.pokey_and_alexs_mod.reinforcedtungstenarmor_helmet": "Tungsten Helmet",
       "item.test.raw_potato_armor_armor_helmet": "Raw_potato_armor Helmet",
       "item.pokey_and_alexs__mc_mod.cobble_stone_armor_armor_chestplate": "Cobble_stone_armor Chestplate",
       "item.pokey_and_alexs_mod.wood_log_armor_armor_leggings": "Wood log Leggings",
@@ -1212,6 +1378,7 @@
       "item.pokey_and_alexs__mc_mod.ricebowlfood": "Ricebowlfood",
       "item.test.cooked_potato_armor_legacy_armor_chestplate": "Cooked_potato_armor_legacy Chestplate",
       "item.pokey_and_alexs__mc_mod.cookedimprovisedcake": "cooked Improvised cake",
+      "item.pokey_and_alexs_mod.reinforcedtungstenarmor_chestplate": "Tungsten Chestplate",
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_helmet": "Raw potato Helmet",
       "item.pokey_and_alexs__mc_mod.cobble_stone_armor_armor_helmet": "Cobble_stone_armor Helmet",
       "item.pokey_and_alexs_mod.tungsten_armor_armor_boots": "Tungsten_armor Boots",
@@ -1226,6 +1393,7 @@
       "item.pokey_and_alexs_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
       "item.test.luminisom_armor_helmet": "Люминисовый шлем",
       "block.pokey_and_alexs_mod.testfluid": "Testfluid",
+      "item.pokey_and_alexs_mod.reinforcedtungsteningot": "Reinforcedtungsteningot",
       "item.test.leafy_armor_armor_helmet": "Leafy_armor Helmet",
       "item.test.cobble_stone_armor_armor_chestplate": "Cobble_stone_armor Chestplate",
       "item.pokey_and_alexs_mod.wood_log_armor_armor_chestplate": "Wood log Chestplate",
@@ -1234,20 +1402,25 @@
       "key.test.jumpbindforthornreethelmet": "Двойной прыжок для Шипового шлема",
       "item.test.luminisom_shovel": "Luminisom Shovel",
       "item.test.thornreethhelm_helmet": "Шиповый шлем",
+      "item.pokey_and_alexs_mod.reinforced_tungsten_hoe": "Reinforced_tungsten Hoe",
       "subtitles.clasic_legacy_sounds_music": "awesome music",
       "item.pokey_and_alexs_mod.test.desc": "music made by pokey",
       "block.pokey_and_alexs__mc_mod.luminisom_ore": "Luminisom Ore",
       "item.test.luminisom_sword": "Luminisom Sword",
       "item.pokey_and_alexs_mod.cookedimprovisedcake": "cooked Improvised cake",
       "item.pokey_and_alexs__mc_mod.luminisom_armor_helmet": "Luminisom Helmet",
+      "block.pokey_and_alexs_mod.ore_getter_block": "Block of Ore_getter",
       "item.test.wood_log_armor_armor_helmet": "Wood_log_armor Helmet",
       "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_leggings": "Wood log Leggings",
       "item.pokey_and_alexs_mod.luminisom_shovel": "Luminisom Shovel",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_boots": "Drip Boots",
       "subtitles.clasic_legacy_sounds": "potatos rubbing against skin",
+      "item.pokey_and_alexs_mod.reinforced_tungsten_axe": "Reinforced_tungsten Axe",
       "item.pokey_and_alexs_mod.drip_armor_armor_leggings": "Drip Leggings",
       "block.test.luminisom_ore": "Люминисовая руда",
+      "block.pokey_and_alexs_mod.reinforcedtungstenore": "Ore_getter Ore",
       "item.pokey_and_alexs__mc_mod.cobble_stone_armor_armor_boots": "Cobble_stone_armor Boots",
+      "item.pokey_and_alexs_mod.reinforced_tungsten_shovel": "Reinforced_tungsten Shovel",
       "item.pokey_and_alexs__mc_mod.luminisom_ingot": "Luminisom",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_helmet": "Cooked potato Helmet",
       "item.pokey_and_alexs_mod.leafy_armor_armor_helmet": "Leafy Helmet",
@@ -1255,24 +1428,24 @@
       "item.pokey_and_alexs_mod.wood_log_armor_armor_boots": "Wood log Boots",
       "item.test.wood_log_armor_armor_boots": "Wood_log_armor Boots",
       "item.pokey_and_alexs__mc_mod.improvisedcake": "raw Improvised cake",
-      "itemGroup.tabp_amod": "pokey and alex\u0027s mod",
       "item.pokey_and_alexs_mod.test": "Test",
       "item.test.wood_log_armor_armor_chestplate": "Wood_log_armor Chestplate"
     },
     "en_us": {
       "item.test.luminisom_pickaxe": "Luminisom Pickaxe",
       "item.pokey_and_alexs_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
+      "itemGroup.tabpamod": "p a\u0027s mod",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
-      "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
       "block.pokey_and_alexs__mc_mod.testfluid": "Testfluid",
+      "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
       "item.test.drip_armor_armor_boots": "Drip Boots",
-      "item.pokey_and_alexs__mc_mod.drip_armor_armor_chestplate": "Drip Chestplate",
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_boots": "Raw potato Boots",
+      "item.pokey_and_alexs__mc_mod.drip_armor_armor_chestplate": "Drip Chestplate",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_chestplate": "Cooked potato Chestplate",
       "item.pokey_and_alexs_mod.tungsten_armor_armor_leggings": "Tungsten Leggings",
-      "item.pokey_and_alexs_mod.luminisonmnuggetraw": "Luminisonm nugget raw",
-      "item.test.wood_log_armor_armor_leggings": "Wood log Leggings",
       "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_boots": "Wood log Boots",
+      "item.test.wood_log_armor_armor_leggings": "Wood log Leggings",
+      "item.pokey_and_alexs_mod.luminisonmnuggetraw": "Luminisonm nugget raw",
       "item.test.luminisom_armor_boots": "Luminisom Boots",
       "item.test.leafy_armor_armor_boots": "Leafy Boots",
       "item.pokey_and_alexs__mc_mod.luminisom_pickaxe": "Luminisom Pickaxe",
@@ -1281,6 +1454,8 @@
       "item.test.leafy_armor_armor_chestplate": "Leafy Chestplate",
       "item.pokey_and_alexs_mod.rice": "uncooked Rice",
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_chestplate": "Raw potato Chestplate",
+      "item.pokey_and_alexs_mod.reinforced_tungsten_pickaxe": "Reinforced_tungsten Pickaxe",
+      "item.pokey_and_alexs_mod.reinforced_tungsten_sword": "Reinforced_tungsten Sword",
       "item.pokey_and_alexs_mod.wood_log_armor_armor_helmet": "Wood log Helmet",
       "item.test.luminisom_axe": "Luminisom Axe",
       "item.pokey_and_alexs__mc_mod.test.desc": "music made by pokey",
@@ -1315,6 +1490,7 @@
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_leggings": "Drip Leggings",
       "subtitles.clasic_legacy_sounds_player": "potatos rubbing against skin",
       "item.pokey_and_alexs_mod.testfluid_bucket": "Testfluid Bucket",
+      "item.pokey_and_alexs_mod.reinforcedtungstenarmor_leggings": "Reinfourced tungsten Leggings",
       "block.pokey_and_alexs__mc_mod.riceplant": "rice plant",
       "item.pokey_and_alexs__mc_mod.test": "Test",
       "item.pokey_and_alexs_mod.luminisom_armor_boots": "Luminisom Boots",
@@ -1330,11 +1506,13 @@
       "item.pokey_and_alexs_mod.luminisom_armor_helmet": "Luminisom Helmet",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_helmet": "Drip Helmet",
       "item.pokey_and_alexs_mod.leafy_armor_armor_chestplate": "Leafy Chestplate",
-      "item.pokey_and_alexs_mod.tungsteningot": "Tungsteningot",
+      "item.pokey_and_alexs_mod.tungsteningot": "Tungsten ingot",
       "item.minecraft.tipped_arrow.effect.testpotionitem": "Arrow of Testpotionitem",
       "item.pokey_and_alexs_mod.improvisedcake": "raw Improvised cake",
       "item.pokey_and_alexs_mod.drip_armor_armor_helmet": "Drip Helmet",
       "item.pokey_and_alexs_mod.raw_potato_armor_armor_leggings": "Raw potato Leggings",
+      "item.pokey_and_alexs_mod.reinforcedtungstenarmor_boots": "Reinfourced tungsten Boots",
+      "item.pokey_and_alexs_mod.reinforcedtungstenarmor_helmet": "Reinfourced tungsten Helmet",
       "item.test.raw_potato_armor_armor_helmet": "Raw potato Helmet",
       "item.pokey_and_alexs__mc_mod.cobble_stone_armor_armor_chestplate": "Cobble stone Chestplate",
       "item.pokey_and_alexs_mod.wood_log_armor_armor_leggings": "Wood log Leggings",
@@ -1367,6 +1545,7 @@
       "item.pokey_and_alexs__mc_mod.ricebowlfood": "Rice bowl",
       "item.test.cooked_potato_armor_legacy_armor_chestplate": "Cooked potato Chestplate",
       "item.pokey_and_alexs__mc_mod.cookedimprovisedcake": "cooked Improvised cake",
+      "item.pokey_and_alexs_mod.reinforcedtungstenarmor_chestplate": "Reinfourced tungsten Chestplate",
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_helmet": "Raw potato Helmet",
       "item.pokey_and_alexs__mc_mod.cobble_stone_armor_armor_helmet": "Cobble stone Helmet",
       "item.pokey_and_alexs_mod.tungsten_armor_armor_boots": "Tungsten Boots",
@@ -1381,6 +1560,7 @@
       "item.pokey_and_alexs_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
       "item.test.luminisom_armor_helmet": "Luminisom Helmet",
       "block.pokey_and_alexs_mod.testfluid": "Testfluid",
+      "item.pokey_and_alexs_mod.reinforcedtungsteningot": "Reinforcedtungsteningot",
       "item.test.leafy_armor_armor_helmet": "Leafy Helmet",
       "item.test.cobble_stone_armor_armor_chestplate": "Cobble_stone_armor Chestplate",
       "item.pokey_and_alexs_mod.wood_log_armor_armor_chestplate": "Wood log Chestplate",
@@ -1388,20 +1568,25 @@
       "item.test.luminisonmnuggetraw": "Luminisonmnuggetraw",
       "item.test.luminisom_shovel": "Luminisom Shovel",
       "item.test.thornreethhelm_helmet": "Thornreethhelm Helmet",
+      "item.pokey_and_alexs_mod.reinforced_tungsten_hoe": "Reinforced_tungsten Hoe",
       "subtitles.clasic_legacy_sounds_music": "awesome music",
       "item.pokey_and_alexs_mod.test.desc": "music made by pokey",
       "block.pokey_and_alexs__mc_mod.luminisom_ore": "Luminisom Ore",
       "item.test.luminisom_sword": "Luminisom Sword",
       "item.pokey_and_alexs_mod.cookedimprovisedcake": "cooked Improvised cake",
       "item.pokey_and_alexs__mc_mod.luminisom_armor_helmet": "Luminisom Helmet",
+      "block.pokey_and_alexs_mod.ore_getter_block": "Block of Ore_getter",
       "item.test.wood_log_armor_armor_helmet": "Wood log Helmet",
       "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_leggings": "Wood log Leggings",
       "item.pokey_and_alexs_mod.luminisom_shovel": "Luminisom Shovel",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_boots": "Drip Boots",
       "subtitles.clasic_legacy_sounds": "potatos rubbing against skin",
+      "item.pokey_and_alexs_mod.reinforced_tungsten_axe": "Reinforced_tungsten Axe",
       "item.pokey_and_alexs_mod.drip_armor_armor_leggings": "Drip Leggings",
       "block.test.luminisom_ore": "Luminisom Ore",
+      "block.pokey_and_alexs_mod.reinforcedtungstenore": "Ore_getter Ore",
       "item.pokey_and_alexs__mc_mod.cobble_stone_armor_armor_boots": "Cobble stone Boots",
+      "item.pokey_and_alexs_mod.reinforced_tungsten_shovel": "Reinforced_tungsten Shovel",
       "item.pokey_and_alexs__mc_mod.luminisom_ingot": "Luminisom ingot",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_helmet": "Cooked potato Helmet",
       "item.pokey_and_alexs_mod.leafy_armor_armor_helmet": "Leafy Helmet",
@@ -1409,7 +1594,6 @@
       "item.pokey_and_alexs_mod.wood_log_armor_armor_boots": "Wood log Boots",
       "item.test.wood_log_armor_armor_boots": "Wood log Boots",
       "item.pokey_and_alexs__mc_mod.improvisedcake": "raw Improvised cake",
-      "itemGroup.tabp_amod": "pokey and alex\u0027s mod",
       "item.pokey_and_alexs_mod.test": "Test",
       "item.test.wood_log_armor_armor_chestplate": "Wood log Chestplate"
     }
@@ -1425,10 +1609,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "ingot",
-        "children": []
       },
       {
         "name": "smelting",
@@ -1457,10 +1637,6 @@
                 "children": []
               }
             ]
-          },
-          {
-            "name": "items",
-            "children": []
           },
           {
             "name": "rice",
@@ -1550,7 +1726,26 @@
         "children": [
           {
             "name": "crafting",
-            "children": []
+            "children": [
+              {
+                "name": "tungsten",
+                "children": [
+                  {
+                    "name": "reinfourced",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "tungsten",
+            "children": [
+              {
+                "name": "reinfourced",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -1582,13 +1777,22 @@
       {
         "name": "paintings",
         "children": []
+      },
+      {
+        "name": "liquidated assets",
+        "children": [
+          {
+            "name": "ingot",
+            "children": []
+          }
+        ]
       }
     ]
   },
   "workspaceSettings": {
     "modid": "pokey_and_alexs_mod",
     "modName": "pokey and alex\u0027s mod",
-    "version": "2.17.23",
+    "version": "2.19.24",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://mcreator.net",

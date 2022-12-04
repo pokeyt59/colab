@@ -2,6 +2,7 @@
 package pokey.alexs.mod.item;
 
 import pokey.alexs.mod.procedures.Improvised_cake_consume_dizzy_chanceProcedure;
+import pokey.alexs.mod.init.PokeyAndAlexsModModTabs;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
@@ -9,7 +10,6 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.network.chat.TextComponent;
@@ -19,7 +19,7 @@ import java.util.List;
 
 public class ImprovisedcakeItem extends Item {
 	public ImprovisedcakeItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).rarity(Rarity.UNCOMMON)
+		super(new Item.Properties().tab(PokeyAndAlexsModModTabs.TAB_PAMOD).stacksTo(64).rarity(Rarity.UNCOMMON)
 				.food((new FoodProperties.Builder()).nutrition(6).saturationMod(2.2f)
 
 						.meat().build()));

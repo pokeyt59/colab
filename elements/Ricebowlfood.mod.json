@@ -8,7 +8,7 @@
     "name": "Rice bowl",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Pamod"
     },
     "stackSize": 64,
     "enchantability": 0,

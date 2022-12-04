@@ -8,12 +8,12 @@
     "name": "Luminisom Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Pamod"
     },
     "toolType": "Sword",
     "harvestLevel": 5,
     "efficiency": 10.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 0.30000000000000004,
     "enchantability": 35,
     "damageVsEntity": 15.0,
     "usageCount": 902,

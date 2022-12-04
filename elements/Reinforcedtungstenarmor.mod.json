@@ -1,0 +1,62 @@
+{
+  "_fv": 34,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "weighted_renforced_armor_head",
+    "enableBody": true,
+    "textureBody": "weighted_renforced_armor_body",
+    "enableLeggings": true,
+    "textureLeggings": "weighted_renforced_armor_leggings",
+    "enableBoots": true,
+    "textureBoots": "weighted_renforced_armor_boots",
+    "creativeTab": {
+      "value": "CUSTOM:Pamod"
+    },
+    "armorTextureFile": "weighted_renforced_armor__",
+    "helmetName": "Reinfourced tungsten Helmet",
+    "bodyName": "Reinfourced tungsten Chestplate",
+    "leggingsName": "Reinfourced tungsten Leggings",
+    "bootsName": "Reinfourced tungsten Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 200,
+    "damageValueHelmet": 40,
+    "damageValueBody": 86,
+    "damageValueLeggings": 88,
+    "damageValueBoots": 36,
+    "enchantability": 100,
+    "toughness": 8.0,
+    "knockbackResistance": 2.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Reinforcedtungsteningot"
+      }
+    ]
+  }
+}
