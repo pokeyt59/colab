@@ -138,7 +138,6 @@ public class PokeyAndAlexsModModItems {
 			() -> new ReinforcedtungstenarmorItem.Boots());
 	public static final RegistryObject<Item> REINFORCEDTUNGSTENINGOT = REGISTRY.register("reinforcedtungsteningot",
 			() -> new ReinforcedtungsteningotItem());
-	public static final RegistryObject<Item> ORE_GETTER_BLOCK = block(PokeyAndAlexsModModBlocks.ORE_GETTER_BLOCK, PokeyAndAlexsModModTabs.TAB_PAMOD);
 	public static final RegistryObject<Item> REINFORCEDTUNGSTENORE = block(PokeyAndAlexsModModBlocks.REINFORCEDTUNGSTENORE,
 			PokeyAndAlexsModModTabs.TAB_PAMOD);
 	public static final RegistryObject<Item> REINFORCED_TUNGSTEN_PICKAXE = REGISTRY.register("reinforced_tungsten_pickaxe",
@@ -151,6 +150,10 @@ public class PokeyAndAlexsModModItems {
 			() -> new Reinforced_tungstenShovelItem());
 	public static final RegistryObject<Item> REINFORCED_TUNGSTEN_HOE = REGISTRY.register("reinforced_tungsten_hoe",
 			() -> new Reinforced_tungstenHoeItem());
+	public static final RegistryObject<Item> REINFORCEDTUNGSTENBLOCK = block(PokeyAndAlexsModModBlocks.REINFORCEDTUNGSTENBLOCK,
+			PokeyAndAlexsModModTabs.TAB_PAMOD);
+	public static final RegistryObject<Item> TUNGSTEN_ORE = block(PokeyAndAlexsModModBlocks.TUNGSTEN_ORE, PokeyAndAlexsModModTabs.TAB_PAMOD);
+	public static final RegistryObject<Item> TUNGSTEN_BLOCK = block(PokeyAndAlexsModModBlocks.TUNGSTEN_BLOCK, PokeyAndAlexsModModTabs.TAB_PAMOD);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

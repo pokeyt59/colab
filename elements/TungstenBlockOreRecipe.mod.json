@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Reinforcedtungstenblock"
+        "value": "CUSTOM:TungstenBlock"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Reinforcedtungsteningot"
+      "value": "CUSTOM:Tungsteningot"
     },
-    "name": "reinforcedtungsteningottobock",
+    "name": "tungsten_block_ore_recipe",
     "namespace": "mod"
   }
 }

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
-  "experience": 1.47,
+  "experience": 255.47,
   "cookingtime": 1320,
   "ingredient": {
-    "item": "pokey_and_alexs_mod:ore_getter_ore"
+    "item": "pokey_and_alexs_mod:reinforcedtungstenore"
   },
   "result": "pokey_and_alexs_mod:reinforcedtungsteningot"
 }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "pokey_and_alexs_mod:tungsten_ore"
+  },
+  "result": "pokey_and_alexs_mod:tungsten_ingot"
+}

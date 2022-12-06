@@ -3,13 +3,13 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
-    "xpReward": 1.47,
+    "xpReward": 255.47,
     "cookingTime": 1320,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:Ore_getterOre"
+      "value": "CUSTOM:Reinforcedtungstenore"
     },
     "smeltingReturnStack": {
       "value": "CUSTOM:Reinforcedtungsteningot"

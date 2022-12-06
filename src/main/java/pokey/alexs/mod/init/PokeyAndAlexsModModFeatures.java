@@ -5,6 +5,7 @@
 package pokey.alexs.mod.init;
 
 import pokey.alexs.mod.world.features.plants.RiceplantFeature;
+import pokey.alexs.mod.world.features.ores.TungstenOreFeature;
 import pokey.alexs.mod.world.features.ores.ReinforcedtungstenoreFeature;
 import pokey.alexs.mod.world.features.ores.LuminisomOreFeature;
 import pokey.alexs.mod.world.features.lakes.TestfluidFeature;
@@ -41,6 +42,8 @@ public class PokeyAndAlexsModModFeatures {
 	public static final RegistryObject<Feature<?>> REINFORCEDTUNGSTENORE = register("reinforcedtungstenore", ReinforcedtungstenoreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, ReinforcedtungstenoreFeature.GENERATE_BIOMES,
 					ReinforcedtungstenoreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> TUNGSTEN_ORE = register("tungsten_ore", TungstenOreFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, TungstenOreFeature.GENERATE_BIOMES, TungstenOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

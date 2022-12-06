@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Ore_getterBlock"
+      "value": "CUSTOM:Reinforcedtungstenblock"
     },
-    "name": "ore_getter_block_ore_recipe",
+    "name": "reinforcedtungsteningottoblock",
     "namespace": "mod"
   }
 }

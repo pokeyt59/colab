@@ -3,7 +3,9 @@
   "values": [
     "pokey_and_alexs_mod:luminisom_block",
     "pokey_and_alexs_mod:luminisom_ore",
-    "pokey_and_alexs_mod:ore_getter_block",
-    "pokey_and_alexs_mod:reinforcedtungstenore"
+    "pokey_and_alexs_mod:reinforcedtungstenore",
+    "pokey_and_alexs_mod:reinforcedtungstenblock",
+    "pokey_and_alexs_mod:tungsten_ore",
+    "pokey_and_alexs_mod:tungsten_block"
   ]
 }

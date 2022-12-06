@@ -284,15 +284,6 @@
       "path": "~/armor/cooking/smelting"
     },
     {
-      "name": "Thornreethtocharcoal",
-      "type": "recipe",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "thornreethtocharcoal",
-      "path": "~/armor/cooking/smelting"
-    },
-    {
       "name": "Luminisonmnuggetraw",
       "type": "item",
       "sortid": 5,
@@ -1102,24 +1093,6 @@
       "path": "~/liquidated assets/ingot"
     },
     {
-      "name": "Ore_getterBlock",
-      "type": "block",
-      "sortid": 116,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ore_getter_block",
-      "path": "~/block"
-    },
-    {
-      "name": "Ore_getterBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 118,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ore_getter_block_ore_recipe",
-      "path": "~/block/crafting"
-    },
-    {
       "name": "Ore_getterOreSmelting",
       "type": "recipe",
       "sortid": 119,
@@ -1235,6 +1208,69 @@
       "locked_code": false,
       "registry_name": "reinforced_tungsten_hoe_recipe",
       "path": "~/tools/crafting/tungsten/reinfourced"
+    },
+    {
+      "name": "Reinforcedtungstenblock",
+      "type": "block",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforcedtungstenblock",
+      "path": "~/block"
+    },
+    {
+      "name": "TungstenOre",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore",
+      "path": "~/ore"
+    },
+    {
+      "name": "TungstenBlock",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_block",
+      "path": "~/block"
+    },
+    {
+      "name": "TungstenOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore_block_recipe",
+      "path": "~/block/crafting"
+    },
+    {
+      "name": "TungstenBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_block_ore_recipe",
+      "path": "~/block/crafting"
+    },
+    {
+      "name": "TungstenOreSmelting",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore_smelting",
+      "path": "~/smelting"
+    },
+    {
+      "name": "Reinforcedtungsteningottoblock",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforcedtungsteningottoblock",
+      "path": "~/block/crafting"
     }
   ],
   "variable_elements": [
@@ -1266,6 +1302,7 @@
   "language_map": {
     "ru_ru": {
       "item.test.luminisom_pickaxe": "Luminisom Pickaxe",
+      "block.pokey_and_alexs_mod.tungsten_ore": "Tungsten Ore",
       "item.pokey_and_alexs_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
       "itemGroup.tabpamod": "pokey and alex\u0027s mod",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
@@ -1371,7 +1408,6 @@
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_chestplate": "Leafy Chestplate",
       "item.pokey_and_alexs_mod.drip_armor_armor_chestplate": "Drip Chestplate",
       "item.test.cookedimprovisedcake": "Приготовленный импровизированный торт",
-      "item.test.thornreethhelm_boots": "Шиповые ботинки",
       "item.minecraft.potion.effect.testpotionitem": "Potion of Testpotionitem",
       "item.test.luminisom_armor_chestplate": "Люминисовый нагрудник",
       "item.pokey_and_alexs_mod.luminisom_ingot": "Luminisom ingot",
@@ -1382,13 +1418,13 @@
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_helmet": "Raw potato Helmet",
       "item.pokey_and_alexs__mc_mod.cobble_stone_armor_armor_helmet": "Cobble_stone_armor Helmet",
       "item.pokey_and_alexs_mod.tungsten_armor_armor_boots": "Tungsten_armor Boots",
-      "item.test.thornreethhelm_chestplate": "Шиповый шлем",
       "item.pokey_and_alexs__mc_mod.luminisom_armor_boots": "Luminisom Boots",
       "item.test.cooked_potato_armor_legacy_armor_helmet": "Cooked_potato_armor_legacy Helmet",
+      "block.pokey_and_alexs_mod.reinforcedtungstenblock": "Block of reinforced",
       "item.pokey_and_alexs__mc_mod.luminisonmnuggetraw": "Luminisonmnuggetraw",
-      "item.test.thornreethhelm_leggings": "Шиповые поножи",
       "block.pokey_and_alexs_mod.luminisom_ore": "Luminisom Ore",
       "item.test.cobble_stone_armor_armor_helmet": "Cobble_stone_armor Helmet",
+      "block.pokey_and_alexs_mod.tungsten_block": "Block of Tungsten",
       "item.pokey_and_alexs__mc_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
       "item.pokey_and_alexs_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
       "item.test.luminisom_armor_helmet": "Люминисовый шлем",
@@ -1399,9 +1435,7 @@
       "item.pokey_and_alexs_mod.wood_log_armor_armor_chestplate": "Wood log Chestplate",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_boots": "Leafy Boots",
       "item.test.luminisonmnuggetraw": "Luminisonmnuggetraw",
-      "key.test.jumpbindforthornreethelmet": "Двойной прыжок для Шипового шлема",
       "item.test.luminisom_shovel": "Luminisom Shovel",
-      "item.test.thornreethhelm_helmet": "Шиповый шлем",
       "item.pokey_and_alexs_mod.reinforced_tungsten_hoe": "Reinforced_tungsten Hoe",
       "subtitles.clasic_legacy_sounds_music": "awesome music",
       "item.pokey_and_alexs_mod.test.desc": "music made by pokey",
@@ -1409,7 +1443,6 @@
       "item.test.luminisom_sword": "Luminisom Sword",
       "item.pokey_and_alexs_mod.cookedimprovisedcake": "cooked Improvised cake",
       "item.pokey_and_alexs__mc_mod.luminisom_armor_helmet": "Luminisom Helmet",
-      "block.pokey_and_alexs_mod.ore_getter_block": "Block of Ore_getter",
       "item.test.wood_log_armor_armor_helmet": "Wood_log_armor Helmet",
       "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_leggings": "Wood log Leggings",
       "item.pokey_and_alexs_mod.luminisom_shovel": "Luminisom Shovel",
@@ -1433,6 +1466,7 @@
     },
     "en_us": {
       "item.test.luminisom_pickaxe": "Luminisom Pickaxe",
+      "block.pokey_and_alexs_mod.tungsten_ore": "Tungsten Ore",
       "item.pokey_and_alexs_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
       "itemGroup.tabpamod": "p a\u0027s mod",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
@@ -1538,7 +1572,6 @@
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_chestplate": "Leafy Chestplate",
       "item.pokey_and_alexs_mod.drip_armor_armor_chestplate": "Drip Chestplate",
       "item.test.cookedimprovisedcake": "cooked Improvised cake",
-      "item.test.thornreethhelm_boots": "Thornreethhelm Boots",
       "item.minecraft.potion.effect.testpotionitem": "Potion of Testpotionitem",
       "item.test.luminisom_armor_chestplate": "Luminisom Chestplate",
       "item.pokey_and_alexs_mod.luminisom_ingot": "Luminisom ingot",
@@ -1549,13 +1582,13 @@
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_helmet": "Raw potato Helmet",
       "item.pokey_and_alexs__mc_mod.cobble_stone_armor_armor_helmet": "Cobble stone Helmet",
       "item.pokey_and_alexs_mod.tungsten_armor_armor_boots": "Tungsten Boots",
-      "item.test.thornreethhelm_chestplate": "Thornreethhelm Body",
       "item.pokey_and_alexs__mc_mod.luminisom_armor_boots": "Luminisom Boots",
       "item.test.cooked_potato_armor_legacy_armor_helmet": "Cooked potato Helmet",
+      "block.pokey_and_alexs_mod.reinforcedtungstenblock": "Block of reinforced",
       "item.pokey_and_alexs__mc_mod.luminisonmnuggetraw": "Luminisonm nugget raw",
-      "item.test.thornreethhelm_leggings": "Thornreethhelm Leggings",
       "block.pokey_and_alexs_mod.luminisom_ore": "Luminisom Ore",
       "item.test.cobble_stone_armor_armor_helmet": "Cobble_stone_armor Helmet",
+      "block.pokey_and_alexs_mod.tungsten_block": "Block of Tungsten",
       "item.pokey_and_alexs__mc_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
       "item.pokey_and_alexs_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
       "item.test.luminisom_armor_helmet": "Luminisom Helmet",
@@ -1567,7 +1600,6 @@
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_boots": "Leafy Boots",
       "item.test.luminisonmnuggetraw": "Luminisonmnuggetraw",
       "item.test.luminisom_shovel": "Luminisom Shovel",
-      "item.test.thornreethhelm_helmet": "Thornreethhelm Helmet",
       "item.pokey_and_alexs_mod.reinforced_tungsten_hoe": "Reinforced_tungsten Hoe",
       "subtitles.clasic_legacy_sounds_music": "awesome music",
       "item.pokey_and_alexs_mod.test.desc": "music made by pokey",
@@ -1575,7 +1607,6 @@
       "item.test.luminisom_sword": "Luminisom Sword",
       "item.pokey_and_alexs_mod.cookedimprovisedcake": "cooked Improvised cake",
       "item.pokey_and_alexs__mc_mod.luminisom_armor_helmet": "Luminisom Helmet",
-      "block.pokey_and_alexs_mod.ore_getter_block": "Block of Ore_getter",
       "item.test.wood_log_armor_armor_helmet": "Wood log Helmet",
       "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_leggings": "Wood log Leggings",
       "item.pokey_and_alexs_mod.luminisom_shovel": "Luminisom Shovel",
@@ -1786,13 +1817,17 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "asian dad proud",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "pokey_and_alexs_mod",
     "modName": "pokey and alex\u0027s mod",
-    "version": "2.19.24",
+    "version": "2.20.26.0",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://mcreator.net",

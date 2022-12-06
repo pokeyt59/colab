@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pokey_and_alexs_mod:tungsten_block"
+    }
+  ],
+  "result": {
+    "item": "pokey_and_alexs_mod:tungsteningot",
+    "count": 9
+  }
+}

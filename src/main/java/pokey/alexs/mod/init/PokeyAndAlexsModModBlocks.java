@@ -4,10 +4,12 @@
  */
 package pokey.alexs.mod.init;
 
+import pokey.alexs.mod.block.TungstenOreBlock;
+import pokey.alexs.mod.block.TungstenBlockBlock;
 import pokey.alexs.mod.block.TestfluidBlock;
 import pokey.alexs.mod.block.RiceplantBlock;
 import pokey.alexs.mod.block.ReinforcedtungstenoreBlock;
-import pokey.alexs.mod.block.Ore_getterBlockBlock;
+import pokey.alexs.mod.block.ReinforcedtungstenblockBlock;
 import pokey.alexs.mod.block.LuminisomOreBlock;
 import pokey.alexs.mod.block.LuminisomBlockBlock;
 import pokey.alexs.mod.PokeyAndAlexsModMod;
@@ -29,9 +31,12 @@ public class PokeyAndAlexsModModBlocks {
 	public static final RegistryObject<Block> LUMINISOM_BLOCK = REGISTRY.register("luminisom_block", () -> new LuminisomBlockBlock());
 	public static final RegistryObject<Block> LUMINISOM_ORE = REGISTRY.register("luminisom_ore", () -> new LuminisomOreBlock());
 	public static final RegistryObject<Block> TESTFLUID = REGISTRY.register("testfluid", () -> new TestfluidBlock());
-	public static final RegistryObject<Block> ORE_GETTER_BLOCK = REGISTRY.register("ore_getter_block", () -> new Ore_getterBlockBlock());
 	public static final RegistryObject<Block> REINFORCEDTUNGSTENORE = REGISTRY.register("reinforcedtungstenore",
 			() -> new ReinforcedtungstenoreBlock());
+	public static final RegistryObject<Block> REINFORCEDTUNGSTENBLOCK = REGISTRY.register("reinforcedtungstenblock",
+			() -> new ReinforcedtungstenblockBlock());
+	public static final RegistryObject<Block> TUNGSTEN_ORE = REGISTRY.register("tungsten_ore", () -> new TungstenOreBlock());
+	public static final RegistryObject<Block> TUNGSTEN_BLOCK = REGISTRY.register("tungsten_block", () -> new TungstenBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
