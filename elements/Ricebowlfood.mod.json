@@ -6,7 +6,7 @@
     "texture": "bowl_v3",
     "customModelName": "Normal",
     "name": "Rice bowl",
-    "rarity": "COMMON",
+    "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:Pamod"
     },
@@ -33,9 +33,9 @@
     "inventoryStackSize": 64,
     "isFood": true,
     "nutritionalValue": 6,
-    "saturation": 0.9,
+    "saturation": 4.1,
     "eatResultItem": {
-      "value": "Items.BOWL"
+      "value": ""
     },
     "isMeat": false,
     "isAlwaysEdible": false,

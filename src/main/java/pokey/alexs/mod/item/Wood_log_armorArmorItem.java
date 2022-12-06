@@ -50,7 +50,7 @@ public abstract class Wood_log_armorArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 1f;
+				return 1.5f;
 			}
 
 			@Override

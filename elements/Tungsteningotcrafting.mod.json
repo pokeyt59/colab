@@ -5,7 +5,7 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 5,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
@@ -13,34 +13,34 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.COPPER_INGOT"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:LuminisomIngot"
+        "value": "Items.COPPER_INGOT"
+      },
+      {
+        "value": "Items.MUSIC_DISC_PIGSTEP"
+      },
+      {
+        "value": "Items.COPPER_INGOT"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:LuminisomIngot"
-      },
-      {
-        "value": "CUSTOM:LuminisomIngot"
+        "value": "Items.COPPER_INGOT"
       },
       {
         "value": ""
-      },
-      {
-        "value": "CUSTOM:LuminisomIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LuminisomArmor.boots"
+      "value": "CUSTOM:Tungsteningot"
     },
-    "name": "luminisom_armor_boots_recipe",
+    "name": "tungsteningotcrafting",
     "namespace": "mod"
   }
 }

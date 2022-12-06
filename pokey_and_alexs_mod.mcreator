@@ -188,57 +188,6 @@
       "path": "~/smelting"
     },
     {
-      "name": "LuminisomArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "luminisom_armor_boots_recipe",
-      "path": "~/armor/crafting/meatal"
-    },
-    {
-      "name": "LuminisomArmor",
-      "type": "armor",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "luminisom_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      },
-      "path": "~/armor"
-    },
-    {
-      "name": "LuminisomArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "luminisom_armor_leggings_recipe",
-      "path": "~/armor/crafting/meatal"
-    },
-    {
-      "name": "LuminisomArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 43,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "luminisom_armor_body_recipe",
-      "path": "~/armor/crafting/meatal"
-    },
-    {
-      "name": "LuminisomArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 44,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "luminisom_armor_helmet_recipe",
-      "path": "~/armor/crafting/meatal"
-    },
-    {
       "name": "Pokeytrading",
       "type": "villagertrade",
       "sortid": 45,
@@ -1271,6 +1220,42 @@
       "locked_code": false,
       "registry_name": "reinforcedtungsteningottoblock",
       "path": "~/block/crafting"
+    },
+    {
+      "name": "Tungsteningotcrafting",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsteningotcrafting",
+      "path": "~/liquidated assets/ingot/crafting"
+    },
+    {
+      "name": "Pigstepisabop",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pigstepisabop",
+      "path": "~/music disc/crafting"
+    },
+    {
+      "name": "Tungsteningotcrafted",
+      "type": "achievement",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsteningotcrafted",
+      "path": "~/asian dad proud"
+    },
+    {
+      "name": "Learntheawsomebop",
+      "type": "achievement",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learntheawsomebop",
+      "path": "~/asian dad proud"
     }
   ],
   "variable_elements": [
@@ -1302,15 +1287,15 @@
   "language_map": {
     "ru_ru": {
       "item.test.luminisom_pickaxe": "Luminisom Pickaxe",
+      "advancements.tungsteningotcrafted.descr": "you did the crafting and it\u0027s 4AM as i make this",
       "block.pokey_and_alexs_mod.tungsten_ore": "Tungsten Ore",
-      "item.pokey_and_alexs_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
       "itemGroup.tabpamod": "pokey and alex\u0027s mod",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
-      "block.pokey_and_alexs__mc_mod.testfluid": "Testfluid",
       "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked_potato_armor_legacy Leggings",
+      "block.pokey_and_alexs__mc_mod.testfluid": "Testfluid",
       "item.test.drip_armor_armor_boots": "Drip_armor Boots",
-      "item.pokey_and_alexs__mc_mod.drip_armor_armor_chestplate": "Drip Chestplate",
       "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_boots": "Raw potato Boots",
+      "item.pokey_and_alexs__mc_mod.drip_armor_armor_chestplate": "Drip Chestplate",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_chestplate": "Cooked potato Chestplate",
       "item.pokey_and_alexs_mod.tungsten_armor_armor_leggings": "Tungsten_armor Leggings",
       "item.test.wood_log_armor_armor_leggings": "Wood_log_armor Leggings",
@@ -1363,7 +1348,6 @@
       "item.pokey_and_alexs_mod.reinforcedtungstenarmor_leggings": "Tungsten Leggings",
       "block.pokey_and_alexs__mc_mod.riceplant": "rice plant",
       "item.pokey_and_alexs__mc_mod.test": "Test",
-      "item.pokey_and_alexs_mod.luminisom_armor_boots": "Luminisom Boots",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_leggings": "Leafy Leggings",
       "item.test.luminisom_ingot": "Люминис",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_helmet": "Leafy Helmet",
@@ -1373,7 +1357,6 @@
       "item.pokey_and_alexs_mod.buckettestfluid": "Buckettestfluid",
       "item.test.luminisom_armor_leggings": "Люминисовые поножи",
       "item.pokey_and_alexs_mod.luminisom_pickaxe": "Luminisom Pickaxe",
-      "item.pokey_and_alexs_mod.luminisom_armor_helmet": "Luminisom Helmet",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_helmet": "Drip Helmet",
       "item.pokey_and_alexs_mod.leafy_armor_armor_chestplate": "Leafy Chestplate",
       "item.pokey_and_alexs_mod.tungsteningot": "Tungsteningot",
@@ -1390,9 +1373,10 @@
       "item.test.drip_armor_armor_helmet": "Drip_armor Helmet",
       "item.pokey_and_alexs__mc_mod.testfluid_bucket": "Testfluid Bucket",
       "item.pokey_and_alexs_mod.ricebowlfood": "Rice bowl",
-      "item.pokey_and_alexs_mod.luminisom_armor_leggings": "Luminisom Leggings",
       "block.pokey_and_alexs_mod.riceplant": "rice plant",
+      "advancements.tungsteningotcrafted.title": "Tungsten ingot crafted",
       "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_helmet": "Wood log Helmet",
+      "advancements.learntheawsomebop.title": "Learntheawsomebop",
       "item.pokey_and_alexs__mc_mod.luminisom_armor_leggings": "Luminisom Leggings",
       "item.pokey_and_alexs_mod.cobble_stone_armor_armor_helmet": "Cobble stone Helmet",
       "item.test.cobble_stone_armor_armor_leggings": "Cobble_stone_armor Leggings",
@@ -1459,6 +1443,7 @@
       "item.pokey_and_alexs_mod.leafy_armor_armor_helmet": "Leafy Helmet",
       "item.test.luminisom_hoe": "Luminisom Hoe",
       "item.pokey_and_alexs_mod.wood_log_armor_armor_boots": "Wood log Boots",
+      "advancements.learntheawsomebop.descr": "well it\u0027s ausome to me!!",
       "item.test.wood_log_armor_armor_boots": "Wood_log_armor Boots",
       "item.pokey_and_alexs__mc_mod.improvisedcake": "raw Improvised cake",
       "item.pokey_and_alexs_mod.test": "Test",
@@ -1466,15 +1451,15 @@
     },
     "en_us": {
       "item.test.luminisom_pickaxe": "Luminisom Pickaxe",
+      "advancements.tungsteningotcrafted.descr": "you did the crafting and it\u0027s 4AM as i make this",
       "block.pokey_and_alexs_mod.tungsten_ore": "Tungsten Ore",
-      "item.pokey_and_alexs_mod.luminisom_armor_chestplate": "Luminisom Chestplate",
       "itemGroup.tabpamod": "p a\u0027s mod",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
-      "block.pokey_and_alexs__mc_mod.testfluid": "Testfluid",
       "item.test.cooked_potato_armor_legacy_armor_leggings": "Cooked potato Leggings",
+      "block.pokey_and_alexs__mc_mod.testfluid": "Testfluid",
       "item.test.drip_armor_armor_boots": "Drip Boots",
-      "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_boots": "Raw potato Boots",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_chestplate": "Drip Chestplate",
+      "item.pokey_and_alexs__mc_mod.raw_potato_armor_armor_boots": "Raw potato Boots",
       "item.pokey_and_alexs__mc_mod.cooked_potato_armor_legacy_armor_chestplate": "Cooked potato Chestplate",
       "item.pokey_and_alexs_mod.tungsten_armor_armor_leggings": "Tungsten Leggings",
       "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_boots": "Wood log Boots",
@@ -1527,7 +1512,6 @@
       "item.pokey_and_alexs_mod.reinforcedtungstenarmor_leggings": "Reinfourced tungsten Leggings",
       "block.pokey_and_alexs__mc_mod.riceplant": "rice plant",
       "item.pokey_and_alexs__mc_mod.test": "Test",
-      "item.pokey_and_alexs_mod.luminisom_armor_boots": "Luminisom Boots",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_leggings": "Leafy Leggings",
       "item.test.luminisom_ingot": "Luminisom",
       "item.pokey_and_alexs__mc_mod.leafy_armor_armor_helmet": "Leafy Helmet",
@@ -1537,7 +1521,6 @@
       "item.pokey_and_alexs_mod.buckettestfluid": "Buckettestfluid",
       "item.test.luminisom_armor_leggings": "Luminisom Leggings",
       "item.pokey_and_alexs_mod.luminisom_pickaxe": "Luminisom Pickaxe",
-      "item.pokey_and_alexs_mod.luminisom_armor_helmet": "Luminisom Helmet",
       "item.pokey_and_alexs__mc_mod.drip_armor_armor_helmet": "Drip Helmet",
       "item.pokey_and_alexs_mod.leafy_armor_armor_chestplate": "Leafy Chestplate",
       "item.pokey_and_alexs_mod.tungsteningot": "Tungsten ingot",
@@ -1554,9 +1537,10 @@
       "item.test.drip_armor_armor_helmet": "Drip Helmet",
       "item.pokey_and_alexs__mc_mod.testfluid_bucket": "Testfluid Bucket",
       "item.pokey_and_alexs_mod.ricebowlfood": "Rice bowl",
-      "item.pokey_and_alexs_mod.luminisom_armor_leggings": "Luminisom Leggings",
       "block.pokey_and_alexs_mod.riceplant": "rice plant",
+      "advancements.tungsteningotcrafted.title": "Tungsten ingot crafted",
       "item.pokey_and_alexs__mc_mod.wood_log_armor_armor_helmet": "Wood log Helmet",
+      "advancements.learntheawsomebop.title": "Learntheawsomebop",
       "item.pokey_and_alexs__mc_mod.luminisom_armor_leggings": "Luminisom Leggings",
       "item.pokey_and_alexs_mod.cobble_stone_armor_armor_helmet": "Cobble stone Helmet",
       "item.test.cobble_stone_armor_armor_leggings": "Cobble_stone_armor Leggings",
@@ -1623,6 +1607,7 @@
       "item.pokey_and_alexs_mod.leafy_armor_armor_helmet": "Leafy Helmet",
       "item.test.luminisom_hoe": "Luminisom Hoe",
       "item.pokey_and_alexs_mod.wood_log_armor_armor_boots": "Wood log Boots",
+      "advancements.learntheawsomebop.descr": "well it\u0027s ausome to me!!",
       "item.test.wood_log_armor_armor_boots": "Wood log Boots",
       "item.pokey_and_alexs__mc_mod.improvisedcake": "raw Improvised cake",
       "item.pokey_and_alexs_mod.test": "Test",
@@ -1790,7 +1775,12 @@
       },
       {
         "name": "music disc",
-        "children": []
+        "children": [
+          {
+            "name": "crafting",
+            "children": []
+          }
+        ]
       },
       {
         "name": "fluid",
@@ -1814,7 +1804,12 @@
         "children": [
           {
             "name": "ingot",
-            "children": []
+            "children": [
+              {
+                "name": "crafting",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -1827,7 +1822,7 @@
   "workspaceSettings": {
     "modid": "pokey_and_alexs_mod",
     "modName": "pokey and alex\u0027s mod",
-    "version": "2.20.26.0",
+    "version": "2.20.26.1",
     "description": "a neat little collab mod",
     "author": "Pokey_yt , Alex super 199",
     "websiteURL": "https://mcreator.net",

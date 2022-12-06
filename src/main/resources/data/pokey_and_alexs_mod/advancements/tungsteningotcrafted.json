@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "pokey_and_alexs_mod:tungsteningot"
+    },
+    "title": {
+      "translate": "advancements.tungsteningotcrafted.title"
+    },
+    "description": {
+      "translate": "advancements.tungsteningotcrafted.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tungsteningotcrafted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pokey_and_alexs_mod:tungsteningot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 11,
+    "recipes": [
+      "pokey_and_alexs_mod:tungsteningotcrafting",
+      "pokey_and_alexs_mod:tungsten_ore_block_recipe",
+      "pokey_and_alexs_mod:tungsten_block_ore_recipe",
+      "pokey_and_alexs_mod:tungsten_ore_smelting"
+    ]
+  },
+  "parent": "pokey_and_alexs_mod:learntheawsomebop"
+}

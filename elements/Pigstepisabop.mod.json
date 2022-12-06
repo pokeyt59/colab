@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:LuminisomIngot"
+        "value": ""
       },
       {
-        "value": "CUSTOM:LuminisomIngot"
-      },
-      {
-        "value": "CUSTOM:LuminisomIngot"
-      },
-      {
-        "value": "CUSTOM:LuminisomIngot"
+        "value": "Items.NETHER_WART"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:LuminisomIngot"
+        "value": "Items.NETHER_WART"
+      },
+      {
+        "value": "Blocks.MAGMA"
+      },
+      {
+        "value": "Items.NETHER_WART"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.NETHER_WART"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LuminisomArmor.helmet"
+      "value": "Items.MUSIC_DISC_PIGSTEP"
     },
-    "name": "luminisom_armor_helmet_recipe",
+    "name": "pigstep",
     "namespace": "mod"
   }
 }

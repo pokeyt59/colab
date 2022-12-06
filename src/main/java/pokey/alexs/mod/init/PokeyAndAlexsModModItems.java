@@ -26,7 +26,6 @@ import pokey.alexs.mod.item.LuminisomPickaxeItem;
 import pokey.alexs.mod.item.LuminisomIngotItem;
 import pokey.alexs.mod.item.LuminisomHoeItem;
 import pokey.alexs.mod.item.LuminisomAxeItem;
-import pokey.alexs.mod.item.LuminisomArmorItem;
 import pokey.alexs.mod.item.Leafy_armorArmorItem;
 import pokey.alexs.mod.item.ImprovisedcakeItem;
 import pokey.alexs.mod.item.Drip_armorArmorItem;
@@ -56,13 +55,6 @@ public class PokeyAndAlexsModModItems {
 	public static final RegistryObject<Item> RICEPLANT = block(PokeyAndAlexsModModBlocks.RICEPLANT, PokeyAndAlexsModModTabs.TAB_PAMOD);
 	public static final RegistryObject<Item> RICEBOWLFOOD = REGISTRY.register("ricebowlfood", () -> new RicebowlfoodItem());
 	public static final RegistryObject<Item> TEST = REGISTRY.register("test", () -> new TestItem());
-	public static final RegistryObject<Item> LUMINISOM_ARMOR_HELMET = REGISTRY.register("luminisom_armor_helmet",
-			() -> new LuminisomArmorItem.Helmet());
-	public static final RegistryObject<Item> LUMINISOM_ARMOR_CHESTPLATE = REGISTRY.register("luminisom_armor_chestplate",
-			() -> new LuminisomArmorItem.Chestplate());
-	public static final RegistryObject<Item> LUMINISOM_ARMOR_LEGGINGS = REGISTRY.register("luminisom_armor_leggings",
-			() -> new LuminisomArmorItem.Leggings());
-	public static final RegistryObject<Item> LUMINISOM_ARMOR_BOOTS = REGISTRY.register("luminisom_armor_boots", () -> new LuminisomArmorItem.Boots());
 	public static final RegistryObject<Item> COOKED_POTATO_ARMOR_LEGACY_ARMOR_HELMET = REGISTRY.register("cooked_potato_armor_legacy_armor_helmet",
 			() -> new Cooked_potato_armor_legacyArmorItem.Helmet());
 	public static final RegistryObject<Item> COOKED_POTATO_ARMOR_LEGACY_ARMOR_CHESTPLATE = REGISTRY

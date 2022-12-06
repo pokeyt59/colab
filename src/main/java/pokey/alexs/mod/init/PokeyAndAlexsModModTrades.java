@@ -38,18 +38,6 @@ public class PokeyAndAlexsModModTrades {
 	@SubscribeEvent
 	public static void registerTrades(VillagerTradesEvent event) {
 		if (event.getType() == VillagerProfession.ARMORER) {
-			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Blocks.REDSTONE_WIRE, 5),
-
-					new ItemStack(PokeyAndAlexsModModItems.LUMINISOM_ARMOR_HELMET.get()), 20, 1, 0.01f));
-			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Blocks.SUGAR_CANE, 10),
-
-					new ItemStack(PokeyAndAlexsModModItems.LUMINISOM_ARMOR_CHESTPLATE.get()), 10, 10, 0.19f));
-			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(PokeyAndAlexsModModItems.IMPROVISEDCAKE.get()),
-
-					new ItemStack(PokeyAndAlexsModModItems.LUMINISOM_ARMOR_LEGGINGS.get()), 10, 100, 1f));
-			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(PokeyAndAlexsModModItems.LUMINISOM_INGOT.get()),
-
-					new ItemStack(PokeyAndAlexsModModItems.LUMINISOM_ARMOR_BOOTS.get()), 10, 2, 0.04f));
 			event.getTrades().get(3).add(
 					new BasicItemListing(new ItemStack(Items.EMERALD, 22), new ItemStack(Items.BEEF, 3), new ItemStack(Blocks.BEACON, 2), 20, 5, 1f));
 		}

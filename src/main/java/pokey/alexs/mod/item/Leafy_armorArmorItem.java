@@ -55,7 +55,7 @@ public abstract class Leafy_armorArmorItem extends ArmorItem {
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0.75f;
+				return 1f;
 			}
 		}, slot, properties);
 	}
